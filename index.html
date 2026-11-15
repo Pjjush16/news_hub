@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YAONET · 新闻聚合</title>
+
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="shortcut icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#2d5a4a">
+
+<!-- RSS 自动发现 -->
+<link rel="alternate" type="application/rss+xml" title="YAONET · 新闻聚合" href="/feed.xml">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#f7f6f3;--surface:#fff;--text:#1a1a1a;--text-2:#5f5f5f;--text-3:#8a8a8a;
+    --border:rgba(0,0,0,.07);--accent:#2d5a4a;--accent-soft:#e8efec;
+    --radius-lg:18px;--radius-md:14px;--radius-sm:10px;
+    --font:'Manrope',system-ui,-apple-system,sans-serif;
+    --shadow-sm:0 1px 2px rgba(0,0,0,.04);--shadow-md:0 8px 30px rgba(0,0,0,.06);
+    --max-width:1200px;
+    --header-h:64px;
+    --subnav-h:52px;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{--bg:#0f0f0f;--surface:#1a1a1a;--text:#f0f0f0;--text-2:#a0a0a0;--text-3:#6e6e6e;
+      --border:rgba(255,255,255,.08);--accent:#7fbfa8;--accent-soft:#1f2e29;
+      --shadow-sm:0 1px 2px rgba(0,0,0,.3);--shadow-md:0 8px 30px rgba(0,0,0,.4);}
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{font-family:var(--font);background:var(--bg);color:var(--text);line-height:1.65;-webkit-font-smoothing:antialiased}
+  a{color:inherit;text-decoration:none}
+  button{font-family:var(--font)}
+  .container{max-width:var(--max-width);margin:0 auto;padding:0 24px}
+
+  /* ==================== 顶栏 ==================== */
+  .site-header{position:sticky;top:0;z-index:100;backdrop-filter:blur(16px) saturate(180%);-webkit-backdrop-filter:blur(16px) saturate(180%);background:color-mix(in srgb,var(--bg) 80%,transparent);border-bottom:1px solid var(--border)}
+  .header-inner{display:flex;align-items:center;justify-content:space-between;height:var(--header-h)}
+  .site-brand{font-size:1.32rem;font-weight:800;letter-spacing:-.03em}
+  .site-brand span{color:var(--accent)}
+  .header-right{display:flex;align-items:center;gap:18px}
+  .live-badge{display:inline-flex;align-items:center;gap:7px;font-size:.78rem;font-weight:600;color:var(--text-2)}
+  .live-dot{width:7px;height:7px;border-radius:50%;background:#22c55e;box-shadow:0 0 0 3px rgba(34,197,94,.15);animation:pulse 2s infinite}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+  .nav-cta{padding:8px 18px;border-radius:999px;background:var(--accent);color:#fff;font-weight:600;font-size:.86rem;transition:opacity .2s;white-space:nowrap}
+  .nav-cta:hover{opacity:.85}
+
+  /* ==================== 分类栏 ==================== */
+  .subnav{position:sticky;top:var(--header-h);z-index:90;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(14px) saturate(160%);-webkit-backdrop-filter:blur(14px) saturate(160%);border-bottom:1px solid var(--border)}
+  .subnav-inner{display:flex;align-items:center;justify-content:space-between;gap:16px;height:var(--subnav-h)}
+  .cat-tabs{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;-ms-overflow-style:none}
+  .cat-tabs::-webkit-scrollbar{display:none}
+  .cat-tab{flex-shrink:0;font-size:.86rem;font-weight:600;padding:7px 15px;border-radius:999px;color:var(--text-2);border:none;background:transparent;cursor:pointer;transition:all .18s;white-space:nowrap}
+  .cat-tab:hover{color:var(--text);background:var(--surface)}
+  .cat-tab.active{background:var(--accent);color:#fff}
+  .subnav-meta{font-size:.76rem;color:var(--text-3);white-space:nowrap;font-variant-numeric:tabular-nums}
+
+  /* ==================== 两栏布局 ==================== */
+  .news-layout{
+    display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:36px;
+    padding-top:26px;padding-bottom:64px;align-items:start;
+    scroll-margin-top:calc(var(--header-h) + var(--subnav-h) + 12px);
+  }
+  .main-col{min-width:0}
+
+  /* ==================== 头条 ==================== */
+  .featured{display:block;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:26px 30px;box-shadow:var(--shadow-sm);transition:transform .2s,box-shadow .2s,border-color .2s;margin-bottom:6px}
+  .featured:hover{transform:translateY(-2px);box-shadow:var(--shadow-md);border-color:color-mix(in srgb,var(--accent) 30%,var(--border))}
+  .featured-meta{display:flex;align-items:center;gap:10px;font-size:.76rem;color:var(--text-3);margin-bottom:14px;flex-wrap:wrap}
+  .featured h2{font-size:clamp(1.45rem,3vw,1.95rem);font-weight:800;letter-spacing:-.03em;line-height:1.28;margin-bottom:12px}
+  .featured:hover h2{color:var(--accent)}
+  .featured p{font-size:.93rem;color:var(--text-2);line-height:1.7;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+
+  /* ==================== 新闻流 ==================== */
+  .news-list{display:flex;flex-direction:column}
+  .news-item{display:flex;gap:20px;padding:20px 6px;border-bottom:1px solid var(--border);transition:background .2s;border-radius:6px}
+  .news-item:hover{background:color-mix(in srgb,var(--accent) 4%,transparent)}
+  .news-item time{flex-shrink:0;width:66px;font-size:.78rem;color:var(--text-3);font-variant-numeric:tabular-nums;padding-top:3px;transition:color .2s}
+  .news-item:hover time{color:var(--accent)}
+  .ni-body{min-width:0;flex:1}
+  .ni-body h3{font-size:1.02rem;font-weight:700;line-height:1.45;letter-spacing:-.01em;margin-bottom:5px;color:var(--text);transition:color .2s}
+  .news-item:hover .ni-body h3{color:var(--accent)}
+  .ni-body p{font-size:.86rem;color:var(--text-2);line-height:1.6;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;margin-bottom:8px}
+  .ni-meta{display:flex;align-items:center;gap:9px;font-size:.73rem;color:var(--text-3);flex-wrap:wrap}
+  .tag{font-size:.64rem;font-weight:700;letter-spacing:.05em;padding:2px 8px;border-radius:999px;background:var(--accent-soft);color:var(--accent);line-height:1.6;white-space:nowrap}
+
+  /* ==================== 加载更多 ==================== */
+  .more-wrap{display:flex;justify-content:center;padding-top:28px}
+  .more-wrap[hidden]{display:none !important;} /* 修复 hidden 不生效的 bug */
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:11px 26px;border-radius:999px;font-size:.9rem;font-weight:600;transition:transform .15s,box-shadow .15s,background .2s;cursor:pointer;border:none}
+  .btn:active{transform:scale(.97)}
+  .btn-primary{background:var(--accent);color:#fff;box-shadow:var(--shadow-sm)}
+  .btn-primary:hover{box-shadow:var(--shadow-md)}
+  .btn-ghost{background:transparent;color:var(--text-2);border:1px solid var(--border)}
+  .btn-ghost:hover{background:var(--surface);color:var(--text)}
+  .btn-block{width:100%}
+
+  /* ==================== 侧栏 ==================== */
+  .sidebar{display:flex;flex-direction:column;gap:18px;position:sticky;top:calc(var(--header-h) + var(--subnav-h) + 16px)}
+  .side-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-md);padding:20px 22px;box-shadow:var(--shadow-sm)}
+  .side-card h3{font-size:.88rem;font-weight:700;letter-spacing:.02em;margin-bottom:14px;color:var(--text)}
+  .subscribe p{font-size:.82rem;color:var(--text-2);line-height:1.65;margin-bottom:14px}
+
+  .rank-list{display:flex;flex-direction:column;gap:1px}
+  .rank-item{display:flex;align-items:center;gap:12px;padding:7px 0;font-size:.86rem;background:none;border:none;cursor:pointer;text-align:left;width:100%;color:inherit;transition:color .2s}
+  .rank-num{width:20px;font-weight:800;color:var(--text-3);font-variant-numeric:tabular-nums;flex-shrink:0;font-size:.82rem}
+  .rank-item:nth-child(-n+3) .rank-num{color:var(--accent)}
+  .rank-name{flex:1;color:var(--text-2);transition:color .2s}
+  .rank-item:hover .rank-name{color:var(--accent)}
+  .rank-count{font-size:.74rem;color:var(--text-3);font-variant-numeric:tabular-nums}
+
+  .source-list{display:flex;flex-direction:column;gap:1px}
+  .source-row{display:flex;justify-content:space-between;align-items:center;font-size:.83rem;padding:6px 0;color:var(--text-2)}
+  .source-row span:last-child{color:var(--text-3);font-size:.74rem;font-variant-numeric:tabular-nums}
+
+  /* ==================== 骨架屏 ==================== */
+  .sk{border-radius:6px;background-color:var(--accent-soft);background-image:linear-gradient(90deg,transparent 0%,color-mix(in srgb,var(--accent) 14%,var(--surface)) 50%,transparent 100%);background-size:200% 100%;background-repeat:no-repeat;animation:shimmer 1.5s linear infinite}
+  @keyframes shimmer{0%{background-position:150% 0}100%{background-position:-150% 0}}
+  @media (prefers-reduced-motion:reduce){.sk{animation:none}}
+
+  .sk-featured{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:26px 30px;margin-bottom:6px}
+  .sk-item{display:flex;gap:20px;padding:20px 6px;border-bottom:1px solid var(--border)}
+  .sk-time{width:52px;height:12px;flex-shrink:0;margin-top:3px}
+  .sk-body{flex:1;min-width:0}
+
+  /* ==================== 状态 ==================== */
+  .state{padding:64px 0;text-align:center;color:var(--text-3);font-size:.9rem;line-height:1.8}
+  .state.error{color:#c0392b}
+  .state code{background:var(--accent-soft);color:var(--accent);padding:1px 6px;border-radius:5px;font-size:.85em}
+
+  /* ==================== 页脚 ==================== */
+  .site-footer{border-top:1px solid var(--border);padding:32px 0}
+  .footer-inner{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:.8rem;color:var(--text-3)}
+  .footer-links{display:flex;gap:20px}
+  .footer-links a:hover{color:var(--text)}
+
+  /* ==================== RSS 订阅弹窗 ==================== */
+  .rss-modal{position:fixed;inset:0;z-index:200;display:grid;place-items:center;padding:24px}
+  .rss-modal[hidden]{display:none}
+  .rss-backdrop{position:absolute;inset:0;background:rgba(0,0,0,.45);animation:fadeIn .2s ease}
+  .rss-panel{position:relative;width:min(540px,100%);max-height:calc(100vh - 48px);overflow-y:auto;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:28px;box-shadow:var(--shadow-md);animation:modalIn .25s ease}
+  .rss-close{position:absolute;top:14px;right:16px;width:32px;height:32px;border-radius:50%;border:none;background:transparent;color:var(--text-3);font-size:1.4rem;line-height:1;cursor:pointer;transition:all .2s}
+  .rss-close:hover{background:var(--accent-soft);color:var(--text)}
+  .rss-panel h3{font-size:1.15rem;font-weight:700;letter-spacing:-.02em;margin-bottom:6px}
+  .rss-sub{font-size:.86rem;color:var(--text-2);line-height:1.6;margin-bottom:22px}
+  .rss-label{display:block;font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--text-3);margin-bottom:8px}
+  .rss-url{display:flex;gap:8px;margin-bottom:24px}
+  .rss-url input{flex:1;min-width:0;font-family:var(--font);font-size:.84rem;padding:10px 14px;border-radius:var(--radius-sm);border:1px solid var(--border);background:var(--bg);color:var(--text-2);outline:none}
+  .rss-url input:focus{border-color:var(--accent)}
+  .rss-url .btn{padding:10px 18px;font-size:.84rem;border-radius:var(--radius-sm);white-space:nowrap}
+  .rss-section{margin-bottom:22px}
+  .rss-section h4{font-size:.78rem;font-weight:700;letter-spacing:.03em;color:var(--text-2);margin-bottom:10px}
+  .rss-readers{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+  .rss-readers a{display:flex;align-items:center;justify-content:center;padding:9px 8px;font-size:.8rem;font-weight:600;border-radius:var(--radius-sm);border:1px solid var(--border);color:var(--text-2);transition:all .2s;text-align:center}
+  .rss-readers a:hover{border-color:var(--accent);color:var(--accent);background:var(--accent-soft)}
+  .rss-steps{list-style:none;counter-reset:step;display:flex;flex-direction:column;gap:9px}
+  .rss-steps li{counter-increment:step;position:relative;padding-left:28px;font-size:.82rem;color:var(--text-2);line-height:1.55}
+  .rss-steps li::before{content:counter(step);position:absolute;left:0;top:1px;width:19px;height:19px;border-radius:50%;background:var(--accent-soft);color:var(--accent);font-size:.68rem;font-weight:800;display:grid;place-items:center}
+  .rss-note{font-size:.76rem;color:var(--text-3);border-top:1px solid var(--border);padding-top:14px}
+  .rss-note a{color:var(--accent);text-decoration:underline;text-underline-offset:2px}
+  @keyframes fadeIn{from{opacity:0}to{opacity:1}}
+  @keyframes modalIn{from{opacity:0;transform:translateY(10px) scale(.98)}to{opacity:1;transform:none}}
+  @media (max-width:480px){
+    .rss-panel{padding:22px}
+    .rss-readers{grid-template-columns:repeat(2,1fr)}
+    .rss-url{flex-direction:column}
+    .rss-url .btn{width:100%}
+  }
+
+  /* ==================== 响应式 ==================== */
+  @media (max-width:1024px){
+    .news-layout{grid-template-columns:minmax(0,1fr) 280px;gap:28px}
+  }
+  @media (max-width:900px){
+    .news-layout{grid-template-columns:1fr;gap:22px}
+    .sidebar{position:static;flex-direction:row;flex-wrap:wrap}
+    .sidebar .side-card{flex:1 1 260px}
+  }
+  @media (max-width:640px){
+    :root{--header-h:58px;--subnav-h:48px}
+    .subnav-meta{display:none}
+    .live-badge{display:none}
+    .site-brand{font-size:1.2rem}
+    .featured{padding:20px 22px}
+    .featured h2{font-size:1.3rem}
+    .news-item{gap:12px;padding:16px 4px}
+    .news-item time{width:52px;font-size:.72rem}
+    .ni-body h3{font-size:.96rem}
+    .ni-body p{display:none}
+    .sidebar{flex-direction:column}
+    .sidebar .side-card{flex:1 1 auto}
+    .footer-inner{flex-direction:column;align-items:flex-start}
+  }
+
+  /* ==================== 入场 ==================== */
+  @keyframes fadeUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+  .news-layout{animation:fadeUp .5s ease both}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="/" class="site-brand">YAO<span>NET</span></a>
+    <div class="header-right">
+      <span class="live-badge"><span class="live-dot"></span>实时聚合</span>
+      <a href="/feed.xml" class="nav-cta" data-rss-open>RSS 订阅</a>
+    </div>
+  </div>
+</header>
+
+<div class="subnav">
+  <div class="container subnav-inner">
+    <div class="cat-tabs" id="tabs" aria-label="分类">
+      <button class="cat-tab active" type="button">全部</button>
+    </div>
+    <div class="subnav-meta" id="meta">正在加载…</div>
+  </div>
+</div>
+
+<main class="container news-layout" id="feed">
+
+  <div class="main-col">
+    <div id="list" aria-live="polite">
+      <div class="sk-featured" aria-hidden="true">
+        <div class="sk" style="height:11px;width:34%"></div>
+        <div class="sk" style="height:22px;width:92%;margin-top:16px"></div>
+        <div class="sk" style="height:22px;width:60%;margin-top:10px"></div>
+        <div class="sk" style="height:11px;width:100%;margin-top:18px"></div>
+        <div class="sk" style="height:11px;width:76%;margin-top:8px"></div>
+      </div>
+      <div class="sk-item" aria-hidden="true">
+        <div class="sk sk-time"></div>
+        <div class="sk-body">
+          <div class="sk" style="height:14px;width:88%"></div>
+          <div class="sk" style="height:10px;width:64%;margin-top:9px"></div>
+        </div>
+      </div>
+      <div class="sk-item" aria-hidden="true">
+        <div class="sk sk-time"></div>
+        <div class="sk-body">
+          <div class="sk" style="height:14px;width:78%"></div>
+          <div class="sk" style="height:10px;width:56%;margin-top:9px"></div>
+        </div>
+      </div>
+      <div class="sk-item" aria-hidden="true">
+        <div class="sk sk-time"></div>
+        <div class="sk-body">
+          <div class="sk" style="height:14px;width:92%"></div>
+          <div class="sk" style="height:10px;width:70%;margin-top:9px"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="more-wrap" id="more-wrap" hidden>
+      <button class="btn btn-ghost" id="more-btn" type="button">加载更多</button>
+    </div>
+  </div>
+
+  <aside class="sidebar">
+    <div class="side-card subscribe">
+      <h3>订阅聚合 RSS</h3>
+      <p>把 <span data-feed-count>56</span> 个新闻源汇成一个源，扔进任意阅读器即可。</p>
+      <a href="/feed.xml" class="btn btn-primary btn-block" data-rss-open>订阅 →</a>
+    </div>
+
+    <div class="side-card">
+      <h3>热门分类</h3>
+      <div class="rank-list" id="cat-rank">
+        <div class="sk" style="height:14px;width:80%;margin:6px 0"></div>
+        <div class="sk" style="height:14px;width:65%;margin:6px 0"></div>
+        <div class="sk" style="height:14px;width:72%;margin:6px 0"></div>
+      </div>
+    </div>
+
+    <div class="side-card">
+      <h3>数据源</h3>
+      <div class="source-list" id="source-list">
+        <div class="sk" style="height:12px;width:70%;margin:6px 0"></div>
+        <div class="sk" style="height:12px;width:58%;margin:6px 0"></div>
+        <div class="sk" style="height:12px;width:64%;margin:6px 0"></div>
+      </div>
+    </div>
+  </aside>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <span>© YAONET · 用简洁的方式聚合新闻</span>
+    <div class="footer-links">
+      <a href="/feed.xml" data-rss-open>订阅 RSS</a>
+      <a href="https://github.com" target="_blank" rel="noopener">GitHub Repo</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ==================== RSS 订阅弹窗 ==================== -->
+<div class="rss-modal" id="rss-modal" hidden>
+  <div class="rss-backdrop" data-rss-close></div>
+  <div class="rss-panel" role="dialog" aria-modal="true" aria-labelledby="rss-title">
+    <button class="rss-close" type="button" data-rss-close aria-label="关闭">×</button>
+
+    <h3 id="rss-title">订阅聚合 RSS</h3>
+    <p class="rss-sub">把 <span data-feed-count>56</span> 个新闻源汇成一个源。复制地址后加到你常用的 RSS 阅读器即可。</p>
+
+    <label class="rss-label" for="rss-url-input">RSS 地址</label>
+    <div class="rss-url">
+      <input id="rss-url-input" type="text" readonly value="">
+      <button class="btn btn-primary" id="rss-copy" type="button">复制</button>
+    </div>
+
+    <div class="rss-section">
+      <h4>在网页阅读器中打开</h4>
+      <div class="rss-readers">
+        <a data-reader="https://feedly.com/i/subscription/feed/{url}" target="_blank" rel="noopener">Feedly</a>
+        <a data-reader="https://www.inoreader.com/feed/{url}" target="_blank" rel="noopener">Inoreader</a>
+        <a data-reader="https://newsblur.com/?url={url}" target="_blank" rel="noopener">NewsBlur</a>
+      </div>
+    </div>
+
+    <div class="rss-section">
+      <h4>添加到本地客户端</h4>
+      <ol class="rss-steps">
+        <li>复制上面的 RSS 地址</li>
+        <li>打开你的 RSS 客户端，例如 NetNewsWire、Reeder、ReadYou、Fluent Reader、Thunderbird 等</li>
+        <li>选择「添加订阅 / Add Feed」，粘贴地址并确认</li>
+      </ol>
+    </div>
+
+    <p class="rss-note">
+      高级用法：<a href="/feed.xml" target="_blank" rel="noopener">直接查看 XML 源</a>
+    </p>
+  </div>
+</div>
+
+<script>
+  const PAGE_SIZE   = 14;
+  const MAX_SRC_SHOW = 12;
+
+  // ==================== 工具 ====================
+  function esc(s){
+    return String(s == null ? '' : s)
+      .replace(/&/g,'&amp;').replace(/</g,'&lt;')
+      .replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+
+  function hhmm(d){
+    return d.toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit', hour12: false });
+  }
+
+  function newsTime(iso){
+    const d = new Date(iso);
+    if (isNaN(d.getTime())) return '';
+    const now = new Date();
+    const diff = now - d;
+    if (diff < 60000) return '刚刚';
+    if (d.toDateString() === now.toDateString()) return hhmm(d);
+    const y = new Date(now);
+    y.setDate(y.getDate() - 1);
+    if (d.toDateString() === y.toDateString()) return '昨天 ' + hhmm(d);
+    return (d.getMonth() + 1) + '月' + d.getDate() + '日';
+  }
+
+  function updateFeedCount(n){
+    document.querySelectorAll('[data-feed-count]').forEach(el => { el.textContent = n; });
+  }
+
+  // ==================== 状态 ====================
+  let allPosts  = [];
+  let feedsMeta = [];      // 由 posts 统计出来
+  let activeCat = '全部';
+  let shown     = PAGE_SIZE;
+
+  const listEl     = document.getElementById('list');
+  const tabsEl     = document.getElementById('tabs');
+  const metaEl     = document.getElementById('meta');
+  const moreWrap   = document.getElementById('more-wrap');
+  const moreBtn    = document.getElementById('more-btn');
+  const catRankEl  = document.getElementById('cat-rank');
+  const sourceEl   = document.getElementById('source-list');
+
+  // ==================== 分类 ====================
+  function categoryList(){
+    const set = new Set();
+    feedsMeta.forEach(f => { if (f.category) set.add(f.category); });
+    allPosts.forEach(p => { if (p.category) set.add(p.category); });
+    return ['全部', ...set];
+  }
+
+  function renderTabs(){
+    const cats = categoryList();
+    if (!cats.includes(activeCat)) activeCat = '全部';
+    tabsEl.innerHTML = cats.map(c =>
+      `<button type="button" class="cat-tab${c === activeCat ? ' active' : ''}" data-cat="${esc(c)}">${esc(c)}</button>`
+    ).join('');
+  }
+
+  function filteredPosts(){
+    return activeCat === '全部'
+      ? allPosts
+      : allPosts.filter(p => p.category === activeCat);
+  }
+
+  // ==================== 主列表 ====================
+  function renderMain(){
+    const list = filteredPosts();
+
+    if (list.length === 0){
+      listEl.innerHTML = '<div class="state">该分类暂无新闻，换个分类看看。</div>';
+      listEl.setAttribute('aria-busy', 'false');
+      moreWrap.hidden = true;
+      return;
+    }
+
+    const feat = list[0];
+    const featHtml = `
+      <a class="featured" href="${esc(feat.link)}" target="_blank" rel="noopener">
+        <div class="featured-meta">
+          ${feat.category ? `<span class="tag">${esc(feat.category)}</span>` : ''}
+          <span>${esc(feat.source || '')}</span>
+          <span>·</span>
+          <time>${newsTime(feat.pubDate)}</time>
+        </div>
+        <h2>${esc(feat.title || '无标题')}</h2>
+        ${feat.description ? `<p>${esc(feat.description)}</p>` : ''}
+      </a>`;
+
+    const rest = list.slice(1, shown);
+    const restHtml = rest.map(p => `
+      <a class="news-item" href="${esc(p.link)}" target="_blank" rel="noopener">
+        <time>${newsTime(p.pubDate)}</time>
+        <div class="ni-body">
+          <h3>${esc(p.title || '无标题')}</h3>
+          ${p.description ? `<p>${esc(p.description)}</p>` : ''}
+          <div class="ni-meta">
+            ${p.category ? `<span class="tag">${esc(p.category)}</span>` : ''}
+            <span>${esc(p.source || '')}</span>
+          </div>
+        </div>
+      </a>`).join('');
+
+    listEl.innerHTML = featHtml + `<div class="news-list">${restHtml}</div>`;
+    listEl.setAttribute('aria-busy', 'false');
+
+    const remain = list.length - shown;
+    if (remain > 0){
+      moreWrap.hidden = false;
+      moreBtn.textContent = `加载更多（还有 ${remain} 条）`;
+    } else {
+      moreWrap.hidden = true;
+    }
+  }
+
+  // ==================== 侧栏 ====================
+  function renderSidebar(){
+    const catMap = new Map();
+    allPosts.forEach(p => {
+      if (!p.category) return;
+      catMap.set(p.category, (catMap.get(p.category) || 0) + 1);
+    });
+    const cats = [...catMap.entries()].sort((a, b) => b[1] - a[1]).slice(0, 6);
+
+    catRankEl.innerHTML = cats.length
+      ? cats.map(([name, n], i) => `
+        <button class="rank-item" type="button" data-jump="${esc(name)}">
+          <span class="rank-num">${String(i + 1).padStart(2, '0')}</span>
+          <span class="rank-name">${esc(name)}</span>
+          <span class="rank-count">${n}</span>
+        </button>`).join('')
+      : '<div class="state" style="padding:8px 0">暂无数据</div>';
+
+    const srcs = feedsMeta.map(f => ({ name: f.name, count: f.items || 0 })).sort((a, b) => b.count - a.count);
+    const top = srcs.slice(0, MAX_SRC_SHOW);
+    sourceEl.innerHTML = top.length
+      ? top.map(s => `<div class="source-row"><span>${esc(s.name)}</span><span>${s.count}</span></div>`).join('') +
+        (srcs.length > MAX_SRC_SHOW
+          ? `<div class="source-row" style="border-top:1px solid var(--border);margin-top:6px;padding-top:10px;color:var(--text-3);font-size:.76rem"><span>共 ${srcs.length} 个源</span><span></span></div>`
+          : '')
+      : '<div class="state" style="padding:8px 0">暂无数据</div>';
+  }
+
+  function updateMeta(){
+    const feedCount = feedsMeta.length;
+    metaEl.textContent = `${feedCount} 个源 · ${allPosts.length} 条 · ${hhmm(new Date())} 更新`;
+    updateFeedCount(feedCount);
+  }
+
+  // ==================== 加载 ====================
+  async function loadPosts(){
+    try{
+      // 获取静态 JSON 数据，加上时间戳防止缓存
+      const res = await fetch('./posts.json?v=' + Date.now());
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      const data = await res.json();
+      if (!Array.isArray(data) || data.length === 0) {
+        throw new Error('数据为空，请确认 GitHub Actions 是否运行成功。');
+      }
+
+      allPosts = data;
+      
+      // 从 posts 提取数据源信息
+      const srcMap = new Map();
+      allPosts.forEach(p => {
+        if (!p.source) return;
+        if (!srcMap.has(p.source)) srcMap.set(p.source, { name: p.source, category: p.category, items: 0 });
+        srcMap.get(p.source).items++;
+      });
+      feedsMeta = [...srcMap.values()];
+
+      renderTabs();
+      renderMain();
+      renderSidebar();
+      updateMeta();
+
+    }catch(e){
+      listEl.innerHTML =
+        '<div class="state error">加载失败：' + esc(e.message) +
+        '。<br>请确认根目录下存在 <code>posts.json</code>。</div>';
+      listEl.setAttribute('aria-busy', 'false');
+      moreWrap.hidden = true;
+      metaEl.textContent = '加载失败';
+      catRankEl.innerHTML = '<div class="state" style="padding:8px 0">—</div>';
+      sourceEl.innerHTML = '<div class="state" style="padding:8px 0">—</div>';
+    }
+  }
+
+  // ==================== RSS 订阅弹窗 ====================
+  const rssModal   = document.getElementById('rss-modal');
+  const rssInput   = document.getElementById('rss-url-input');
+  const rssCopyBtn = document.getElementById('rss-copy');
+  const rssFeedUrl = location.origin + '/feed.xml';
+  let rssLastFocus = null;
+  let rssCopyTimer = null;
+
+  rssInput.value = rssFeedUrl;
+  document.querySelectorAll('[data-reader]').forEach(a => {
+    a.href = a.getAttribute('data-reader').replace('{url}', encodeURIComponent(rssFeedUrl));
+  });
+
+  function rssOpen(){
+    rssLastFocus = document.activeElement;
+    rssModal.hidden = false;
+    document.body.style.overflow = 'hidden';
+    rssCopyBtn.focus();
+  }
+
+  function rssClose(){
+    rssModal.hidden = true;
+    document.body.style.overflow = '';
+    if (rssLastFocus && rssLastFocus.focus) rssLastFocus.focus();
+  }
+
+  document.querySelectorAll('[data-rss-open]').forEach(a => {
+    a.addEventListener('click', function(e){
+      e.preventDefault();
+      rssOpen();
+    });
+  });
+
+  rssModal.addEventListener('click', function(e){
+    if (e.target.closest('[data-rss-close]')) rssClose();
+  });
+  document.addEventListener('keydown', function(e){
+    if (e.key === 'Escape' && !rssModal.hidden) rssClose();
+  });
+
+  rssCopyBtn.addEventListener('click', function(){
+    const done = function(){
+      rssCopyBtn.textContent = '已复制';
+      clearTimeout(rssCopyTimer);
+      rssCopyTimer = setTimeout(function(){ rssCopyBtn.textContent = '复制'; }, 1600);
+    };
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(rssFeedUrl).then(done).catch(function(){
+        rssInput.focus();
+        rssInput.select();
+      });
+    } else {
+      rssInput.focus();
+      rssInput.select();
+      try { document.execCommand('copy'); done(); } catch(e){}
+    }
+  });
+
+  // ==================== 新闻事件 ====================
+  tabsEl.addEventListener('click', function(e){
+    const btn = e.target.closest('.cat-tab');
+    if (!btn) return;
+    activeCat = btn.getAttribute('data-cat');
+    shown = PAGE_SIZE;
+    renderTabs();
+    renderMain();
+    document.getElementById('feed').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+
+  catRankEl.addEventListener('click', function(e){
+    const btn = e.target.closest('.rank-item');
+    if (!btn) return;
+    activeCat = btn.getAttribute('data-jump');
+    shown = PAGE_SIZE;
+    renderTabs();
+    renderMain();
+    document.getElementById('feed').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+
+  moreBtn.addEventListener('click', function(){
+    shown += PAGE_SIZE;
+    renderMain();
+  });
+
+  requestAnimationFrame(function(){
+    requestAnimationFrame(loadPosts);
+  });
+</script>
+</body>
+</html>
