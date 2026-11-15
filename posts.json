@@ -1,0 +1,2402 @@
+[
+  {
+    "title": "GeoRA: 为RLVR设计的LoRA——ACL 2026杰出论文解析",
+    "link": "https://tech.meituan.com/2026/08/27/ACL-Outstanding-Paper-GeoRA.html",
+    "description": "ACL 2026杰出论文奖（Outstanding Paper）揭晓，全球共 18 篇入选，其中包含美团履约技术团队的1篇论文。本文介绍了一种专为 RLVR 设计的低秩训练方法，以及它在业务 Agentic RL 中的落地经验。",
+    "pubDate": "2026-11-15T02:06:17.240Z",
+    "source": "美团技术",
+    "category": "开发"
+  },
+  {
+    "title": "美团搜索3.0：LLM 语义表征在排序模型的探索与应用",
+    "link": "https://tech.meituan.com/2026/08/20/01-meituan-Query-3.0.html",
+    "description": "美团搜索团队正依托团垂融合新架构与生成式大模型新技术，全面重构本地生活搜索底座。本系列技术博客将持续介绍美团搜索 3.0 的技术探索，本文聚焦 LLM 语义表征在服务零售排序场景上的三期实践——从单点特征验证到系统性表征体系构建，再到跨场景迁移复用，探索语义匹配信号在搜索排序中的应用路径。",
+    "pubDate": "2026-11-15T02:06:17.240Z",
+    "source": "美团技术",
+    "category": "开发"
+  },
+  {
+    "title": "美团 LongCat-2.5 正式开源：从看见，到抵达",
+    "link": "https://tech.meituan.com/2026/11/10/Meituan-LongCat-2.5-Open-Source.html",
+    "description": "美团正式开源 LongCat-2.5，采用MIT协议，支持商用推理部署与二次训练，无需额外授权。",
+    "pubDate": "2026-11-15T02:06:17.239Z",
+    "source": "美团技术",
+    "category": "开发"
+  },
+  {
+    "title": "美团正式发布 LongCat-2.5：面向智能体任务的原生多模态模型",
+    "link": "https://tech.meituan.com/2026/11/02/Meituan-LongCat-2.5.html",
+    "description": "美团发布 LongCat-2.5，一个面向长程智能体任务的原生多模态模型。模型总参数量为 1.6 万亿，每个 token 激活约 480 亿参数，在 LongCat-2.0 的基础上进一步强化原生视觉理解与智能体编程能力。",
+    "pubDate": "2026-11-15T02:06:17.239Z",
+    "source": "美团技术",
+    "category": "开发"
+  },
+  {
+    "title": "如何在“不能出错”的系统里使用 AI Coding？分布式存储实践与边界",
+    "link": "https://tech.meituan.com/2026/10/29/AI-Coding-IN-Distributed-Storage-System.html",
+    "description": "本文结合美团基础技术部在 AI 评审、问题排查和自动化开发中的真实实践，分享 AI 能帮上什么忙、容易在哪些地方犯错，以及哪些地方仍需要人来把关。比「多写代码」更重要的，是让代码和结论经得起验证。",
+    "pubDate": "2026-11-15T02:06:17.239Z",
+    "source": "美团技术",
+    "category": "开发"
+  },
+  {
+    "title": "从 LOOP 到图探索 —— 算法模型的 AutoResearch 自进化系统架构演进之路",
+    "link": "https://tech.meituan.com/2026/10/22/LOOP-AutoResearch.html",
+    "description": "本文分享这套系统的设计理念、架构演进与可信度设计，希望对大家有所帮助或启发。",
+    "pubDate": "2026-11-15T02:06:17.239Z",
+    "source": "美团技术",
+    "category": "开发"
+  },
+  {
+    "title": "SLM 生成式高并发推理引擎：延迟约束下的有效吞吐优化",
+    "link": "https://tech.meituan.com/2026/10/15/Small-Language-Model-in-meituan.html",
+    "description": "本文为SLM（Small Language Model， 小参数量语言模型0.5~1B）在搜推场景的大规模落地提供了一套高性能、可复用的工程实践。",
+    "pubDate": "2026-11-15T02:06:17.239Z",
+    "source": "美团技术",
+    "category": "开发"
+  },
+  {
+    "title": "MTFM：美团统一推荐基座大模型在外卖多业务场景的落地实践",
+    "link": "https://tech.meituan.com/2026/09/22/Meituan-Foundation-Model-for-Recommendation.html",
+    "description": "美团在 MTGR 基础上提出统一推荐基座大模型 MTFM，首次实现外卖多个主要业务的统一精排模型。",
+    "pubDate": "2026-11-15T02:06:17.239Z",
+    "source": "美团技术",
+    "category": "开发"
+  },
+  {
+    "title": "《Agent 评测白皮书》系列01：Agent 评测全览",
+    "link": "https://tech.meituan.com/2026/09/10/Agent-Evaluation-White-Paper-01.html",
+    "description": "我们推出了《Agent评测白皮书》系列博客，体系化地为大家讲解评测的落地指南，分为《评测全览》、《冷启动篇》、《扩量篇》、《自进化篇》等共4篇，本文为系列的第一篇。",
+    "pubDate": "2026-11-15T02:06:17.239Z",
+    "source": "美团技术",
+    "category": "开发"
+  },
+  {
+    "title": "美团智播——数字人直播技术创新与实践",
+    "link": "https://tech.meituan.com/2026/09/03/meituan-Digital-Human-practice.html",
+    "description": "美团智播围绕 AI 主播「长得真→动得准→演得活→卖得好」构建了完整技术闭环：真人 1:1 复刻、换装换背景身份不跑偏；动作自然流畅，告别「木偶戏」；边说边动、音画一致；背后还有推理加速技术支撑万路并发开播，让普惠落地成为可能。",
+    "pubDate": "2026-11-15T02:06:17.239Z",
+    "source": "美团技术",
+    "category": "开发"
+  },
+  {
+    "title": "我国新增3处世界地质遗产地",
+    "link": "http://china.chinadaily.com.cn/a/202611/15/WS6af8ee6ee4b0e14252fcb1d3.html",
+    "description": "<div><div id=\"Content\"> <p>新华社重庆11月14日电（记者郑世昌）14日，记者从第三批国际地质科学联合会地质遗产地中国入选地名单发布会上了解到，我国新增3处地质遗产地，分别为：重庆云阳中侏罗世恐龙化石群、四川鲜水河断裂、安徽大别山三叠纪超高压变质带。至此，我国共有13处入选。</p> <p>重庆云阳中侏罗世恐龙化石群是本世纪以来新发现的世界罕见的中侏罗世恐龙化石集中产地。化石种类丰富多样，共6纲12目19科。该遗址发现的云阳恐龙动物群具有全球对比意义，填补了早-中侏罗世恐龙演化序列的空白。</p> <p>鲜水河断裂位于四川西部、青藏高原东缘，形成于约2亿年前，是全球活",
+    "pubDate": "2026-11-15T02:06:10.814Z",
+    "source": "中国日报",
+    "category": "新闻"
+  },
+  {
+    "title": "2026年全国城市联合招聘高校毕业生秋季专场活动",
+    "link": "http://cn.chinadaily.com.cn/a/202611/14/WS6af86b02e4b0e14252fcb1cc.html",
+    "description": "<div><div id=\"Content\"> <figure class=\"image\" style=\"display: table;\"> <img src=\"http://img3.chinadaily.com.cn/images/202611/14/6af86b89e4b0e1427c735603.jpeg\" data-from=\"newsroom\" data-mimetype=\"image/jpeg\" id=\"img-6af86b89e4b0e1427c735603\"> <figcaption style=\"display: table-caption; caption-side: b",
+    "pubDate": "2026-11-15T02:06:10.814Z",
+    "source": "中国日报",
+    "category": "新闻"
+  },
+  {
+    "title": "数说APEC丨中国生态治理经验 如何为亚太增“绿”",
+    "link": "http://china.chinadaily.com.cn/a/202611/14/WS6af86b01e4b0e14252fcb1ca.html",
+    "description": "<div><div id=\"Content\"> <figure class=\"image\" style=\"display: table;\"> <a href=\"https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=4511338471042251569&amp;toc_style_id=feeds_default&amp;share_to=copy_url&amp;track_id=35f1c38b-2ff5-4c6f-a2d3-62dfbf9622b9_1794625166331\"><img src=\"ht",
+    "pubDate": "2026-11-15T02:06:10.814Z",
+    "source": "中国日报",
+    "category": "新闻"
+  },
+  {
+    "title": "青春华章・我们的新长征｜津门砺技 匠心育才",
+    "link": "http://china.chinadaily.com.cn/a/202611/14/WS6af86b3ae4b0e14252fcb1ce.html",
+    "description": "<div><div id=\"Content\"> <p data-spm-anchor-id=\"C73544894212.P59511941341.0.i1\">央视网消息（记者 孙晓媛）：“十五五”时期是基本实现社会主义现代化夯实基础、全面发力的关键时期。推动高质量发展，走好新的长征路，既需要科技创新勇攀高峰，也需要大批技艺精湛的产业劳动者扎根一线、实干笃行。</p> <p data-spm-anchor-id=\"C73544894212.P59511941341.0.i0\">近年来，坐落于天津海河教育园区的中国（天津）职业技能公共实训中心依托“海河工匠”建设政策，积极面向社会各界开展技能提升服",
+    "pubDate": "2026-11-15T02:06:10.814Z",
+    "source": "中国日报",
+    "category": "新闻"
+  },
+  {
+    "title": "51个一类新药进医保 创新药惠民“再提速”",
+    "link": "http://china.chinadaily.com.cn/a/202611/15/WS6af8ee6de4b0e14252fcb1d1.html",
+    "description": "<div><div id=\"Content\"> <p>11月14日，在苏州举行的2026创新药高质量发展大会上，2026年国家医保药品目录和商保创新药目录正式发布，107种药品进医保目录、12种药品进商保创新药目录，参保人用药保障迎来新一轮扩容升级。</p> <figure class=\"image\" style=\"display: table;\"> <img src=\"http://cds.chinadaily.com.cn/dams/capital/image/202611/15/6af8ee136b8e635a962d49dd_m.jpg\" data-resourcesrc=\"/capi",
+    "pubDate": "2026-11-15T02:06:10.813Z",
+    "source": "中国日报",
+    "category": "新闻"
+  },
+  {
+    "title": "AI ‘blue aliens’ rising as health experts on China social media spark pseudoscience backlash",
+    "link": "https://www.scmp.com/news/people-culture/trending-china/article/3374466/ai-blue-aliens-rising-health-experts-china-social-media-spark-pseudoscience-backlash",
+    "description": "In China, some influential online voices offering health advice are neither doctors nor academics, but AI-generated blue aliens. Depicted as emissaries from an advanced civilisation, the bald, blue-skinned digital figures have humanlike bodies and glowing markings across their heads. The phenomenon ",
+    "pubDate": "2026-11-15T02:00:30.000Z",
+    "source": "SCMP",
+    "category": "国际"
+  },
+  {
+    "title": "Japan’s FamilyMart pulls up striped socks to survive convenience store rivalry",
+    "link": "https://www.scmp.com/news/asia/east-asia/article/3374465/japans-familymart-pulls-striped-socks-survive-convenience-store-rivalry",
+    "description": "For some ⁠people, the blue, green and white striped socks hanging near the entrance of a FamilyMart convenience store may look more like an emergency purchase than a fashion statement. Yet the 390 yen (US$2.44) socks have become one of Japan’s best-known products at convenience stores, which are usu",
+    "pubDate": "2026-11-15T02:00:27.000Z",
+    "source": "SCMP",
+    "category": "国际"
+  },
+  {
+    "title": "Hong Kong sending who’s who delegation of business leaders to Apec CEO Summit",
+    "link": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3374452/hong-kong-sending-whos-who-delegation-business-leaders-apec-ceo-summit",
+    "description": "Hong Kong will send one of its largest-ever delegations to the Apec CEO Summit in Shenzhen on Tuesday and Wednesday, with at least 54 business leaders set to attend, the South China Morning Post has learned. According to a delegation list obtained by the SCMP, the group includes senior executives of",
+    "pubDate": "2026-11-15T02:00:18.000Z",
+    "source": "SCMP",
+    "category": "国际"
+  },
+  {
+    "title": "Chinese social media firms under fire as fake history spreads online",
+    "link": "https://www.scmp.com/news/china/military/article/3374447/chinese-social-media-firms-under-fire-fake-history-spreads-online",
+    "description": "Pseudo-history about China is mushrooming online, spreading fake accounts of the past due in large part to platform algorithms, artificial intelligence (AI) and a lack of monitoring, according to a Chinese provincial authority. In a commentary published on Monday, “Zhejiang Propaganda” – a social me",
+    "pubDate": "2026-11-15T02:00:13.000Z",
+    "source": "SCMP",
+    "category": "国际"
+  },
+  {
+    "title": "Can Chinese AI companies curb cyber risks from open-weight models without losing their edge?",
+    "link": "https://www.scmp.com/tech/tech-trends/article/3374332/can-chinese-ai-companies-curb-cyber-risks-open-weight-models-without-losing-their-edge",
+    "description": "China’s leading artificial intelligence model companies are beginning to curb the cybersecurity capabilities of their most advanced open-weight models, following a string of high-profile AI hacking incidents involving both US and Chinese companies. Earlier this month, Chinese technology giant Tencen",
+    "pubDate": "2026-11-15T02:00:09.000Z",
+    "source": "SCMP",
+    "category": "国际"
+  },
+  {
+    "title": "[酷工作] [招人] X、Reddit 海外推广运营，日结 200 起，可长期合作",
+    "link": "https://www.v2ex.com/t/1257148#reply2",
+    "description": "在 X、Reddit 上做品牌推广获客：用我们的官方号发推、做抽奖活动、参与社区讨论、回复评论。 需要基础英语，懂代码或会用 AI Agent，能学会我们的一套基础自动化工具。 每天 4 小时，日结，暂定 200，觉得低可以聊。按每日新增用户数考核（排除机器人账号），做得好可以长期合作。 一、工作目标 通过抽奖等活动，借已有用户的社交圈带来新用户，做长期稳定的获客。 二、具体工作 X 抽奖活动（每次周期约 1 天） 用官方号发抽奖帖，文案我们给要点，你来写、发 参与方式：转发（增加曝光）、评论（提高被推荐的概率） 统计符合要求的用户，排除机器人，再均匀抽样 私信发放奖品，并引导中奖用户绑定 X",
+    "pubDate": "2026-11-15T01:59:34.000Z",
+    "source": "V2EX",
+    "category": "开发"
+  },
+  {
+    "title": "总盈利约4,049万美元，某地址平仓全部ETH空单",
+    "link": "https://www.odaily.news/zh-CN/newsflash/534704",
+    "description": "<p>据 Odaily 监测，某地址在 2026 年 11 月 15 日 08:49 至 09:53 将剩余约 2,000 枚 ETH 空单全部平仓，此次平仓金额约 345 万美元。其合约账户累计收益约 4,049 万美元。</p><p>地址：0x418aa6bf98a2b2bc93779f810330d88cde488888</p>",
+    "pubDate": "2026-11-15T01:57:19.000Z",
+    "source": "Odaily快讯",
+    "category": "财经"
+  },
+  {
+    "title": "总盈利约6,693万美元，某地址增持约484万美元BTC多单",
+    "link": "https://www.odaily.news/zh-CN/newsflash/534703",
+    "description": "<p>据 Odaily 监测，某地址在 2026 年 11 月 15 日 08:47 至 09:50 增持约 77.57 枚 BTC 多单，价值约 484 万美元，目前持有 203.81 枚 BTC 多单。其合约账户累计收益约 6,693 万美元。</p><p>地址：0x8af700ba841f30e0a3fcb0ee4c4a9d223e1efa05。</p>",
+    "pubDate": "2026-11-15T01:57:00.000Z",
+    "source": "Odaily快讯",
+    "category": "财经"
+  },
+  {
+    "title": "[问与答] micro center 竟然给了两个树莓派",
+    "link": "https://www.v2ex.com/t/1257155#reply0",
+    "description": "Raspberry Pi 400 4G 内存，就是一个小键盘，只要$34.99,觉得挺便宜就定了一个，而且其网站也只允许买一个。结果取的时候，说是我定了两个，都给我了。 这下有两个了，能用来干点啥？",
+    "pubDate": "2026-11-15T01:53:24.000Z",
+    "source": "V2EX",
+    "category": "开发"
+  },
+  {
+    "title": "Thunderstorms, giant hail and powerful winds forecast for NSW as wild weather hits east coast",
+    "link": "https://www.theguardian.com/australia-news/2026/nov/15/australia-weather-east-coast-thunderstorms-giant-hail-and-powerful-winds-ettalong-beach-swimmer-lightning-strike",
+    "description": "<p>Volatile weather predicted after storms on Saturday, with a man in his 20s struck by lightning while swimming on NSW Central Coast</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">breaking news email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app<",
+    "pubDate": "2026-11-15T01:52:37.000Z",
+    "source": "The Guardian",
+    "category": "国际"
+  },
+  {
+    "title": "Bitwise CIO：市场仍将持续低迷，以消化中期选举、币安被盗等事件的影响",
+    "link": "https://www.odaily.news/zh-CN/newsflash/534701",
+    "description": "<p>Odaily星球日报讯 Bitwise 首席投资官 Matt Hougan 于 X 发文表示，加密市场现在给人的感觉，很像 2018 年年中。当时整个行业都陷入疲态，很多人开始放弃。考虑到美国大选、币安事件、货币政策收紧等因素带来的长期影响，市场可能还要在低迷中徘徊一段时间。</p><p>未来某个时点，一定会出现一个绝佳的买入机会，但很难判断它究竟何时到来。2018 年打破市场沉闷局面的，是一次创新突破 —— DeFi，这一次可能也会是类似的情况。创新突破最让人头疼的地方就在于，它们根本无法提前预测。如果你能提前预见它的到来，恐怕早就已经创办一家价值数十亿美元的公司，抢先布局了。</p>",
+    "pubDate": "2026-11-15T01:51:41.000Z",
+    "source": "Odaily快讯",
+    "category": "财经"
+  },
+  {
+    "title": "[问与答] iphone13 升级 ios27 后，信号差了很多",
+    "link": "https://www.v2ex.com/t/1257154#reply0",
+    "description": "电信卡，之前旧版本的时候，几乎都是满格的，现在 ios27 上，经常 2 格 3 格的(4 格满格)，网络也还原重置了，以及解决不了问题；",
+    "pubDate": "2026-11-15T01:51:37.000Z",
+    "source": "V2EX",
+    "category": "开发"
+  },
+  {
+    "title": "[分享创造] 最近 token 多 学着搞了一个短片 ..无改编 就是封神演义 第一回古诗",
+    "link": "https://www.v2ex.com/t/1257149#reply2",
+    "description": "最近 token 多..现在短剧改编太扯淡了 没意思。 自己学习做了一个 第一次做视频 前后改了半个月 什么镜头 转场 分镜。都是一边学一边改... https://www.bilibili.com/video/BV1mbsj69EPu/?vd_source=b227cc50d2655cb8bc119762fdb374c5 可以看看..欢迎三连...",
+    "pubDate": "2026-11-15T01:50:44.000Z",
+    "source": "V2EX",
+    "category": "开发"
+  },
+  {
+    "title": "Glassnode：稳定币供应量正在快速萎缩，单月流出创 2022 年以来新高",
+    "link": "https://www.odaily.news/zh-CN/newsflash/534697",
+    "description": "<p>Odaily星球日报讯&nbsp; Glassnode 于 X 发文表示：“稳定币供应量正在快速萎缩。过去一个月，稳定币总供应量减少了 170 亿美元，创下自 2022 年以来的最大单月跌幅。随着持有者将稳定币兑换成法币，BTC 和整个加密市场的购买力也随之流失。牛市要想真正到来，资金必须流入加密生态，而不是持续流出。”</p>",
+    "pubDate": "2026-11-15T01:46:20.000Z",
+    "source": "Odaily快讯",
+    "category": "财经"
+  },
+  {
+    "title": "BNC 24小时下跌10.1%",
+    "link": "https://www.odaily.news/zh-CN/newsflash/534696",
+    "description": "<p>Odaily星球日报讯 据 MSX.COM 数据，BNC 24 小时下跌 10.1%，现报 3.705 USDT。</p>",
+    "pubDate": "2026-11-15T01:43:58.000Z",
+    "source": "Odaily快讯",
+    "category": "财经"
+  },
+  {
+    "title": "[Wunder] 关于设置中目前提供的 6 种楼中楼样式的 Demo",
+    "link": "https://www.v2ex.com/t/1257128#reply28",
+    "description": "新的设置选项可以在这里找到： https://edge.v2ex.com/settings#reply_thread_style 六种样式的 Demo 引用条 角标 + 悬浮预览 楼中楼 树形缩进 对话连线 引用楼层",
+    "pubDate": "2026-11-15T01:43:25.000Z",
+    "source": "V2EX",
+    "category": "开发"
+  },
+  {
+    "title": "[问与答] 求助,三星 S24U ONE9.0 的新功能\"保固与维修\"怎么无法查到手机信息",
+    "link": "https://www.v2ex.com/t/1257144#reply2",
+    "description": "如图:",
+    "pubDate": "2026-11-15T01:42:39.000Z",
+    "source": "V2EX",
+    "category": "开发"
+  },
+  {
+    "title": "比特币市值全球资产排名跌至第18位",
+    "link": "https://www.odaily.news/zh-CN/newsflash/534694",
+    "description": "<p>Odaily星球日报讯 据 8MarketCap 数据，比特币市值已被 Vanguard S&amp;P 500 ETF、礼来（Eli Lilly）及伯克希尔·哈撒韦超越，目前在全球资产市值排名中降至第 18 位，市值现报约 1.259 万亿美元，24 小时跌幅 8.28%，近 7 日跌幅达 17.23%。</p>",
+    "pubDate": "2026-11-15T01:40:15.000Z",
+    "source": "Odaily快讯",
+    "category": "财经"
+  },
+  {
+    "title": "[计算机] 如果给计算机基础教材列一个「五大经典」，你会选哪几本",
+    "link": "https://www.v2ex.com/t/1257146#reply3",
+    "description": "最近在整理计算机基础方面的阅读书单，想到能不能按五个方向，各选一本有代表性的经典教材： 计算机系统：《深入理解计算机系统》（CSAPP） 计算机网络：《计算机网络：自顶向下方法》 操作系统：《操作系统导论》（OSTEP） 编译原理：《编译原理》（Dragon Book） 数据库：《数据库系统概念》（Database System Concepts） 这五个方向基本覆盖了我理解的计算机基础知识体系。已经买了 CSAPP、自顶向下。准备都买回来 想问问 V 站的各位： 这五本书作为对应领域的代表教材，选择是否合适？ 有没有你认为更值得推荐的替代书籍？ 除了这五个方向，还有哪些基础领域值得纳入这份书",
+    "pubDate": "2026-11-15T01:39:11.000Z",
+    "source": "V2EX",
+    "category": "开发"
+  },
+  {
+    "title": "10小时内遭清算7次，交易员0xc05b的172枚BTC和2984枚ETH仓位被清算",
+    "link": "https://www.odaily.news/zh-CN/newsflash/534693",
+    "description": "<p>Odaily星球日报讯 据 Lookonchain 监测，Trader 0xc05b (0xc05b...8951) 在过去 10 小时内遭清算 7 次，共有 172 枚 BTC（价值 1103 万美元）和 2984 枚 ETH（价值 544 万美元）仓位被清算。</p>",
+    "pubDate": "2026-11-15T01:34:56.000Z",
+    "source": "Odaily快讯",
+    "category": "财经"
+  },
+  {
+    "title": "华为 Mate X 系列折叠屏走过第八年，余承东官宣 Mate X8 新机“就要来了”",
+    "link": "https://www.ithome.com/1/027/272.htm",
+    "description": "<p data-vmark=\"c732\">IT之家 11 月 15 日消息，华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东今日发布视频，回顾了华为 Mate X 系列折叠屏手机走过的岁月，<strong>并宣布 Mate X8 新机“就要来了”</strong>。</p><p style=\"text-align: center;\" data-vmark=\"f1d5\"><a href=\"https://weibo.com/1100856704/RrsCYsTc8\" class=\"ithome_super_player\" target=\"_blank\"><img src=\"http",
+    "pubDate": "2026-11-15T01:34:49.000Z",
+    "source": "IT之家",
+    "category": "科技"
+  },
+  {
+    "title": "分析师称BTC凌晨下跌或与周末流动性较差时集中卖出有关",
+    "link": "https://www.odaily.news/zh-CN/newsflash/534692",
+    "description": "<p>Odaily星球日报讯 Phyrex 在 X 平台发文表示，近期 BTC 转入交易所的数量未见异常，净流量也未大幅积压。他认为，此次 BTC 凌晨下跌更像是周末流动性较差时集中卖出引发的连环踩踏，而非大规模有组织抛售或长期、早期投资者出货。</p>",
+    "pubDate": "2026-11-15T01:33:35.000Z",
+    "source": "Odaily快讯",
+    "category": "财经"
+  },
+  {
+    "title": "Te Mata Peak closed after person found dead",
+    "link": "https://www.rnz.co.nz/news/community/2607856/te-mata-peak-closed-after-person-found-dead",
+    "description": "Mana whenua have blessed the area and placed a rāhui over the park, police say.",
+    "pubDate": "2026-11-15T01:31:44.000Z",
+    "source": "RNZ",
+    "category": "国际"
+  },
+  {
+    "title": "Is this iconic black hole image accurate? New study delivers an independent result",
+    "link": "https://phys.org/news/2026-11-iconic-black-hole-image-accurate.html",
+    "description": "On April 10, 2019, the Event Horizon Telescope (EHT) Collaboration revealed the first picture of a black hole. The object is at the center of a galaxy known as M87, about 55 million light-years away.",
+    "pubDate": "2026-11-15T01:30:01.000Z",
+    "source": "Phys.org",
+    "category": "科学"
+  },
+  {
+    "title": "All Blacks coach Dave Rennie promises tough review after shock Wales loss",
+    "link": "https://www.rnz.co.nz/news/sport/2608775/all-blacks-coach-dave-rennie-promises-tough-review-after-shock-wales-loss",
+    "description": "Selections, timing of substitutions and decision-making will all be scrutinised, after their first defeat to the Welsh in 73 years.",
+    "pubDate": "2026-11-15T01:29:58.000Z",
+    "source": "RNZ",
+    "category": "国际"
+  },
+  {
+    "title": "Tom Lee：加密市场近期承压或与AI股票抛售、Anthropic IPO资金需求及黑客事件资金释放有关",
+    "link": "https://www.odaily.news/zh-CN/newsflash/534691",
+    "description": "<p>Odaily星球日报讯 Tom Lee 发文表示，过去几周加密市场持续面临较大抛售压力，可能导致市场疲软的原因或包括：1）AI 及半导体股票（尤其是英伟达 NVDA）遭遇抛售并引发追加保证金通知；2）投资者为参与 Anthropic IPO 提前出售资产筹集资金；3）此前 63 亿美元黑客事件相关资金返还后持有人将资产兑换为现金或稳定币。此外，Anthropic 路演期间有关 AI 颠覆各行业的言论，以及美国司法部审查对亚洲和中国的芯片销售，也加剧了市场的风险担忧。</p><p>Tom Lee 重申，加密货币仍代表金融的未来，区块链将成为交易结算层，数字资产则有望重塑资本市场。他认为，加",
+    "pubDate": "2026-11-15T01:29:27.000Z",
+    "source": "Odaily快讯",
+    "category": "财经"
+  },
+  {
+    "title": "星球早讯",
+    "link": "https://www.odaily.news/zh-CN/newsflash/534687",
+    "description": "<p>1. 48ClubIan：近 30 日交易亏损超 9136 万美元，账户资产缩水约 7786 万美元；</p><p>2. Strive CEO：若比特币复刻 SpaceX IPO 后走势，明年 2 月或触及 9 万美元；</p><p>3. 特朗普：中期选举后股市蒸发 3 万亿美元，全球投资者都不认可选举结果；</p><p>4. 比特币接近 5.95 万至 6.26 万美元清算密集区，Glassnode 警告多头仓位风险；</p><p>5. 累计浮亏 557 万美元，7 Siblings 7 小时内再花 2000 万 USDT 买入 10,925.6 枚 ETH；</p><p>6. 浮亏约",
+    "pubDate": "2026-11-15T01:29:00.000Z",
+    "source": "Odaily快讯",
+    "category": "财经"
+  },
+  {
+    "title": "[生活] BLG 夺冠，B 站给所有人送大会员！定好闹钟今天 12 点！",
+    "link": "https://www.v2ex.com/t/1257151#reply0",
+    "description": "BLG 3:1 拿下 S16 冠军，LPL 时隔五年再捧杯。B 站当场宣布：给所有人送大会员！ · 时间：11 月 15 日 12:00 — 11 月 16 日 12:00，限时 24 小时 · 领法：打开 B 站，搜索「大会员」，点领取，站内直接到账 领完可以顺手在「订阅精灵」小程序里记了一笔：免费领的会员也有有效期，设个到期提醒。 https://i.imgur.com/G6HCEue.jpeg https://i.imgur.com/R4vtBGx.jpeg",
+    "pubDate": "2026-11-15T01:25:33.000Z",
+    "source": "V2EX",
+    "category": "开发"
+  },
+  {
+    "title": "SpaceX’s Starship nails a smooth return with historic catch",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/aje-onl-nf_spacexs-starship-nails-a-smooth-return-141126?traffic_source=rss",
+    "description": "SpaceX Starship made a triumphant return to Earth, caught midair by giant mechanical ‘chopsticks’.",
+    "pubDate": "2026-11-15T01:22:01.000Z",
+    "source": "Al Jazeera",
+    "category": "国际"
+  },
+  {
+    "title": "老外今年考“中文四六级”人数首破百万人次，169 国设 1500 余个考点",
+    "link": "https://www.ithome.com/1/027/270.htm",
+    "description": "<p data-vmark=\"9848\">IT之家 11 月 15 日消息，11 月 13 日至 15 日，2026 世界中文大会在北京举行，来自 160 多个国家和地区的约 5000 名代表参会。</p><p style=\"text-align: center;\" data-vmark=\"b602\"><a href=\"https://weibo.com/2656274875/Rrswcrup3\" class=\"ithome_super_player\" target=\"_blank\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/1",
+    "pubDate": "2026-11-15T01:21:43.000Z",
+    "source": "IT之家",
+    "category": "科技"
+  },
+  {
+    "title": "[服务器] 出租一台美西 LAX 独立服务器，原生 3xIPv4",
+    "link": "https://www.v2ex.com/t/1257150#reply0",
+    "description": "具体配置： CPU: Intel® Xeon E5-2680 v4 (14 Cores 28 Threads) Memory: 128GB ECC DDR4 Storage: 2x480GB Datacenter SSD Network: 1Gbps, 3x IPv4, 15TB/month IPMI included 价格 $60/m",
+    "pubDate": "2026-11-15T01:20:22.000Z",
+    "source": "V2EX",
+    "category": "开发"
+  },
+  {
+    "title": "日本制造商 Kyodo 推出 Myofree 护眼平板，号称能让 40cm 近距离观看等效 5m 远距离眺望",
+    "link": "https://www.ithome.com/1/027/269.htm",
+    "description": "<p data-vmark=\"731b\">IT之家 11 月 15 日消息，日本制造商 Kyodo（株式会社協同）近日推出 Myofree 护眼平板电脑。官方宣称该产品为全球首款基于脑科学、眼科学研究成果开发的平板，将于 11 月 18 日通过众筹平台 Makuake 预售。</p><p style=\"text-align: center;\" data-vmark=\"894f\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/11/6cb1fe5e-1210-4e32-b144-56d5a486cfae.jpg\" w=\"1440\" h",
+    "pubDate": "2026-11-15T01:18:49.000Z",
+    "source": "IT之家",
+    "category": "科技"
+  },
+  {
+    "title": "[分享创造] 新一代的放疗治疗计划演示平台",
+    "link": "https://www.v2ex.com/t/1257139#reply2",
+    "description": "https://tps.neuralrad.com 这是我在 UTSW Medcal Center 开发的新一代治疗计划演示平台",
+    "pubDate": "2026-11-15T01:13:46.000Z",
+    "source": "V2EX",
+    "category": "开发"
+  },
+  {
+    "title": "Edge AI Daily 早报（11月15日）",
+    "link": "https://www.tmtpost.com/8205610.html",
+    "description": "黄仁勋离任英伟达触发多线连锁：超11.5万人联署要求其回任，马斯克等科技高管声援，董事会曾就继任接触Arm CEO雷内·哈斯的传闻浮出，创始人依赖与制度化治理的张力凸显。亚洲政府重估单一AI基础设施供应商风险，韩国锁定26万颗先进GPU供应并叠加本土芯片，中国重申出口管制，台湾推进台北总部项目。",
+    "pubDate": "2026-11-15T01:09:35.000Z",
+    "source": "钛媒体",
+    "category": "商业"
+  },
+  {
+    "title": "马斯克晒 SpaceX 星舰“筷子夹”飞船近距离照片：“我拥抱了它”",
+    "link": "https://www.ithome.com/1/027/265.htm",
+    "description": "<p data-vmark=\"48d0\">IT之家 11 月 15 日消息，当地时间 11 月 14 日，SpaceX 在星舰第 15 次试飞中首次用发射塔机械臂接住从轨道返回的第二级飞船，<strong>这是星舰飞船首次完成发射塔捕获</strong>。</p><p data-vmark=\"ef89\">随后，该公司创始人马斯克在社交平台连续发文并分享该飞船近距离照片，他写道：“多亏了 SpaceX 那群才华横溢的团队，这一伟大时刻终于到来了”“当 42 号飞船返回时，我拥抱了它。”</p><p data-vmark=\"3f35\" style=\"text-align: center;\"><im",
+    "pubDate": "2026-11-15T01:04:53.000Z",
+    "source": "IT之家",
+    "category": "科技"
+  },
+  {
+    "title": "[分享创造] 做了个能打断的 AI 语音面试陪练，求拍砖",
+    "link": "https://www.v2ex.com/t/1257121#reply10",
+    "description": "大家好，我是独立开发者。面试最难的是找不到人陪练，所以我做了一个 AI 语音面试陪练 ，想请大家帮忙试试、拍拍砖。 跟其他 AI 面试工具有什么不一样 大部分工具是你说完一段、它再回一段，像在发语音消息。这个是 全双工实时对话 ： 你停下来想一想，它会等你，不抢话 它说得太长，你可以直接打断 目前有两个角色：技术面试官 Alex ，练 system design 和项目深挖；英语口语私教 Emma 。 怎么参加 打开 👉 https://aidou.studio/?scene=verify&src=v2ex 用 Google 账号登录，和\"小豆\"随便聊 5 分钟（不考技术） 系统确认是真人后",
+    "pubDate": "2026-11-15T01:02:56.000Z",
+    "source": "V2EX",
+    "category": "开发"
+  },
+  {
+    "title": "华为：智能车灯原车拨杆闪灯为独立功能，不会被高精 ADB 主动控制干预，随时可用",
+    "link": "https://www.ithome.com/1/027/264.htm",
+    "description": "<p data-vmark=\"12c5\">IT之家 11 月 15 日消息，华为智能汽车解决方案 BU 官方微博昨晚发布了乾崑答网友问（第 18 期），针对<strong>华为智能车载光</strong>相关的四个热门问题进行了集中解答。</p><p style=\"text-align: center;\" data-vmark=\"a331\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/10/d0d8eeb1-e85c-4674-9f93-0e159ed77b9b.jpg?x-bce-process=image/format,f_a",
+    "pubDate": "2026-11-15T01:01:56.000Z",
+    "source": "IT之家",
+    "category": "科技"
+  },
+  {
+    "title": "Israeli air strike kills senior Hamas commander in Gaza",
+    "link": "https://www.aljazeera.com/news/2026/11/15/israeli-air-strike-kills-senior-hamas-commander-in-gaza?traffic_source=rss",
+    "description": "Hamas confirms the death of Rafah brigade commander Samir Abu Younis in an attack on Khan Younis on Saturday.",
+    "pubDate": "2026-11-15T01:00:42.000Z",
+    "source": "Al Jazeera",
+    "category": "国际"
+  },
+  {
+    "title": "Have you done this before? Hong Kong firefighter recalls mid-air rescue chat",
+    "link": "https://www.scmp.com/news/hong-kong/society/article/3374451/have-you-done-hong-kong-firefighter-recalls-mid-air-rescue-chat",
+    "description": "Hong Kong firefighter Yuen Chung-hang did not expect to have to explain his work experience while dangling from a rope to rescue one of two workers left hanging in mid-air outside a skyscraper after their gondola malfunctioned. As Yuen tried to keep the man calm with small talk during their descent ",
+    "pubDate": "2026-11-15T01:00:14.000Z",
+    "source": "SCMP",
+    "category": "国际"
+  },
+  {
+    "title": "Asean’s neutrality set to be tested as Philippines welcomes world leaders",
+    "link": "https://www.scmp.com/week-asia/politics/article/3374395/aseans-neutrality-set-be-tested-philippines-welcomes-world-leaders",
+    "description": "World leaders converged in Manila for the Asean summit on Sunday, bringing attention to the 11-member bloc’s growing clout in a region with a population of 700 million and a US$4.4 trillion economy that is tipped to become the world’s fourth largest by 2030. Among top officials flying in are Canadia",
+    "pubDate": "2026-11-15T01:00:10.000Z",
+    "source": "SCMP",
+    "category": "国际"
+  },
+  {
+    "title": "Which NVIDIA GPU is closest to the PS5? The answer isn't so simple",
+    "link": "https://www.engadget.com/2313644/nvidia-gpu-ps5-closest-match-answer-not-simple/",
+    "description": "One of the biggest questions when it comes to purchasing a gaming rig is whether to go console or PC. This NVIDIA GPU gives the closest results to a PS5.",
+    "pubDate": "2026-11-15T01:00:00.000Z",
+    "source": "Engadget",
+    "category": "科技"
+  },
+  {
+    "title": "[操作系统] 用 Zig+Rust 做了个简单的 OS，目前打算全面转向 AI 推进这个项目。 各位大佬们有啥好的建议或者想法么",
+    "link": "https://www.v2ex.com/t/1257147#reply0",
+    "description": "目前实际运行的设备包括: qemu-system-riscv64 virt， 2 hart Milk DuoS 的 C906 大核， 1 hart 详细在 github 仓库： https://github.com/Czzqq/ziggruatos",
+    "pubDate": "2026-11-15T00:57:26.000Z",
+    "source": "V2EX",
+    "category": "开发"
+  },
+  {
+    "title": "Tens of thousands continue to protest across France",
+    "link": "https://www.dw.com/en/tens-of-thousands-continue-to-protest-across-france/a-79950503?maca=en-rss-en-all-1573-rdf",
+    "description": "Some 106,000 people marched through French cities for a fifth consecutive weekend of protests, marking the lowest turnout in recent weeks.",
+    "pubDate": "2026-11-15T00:55:00.000Z",
+    "source": "DW English",
+    "category": "国际"
+  },
+  {
+    "title": "Carers of people with disability left exhausted navigating NDIS",
+    "link": "https://www.abc.net.au/news/2026-11-15/ndis-families-bear-brunt-of-care-support-needs/107217942",
+    "description": "Parents are increasingly becoming the primary caregivers for their disabled adult children, which often comes at a high physical and emotional cost.",
+    "pubDate": "2026-11-15T00:51:53.000Z",
+    "source": "ABC Australia",
+    "category": "国际"
+  },
+  {
+    "title": "[英雄联盟] 恭喜 BLG，一穿四 LCK，史上最有含金量的 S 冠",
+    "link": "https://www.v2ex.com/t/1257145#reply5",
+    "description": "",
+    "pubDate": "2026-11-15T00:48:45.000Z",
+    "source": "V2EX",
+    "category": "开发"
+  },
+  {
+    "title": "This Sony patent would add a credit card reader to your PlayStation controller",
+    "link": "https://www.engadget.com/2313652/sony-patent-playstation-controller-adds-credit-card-reader/",
+    "description": "As Sony and PlayStation head into a digital-only era, new tech on its upcoming controllers could help make online purchases even more convenient for gaming.",
+    "pubDate": "2026-11-15T00:45:00.000Z",
+    "source": "Engadget",
+    "category": "科技"
+  },
+  {
+    "title": "华为首款鸿蒙小折叠电脑 MateBook Fold S 现身官网：至高 32GB/1TB 规格，可选黑白蓝三色",
+    "link": "https://www.ithome.com/1/027/263.htm",
+    "description": "<p data-vmark=\"5e49\">IT之家 11 月 15 日消息，华为首款鸿蒙小折叠电脑 MateBook Fold S 已于昨日 10:08 正式开启预订。</p><p style=\"text-align: center;\" data-vmark=\"8136\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/11/22a1b183-b834-46bf-a880-39ad2c5c2c4d.jpg?x-bce-process=image/format,f_auto\" w=\"1440\" h=\"720\" data-vmark=\"1",
+    "pubDate": "2026-11-15T00:44:19.000Z",
+    "source": "IT之家",
+    "category": "科技"
+  },
+  {
+    "title": "韩国电信运营商 LG U+ 明年进军 AI Token 业务，帮助企业降低 AI 转型成本",
+    "link": "https://www.ithome.com/1/027/262.htm",
+    "description": "<p data-vmark=\"fa38\">IT之家 11 月 15 日消息，据韩媒 Etnews 今天报道，韩国电信运营商 LG U+ 将于明年进军 AI Token 业务，利用自主研发的 Token 优化技术，帮助企业降低 AI 转型（AX）成本。</p><p data-vmark=\"b112\" style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/11/7cd9e249-263f-4fe9-817d-95facdace114.jpg\" w=\"960\" h=\"640\" alt=\"뉴스",
+    "pubDate": "2026-11-15T00:42:33.000Z",
+    "source": "IT之家",
+    "category": "科技"
+  },
+  {
+    "title": "SpaceX returned its Starship rocket on Saturday—but there's a catch",
+    "link": "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world/",
+    "description": "It felt like stepping into the future.",
+    "pubDate": "2026-11-15T00:40:59.000Z",
+    "source": "Ars Technica",
+    "category": "科技"
+  },
+  {
+    "title": "B站宣布免费送所有人大会员，英雄联盟 S16 全球总决赛中国战队 BLG 夺冠",
+    "link": "https://www.ithome.com/1/027/260.htm",
+    "description": "<p data-vmark=\"7965\">IT之家 11 月 15 日消息，《英雄联盟》2026 全球总决赛（S16）冠亚军决赛刚刚结束，<a target=\"_blank\" href=\"https://www.ithome.com/1/027/258.htm\">来自 LPL 赛区的 BLG 战队以 3:1 的比分力克韩国 LCK 赛区的 GEN 战队</a>，“一穿四”LCK 赛区，勇夺《英雄联盟》S16 冠军。</p><p data-vmark=\"330a\" style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsu",
+    "pubDate": "2026-11-15T00:34:09.000Z",
+    "source": "IT之家",
+    "category": "科技"
+  },
+  {
+    "title": "What are the limitations of eGPUs vs onboard graphics cards for laptops?",
+    "link": "https://www.engadget.com/2313636/limitations-egpu-vs-onboard-graphics-card-laptop-pc/",
+    "description": "Is it worth it to use an eGPU with your laptop? That depends. Let's take a closer look at the most important factors you should consider.",
+    "pubDate": "2026-11-15T00:30:00.000Z",
+    "source": "Engadget",
+    "category": "科技"
+  },
+  {
+    "title": "US investigators say too soon to know what caused tanker-cruise ship collision",
+    "link": "https://www.abc.net.au/news/2026-11-15/tanker-cruise-ship-collison-investigation-new-orleans/107387198",
+    "description": "The US National Transport Board has begun its investigation into a collision between a tanker and a cruise ship carrying more than 100 people in New Orleans.",
+    "pubDate": "2026-11-15T00:28:19.000Z",
+    "source": "ABC Australia",
+    "category": "国际"
+  },
+  {
+    "title": "Hundreds of men march in Switzerland to protest violence against women",
+    "link": "https://www.aljazeera.com/news/2026/11/15/hundreds-of-men-march-in-switzerland-to-protest-violence-against-women?traffic_source=rss",
+    "description": "Organisers say men must speak out, as Swiss study finds half of men aged 18 to 24 hold restrictive view of masculinity.",
+    "pubDate": "2026-11-15T00:27:14.000Z",
+    "source": "Al Jazeera",
+    "category": "国际"
+  },
+  {
+    "title": "全日空投资太空建造初创公司 Space Quarters，布局“太空盖大楼”",
+    "link": "https://www.ithome.com/1/027/259.htm",
+    "description": "<p data-vmark=\"6c6d\">IT之家 11 月 15 日消息，全日空本月 13 日宣布，公司已通过 ANA 未来创投基金投资 Space Quarters 公司。这家公司通过电子束焊接技术和自主研发机器人系统，<strong>提供太空组装</strong>、<strong>建设大型建筑物的解决方案</strong>。</p><p style=\"text-align: center;\" data-vmark=\"87b8\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/11/ff4d220d-80b5-481c-b95e-",
+    "pubDate": "2026-11-15T00:17:35.000Z",
+    "source": "IT之家",
+    "category": "科技"
+  },
+  {
+    "title": "UK government to consider changing age of consent after allegations against Russell Brand",
+    "link": "https://www.theguardian.com/law/2026/nov/15/uk-government-to-consider-changing-age-of-consent-after-allegations-against-russell-brand",
+    "description": "<p>Deputy prime minister says change would be a massive step but ‘deserves proper consideration and scrutiny’ </p><p>The government has said it will consider calls to change the age of consent after a woman waived her right to anonymity to publicly claim she was raped by Russell Brand as a 16-year-o",
+    "pubDate": "2026-11-15T00:17:14.000Z",
+    "source": "The Guardian",
+    "category": "国际"
+  },
+  {
+    "title": "11 gadgets under $10 that solve everyday problems",
+    "link": "https://www.engadget.com/2310535/affordable-gadgets-under-10-dollars/",
+    "description": "Lots of tech purchases run into the hundreds of dollars, but you don't have to spend a lot to make some upgrades.",
+    "pubDate": "2026-11-15T00:15:00.000Z",
+    "source": "Engadget",
+    "category": "科技"
+  },
+  {
+    "title": "SpaceX’s Starship captured by launchpad arms in dramatic first",
+    "link": "https://www.aljazeera.com/news/2026/11/15/spacexs-starship-captured-by-launchpad-arms-in-dramatic-first?traffic_source=rss",
+    "description": "SpaceX officials say catch by mechanical arms shows Starship's full reusability, crucial for rapid, low-cost recycling.",
+    "pubDate": "2026-11-15T00:14:22.000Z",
+    "source": "Al Jazeera",
+    "category": "国际"
+  },
+  {
+    "title": "Where was Nvidia’s security team?",
+    "link": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+    "description": "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former intelligence officer says it’s the kind of leak that runs everyday conversations, which ",
+    "pubDate": "2026-11-15T00:08:07.000Z",
+    "source": "TechCrunch",
+    "category": "科技"
+  },
+  {
+    "title": "My mother told me I would die if I sought treatment for Ebola - I am proof you can survive",
+    "link": "https://www.bbc.co.uk/news/articles/cmvg2e2q28w1o?at_medium=RSS&amp;at_campaign=rss",
+    "description": "Fear and misinformation surrounds the Ebola outbreak in DR Congo - Dr Kamwanga's mother was not immune.",
+    "pubDate": "2026-11-15T00:06:55.000Z",
+    "source": "BBC World",
+    "category": "国际"
+  },
+  {
+    "title": "Judo champion shakes up French presidential race with surprise candidacy",
+    "link": "https://www.bbc.co.uk/news/articles/c6dj1e8wyykmo?at_medium=RSS&amp;at_campaign=rss",
+    "description": "Teddy Riner is one of the most popular figures in modern-day France, and one in five voters say they could support him.",
+    "pubDate": "2026-11-15T00:06:51.000Z",
+    "source": "BBC World",
+    "category": "国际"
+  },
+  {
+    "title": "'Flood' of weka sightings in Dunedin becomes a trickle",
+    "link": "https://www.rnz.co.nz/news/environment/2607793/flood-of-weka-sightings-in-dunedin-becomes-a-trickle",
+    "description": "Retired ornithologist Bruce McKinlay started to record weka sightings in the city over the last five years, but reporting unexpectedly stopped last year.",
+    "pubDate": "2026-11-15T00:05:11.000Z",
+    "source": "RNZ",
+    "category": "国际"
+  },
+  {
+    "title": "队史首次！BLG 战队 3:1 力克 GEN 夺《英雄联盟》S16 冠军，中国战队连斩 4 支韩国队时隔 5 年再登顶",
+    "link": "https://www.ithome.com/1/027/258.htm",
+    "description": "<p data-vmark=\"1c35\">IT之家 11 月 15 日消息，《英雄联盟》2026 全球总决赛（S16）冠亚军决赛刚刚结束，来自中国 LPL 赛区的 BLG 战队以 3:1 的比分力克韩国 LCK 赛区的 GEN 战队，“一穿四”LCK 赛区，勇夺《英雄联盟》S16 冠军。</p><p data-vmark=\"43e5\" style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/11/b16ec3ed-4261-42b3-8dab-efc87c40ac8e.png\" w=\"1",
+    "pubDate": "2026-11-15T00:02:49.000Z",
+    "source": "IT之家",
+    "category": "科技"
+  },
+  {
+    "title": "Malaysia’s Melaka poll shows ethnic lines firming. Can Anwar turn Malay nationalist tide?",
+    "link": "https://www.scmp.com/week-asia/politics/article/3374453/malaysias-melaka-poll-shows-ethnic-lines-firming-can-anwar-turn-malay-nationalist-tide",
+    "description": "Identity politics could very well decide the outcome of Malaysia’s next national election, experts say, after parties and voters dug in their heels along ethnic lines in recent polls that have undermined Prime Minister Anwar Ibrahim’s multicultural ruling coalition. On Saturday, Anwar’s Pakatan Hara",
+    "pubDate": "2026-11-15T00:00:16.000Z",
+    "source": "SCMP",
+    "category": "国际"
+  },
+  {
+    "title": "Iran war live: Israel vows Gaza ‘offensive policy’ despite caretaker status",
+    "link": "https://www.aljazeera.com/news/liveblog/2026/11/15/iran-war-live-israel-vows-gaza-offensive-policy-despite-caretaker-status?traffic_source=rss",
+    "description": "Israel has pledged to continue its 'offensive policy' on Gaza, as fighting in Yemen grips the region.",
+    "pubDate": "2026-11-15T00:00:08.000Z",
+    "source": "Al Jazeera",
+    "category": "国际"
+  },
+  {
+    "title": "There's a hidden way you can check which services are running on your Android phone",
+    "link": "https://www.engadget.com/2313576/hidden-way-check-which-services-running-on-android-phone/",
+    "description": "Want to see what's draining your Android phone's memory? Here's how to unlock the hidden Running Services menu to monitor background apps.",
+    "pubDate": "2026-11-15T00:00:00.000Z",
+    "source": "Engadget",
+    "category": "科技"
+  },
+  {
+    "title": "Lambie suggests change to childcare subsidies to cut spending",
+    "link": "https://www.abc.net.au/news/2026-11-15/jacqui-lambie-childcare-subsidy-cuts/107387182",
+    "description": "The independent senator says the government should \"means test it all\", warning Australians will continue to face economic pressure for the next couple of years.",
+    "pubDate": "2026-11-14T23:56:32.000Z",
+    "source": "ABC Australia",
+    "category": "国际"
+  },
+  {
+    "title": "Portugal immortalises Ronaldo with a new number 7",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/portugal-immortalises-ronaldo-with-a-new-number-7?traffic_source=rss",
+    "description": "Portugal’s national team has lined up in Cristiano Ronaldo's number 7 in its first match since he retired from the side.",
+    "pubDate": "2026-11-14T23:55:18.000Z",
+    "source": "Al Jazeera",
+    "category": "国际"
+  },
+  {
+    "title": "IT早报 1115：SpaceX 首次完成“筷子夹星舰飞船”；百万级 CAR-T 抗癌药首次进医保；古尔曼重申苹果 iPhone 18 明年春发布；比亚迪辟谣收购某数字能源...",
+    "link": "https://www.ithome.com/1/027/257.htm",
+    "description": "<p data-vmark=\"a903\">“IT早报”时间，大家好，现在是 2026 年 11 月 15 日星期日，今天的重要科技资讯有：</p><h2 data-vmark=\"e34d\">1. 创造历史：美国 SpaceX 首次实现筷子夹星舰飞船</h2><p data-vmark=\"f2cd\">SpaceX 在星舰第 15 次试飞中首次用发射塔“筷子”机械臂捕获轨道返回的星舰上面级，虽未完全回收整枚火箭，但仍是星舰项目重要里程碑，目前正调查助推器中止着陆的原因。&gt;&gt; <a href=\"https://www.ithome.com/1/027/248.htm\" target=\"_",
+    "pubDate": "2026-11-14T23:55:12.000Z",
+    "source": "IT之家",
+    "category": "科技"
+  },
+  {
+    "title": "Diabetes patients battle blame, shame and judgment over medical condition",
+    "link": "https://www.rnz.co.nz/news/health/2607776/diabetes-patients-battle-blame-shame-and-judgment-over-medical-condition",
+    "description": "Research shows some are even reluctant to share their glucose levels with their doctors.",
+    "pubDate": "2026-11-14T23:54:15.000Z",
+    "source": "RNZ",
+    "category": "国际"
+  },
+  {
+    "title": "[站点状态] 20261114 - 楼中楼样式、黑暗模式可以自动跟随系统设置及 Solana 买入按钮的额外铜币奖励",
+    "link": "https://www.v2ex.com/t/1257127#reply14",
+    "description": "现在在设置中可以选择几种不同的楼中楼样式： https://edge.v2ex.com/settings#reply_thread_style 关于几种新的楼中楼样式的说明： https://edge.v2ex.com/help/reply-threads 目前提供的 6 种楼中楼样式的 Demo： https://edge.v2ex.com/t/1257128 首页右上角的黑暗模式切换现在支持自动跟随系统设置。 如果在 Solana HODL 页面或者注册时使用快速买入功能（由 Jupiter Swap API 驱动），那么会获得额外的铜币奖励： https://edge.v2ex.com/",
+    "pubDate": "2026-11-14T23:50:06.000Z",
+    "source": "V2EX",
+    "category": "开发"
+  },
+  {
+    "title": "微软 Win11 大规模界面改版已开始推送，首先升级 Win8 时代的自动播放弹窗",
+    "link": "https://www.ithome.com/1/027/256.htm",
+    "description": "<p data-vmark=\"8f4f\">IT之家 11 月 15 日消息，据科技媒体 Windows Latest 今天报道，微软 Win11 系统大规模界面改版的一阶段已开始推送，首个改造的功能是自动播放（AutoPlay）。原本 Win8 时代的直角边框弹窗，现在变成了更加现代的样式。</p><p style=\"text-align: center;\" data-vmark=\"9ae6\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/11/3948984c-e275-4724-8efd-49a4be581593.jpg\" w=",
+    "pubDate": "2026-11-14T23:49:35.000Z",
+    "source": "IT之家",
+    "category": "科技"
+  },
+  {
+    "title": "[推广] 求购 awsb 5.2fable 这个模型",
+    "link": "https://www.v2ex.com/t/1257143#reply0",
+    "description": "大量收购 AI API，长期稳定 收：Claude / GPT / Gemini / Grok / Azure / AWS / AIStudio / Vertex / OpenRouter 等 各种 AI 产品、API 额度均可谈 日耗 2-3M$，量大价优，欢迎对接，支持长期合作，稳定结算。 [临时任务] 超高价求购 awsb 5.2fable 模型 超高价求购 vertex gemini4 模型 @ huahuaapi 论坛已上交广告费 安全无忧 长期收购",
+    "pubDate": "2026-11-14T23:47:33.000Z",
+    "source": "V2EX",
+    "category": "开发"
+  },
+  {
+    "title": "Asia’s Eurovision Contest Is Missing China, India, Pakistan, Indonesia and Japan",
+    "link": "https://www.nytimes.com/2026/11/14/world/asia/eurovision-asia-china-japan.html",
+    "description": "China, India, Pakistan, Indonesia and Japan aren’t joining the singing contest. That leaves some of the region’s best-known musical cultures out of the mix.",
+    "pubDate": "2026-11-14T23:46:33.000Z",
+    "source": "NYT World",
+    "category": "国际"
+  },
+  {
+    "title": "Common reasons your Roku TV can turn on by itself and how to fix it",
+    "link": "https://www.engadget.com/2313550/roku-tv-turns-on-by-itself-common-reasons-fixes/",
+    "description": "If your TV has randomly been turning on and it has a Roku attached to it, it could be your Roku's doing. Check these settings.",
+    "pubDate": "2026-11-14T23:45:00.000Z",
+    "source": "Engadget",
+    "category": "科技"
+  },
+  {
+    "title": "国产算力巨头超聚变创业板 IPO 过会，前身是华为 X86 服务器业务",
+    "link": "https://www.ithome.com/1/027/255.htm",
+    "description": "<p data-vmark=\"fc02\">IT之家 11 月 15 日消息，深交所上市审核委员会本月 12 日召开 2026 年第 61 次审议会议，会议结果为超聚变数字技术股份有限公司（以下简称超聚变）（首发）<strong>符合发行条件、上市条件和信息披露要求</strong>。</p><p data-vmark=\"3d26\">在深圳证券交易所上市审核委员会的会议现场，问询超聚变的主要问题包括：结合算力需求变化、下游客户资本开支、技术先进性、经营性现金流量净额状况、客户和供应商集中度等情况，说明超聚变毛利率变动趋势，以及经营业绩增长是否具有可持续性，相关风险揭示是否充分。</p><p da",
+    "pubDate": "2026-11-14T23:38:56.000Z",
+    "source": "IT之家",
+    "category": "科技"
+  },
+  {
+    "title": "New study shows what does and doesn't work for ADHD kids",
+    "link": "https://www.rnz.co.nz/news/health/2604813/new-study-shows-what-does-and-doesn-t-work-for-adhd-kids",
+    "description": "The study got more than 200 primary school children to switch between taking and not taking medication and different classroom environments",
+    "pubDate": "2026-11-14T23:36:53.000Z",
+    "source": "RNZ",
+    "category": "国际"
+  },
+  {
+    "title": "Iraq PM targets powerful militia stronghold in $30m oil smuggling probe",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/aje-onl-nf_iraq-pm-targets-militia-stronghold-in-oil-smuggling-141126?traffic_source=rss",
+    "description": "Iraq’s PM has dismissed nine senior security officials over an alleged oil smuggling network worth up to $30m monthly.",
+    "pubDate": "2026-11-14T23:34:37.000Z",
+    "source": "Al Jazeera",
+    "category": "国际"
+  },
+  {
+    "title": "Passengers face widespread disruption after US air traffic control outage",
+    "link": "https://www.ft.com/content/f66f9811-59a2-4e52-a944-c7ed81dabc50?syn-25a6b1a6=1",
+    "description": "Thousands of flights delayed or cancelled as political blame game mounts",
+    "pubDate": "2026-11-14T23:32:08.000Z",
+    "source": "FT",
+    "category": "财经"
+  },
+  {
+    "title": "微软 XBOX 商店出现标价 1999 美元的《GTA6》游戏，疑为盒装兑换码占位商品",
+    "link": "https://www.ithome.com/1/027/254.htm",
+    "description": "<p data-vmark=\"2a40\">IT之家 11 月 15 日消息，近日部分海外玩家发现，微软 XBOX 商店上架了《GTA6》游戏全新版本，标价高达 1,999.99 美元<span class=\"exch-money-value\">（IT之家注：现汇率约合 13,370 元人民币）</span>。目前该商品已经下架，<strong>其离谱的价格可能与实体盒装兑换码的购买流程有关</strong>。</p><p style=\"text-align: center;\" data-vmark=\"de2d\"><img src=\"https://img.ithome.com/newsuplo",
+    "pubDate": "2026-11-14T23:30:59.000Z",
+    "source": "IT之家",
+    "category": "科技"
+  },
+  {
+    "title": "One cable mistake could be killing your desktop PC's gaming performance",
+    "link": "https://www.engadget.com/2313063/cable-mistake-desktop-pc-gaming-performance/",
+    "description": "Plugging your monitor into the motherboard instead of your dedicated GPU can ruin gaming performance. Here's how to check your ports and get your frames back.",
+    "pubDate": "2026-11-14T23:30:00.000Z",
+    "source": "Engadget",
+    "category": "科技"
+  },
+  {
+    "title": "SpaceX 星舰飞船首次被发射塔机械臂捕获回收，马斯克将建 AI 数据中心星座",
+    "link": "https://www.ithome.com/1/027/253.htm",
+    "description": "<p data-vmark=\"55ee\">IT之家 11 月 15 日消息，当地时间 11 月 14 日，SpaceX 在星舰第 15 次试飞中首次用发射塔机械臂接住从轨道返回的第二级飞船，<strong>这是星舰飞船首次完成发射塔捕获</strong>。</p><p data-vmark=\"af8f\" style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/11/77a704dd-0fbd-4786-ab67-26d98a1806fb.png\" w=\"635\" h=\"698\" data",
+    "pubDate": "2026-11-14T23:26:58.000Z",
+    "source": "IT之家",
+    "category": "科技"
+  },
+  {
+    "title": "Nationwide ground stop followed contractor upgrade to L3Harris telecommunication system: DOT’s Duffy",
+    "link": "https://www.cnbc.com/2026/11/14/faa-ground-stop-flights-resume-delays.html",
+    "description": "The FAA ground stop came after updates to an older communication system managed by L3Harris Technologies, Transportation Secretary Sean Duffy said Saturday.",
+    "pubDate": "2026-11-14T23:21:21.000Z",
+    "source": "CNBC",
+    "category": "财经"
+  },
+  {
+    "title": "Swimming stars tipped for big 2027 despite illness, injury hiccups",
+    "link": "https://www.abc.net.au/news/2026-11-15/swim-gp-absentees-will-be-back-for-la28/107387120",
+    "description": "Olympic swimming gold medallists Kaylee McKeown, Mollie O'Callaghan and Kyle Chalmers have had their struggles, two years out from the LA Games.",
+    "pubDate": "2026-11-14T23:20:09.000Z",
+    "source": "ABC Australia",
+    "category": "国际"
+  },
+  {
+    "title": "一天暴涨 6 万：请愿恢复黄仁勋英伟达 CEO 职务人数突破 12 万人，马斯克也参与签名",
+    "link": "https://www.ithome.com/1/027/252.htm",
+    "description": "<p data-vmark=\"e82f\">IT之家 11 月 15 日消息，今年 11 月 12 日，英伟达董事会今日宣布，黄仁勋辞去总裁、首席执行官及董事会成员职务，即刻生效。英伟达执行副总裁兼 CFO 科莱特 · 克雷斯同意出任临时 CEO，在董事会选出正式继任者前兼任这一职务，并继续担任执行副总裁和 CFO。</p><p data-vmark=\"053a\">随后，一个名为“Stand with Jensen”的请愿活动在网上流传开来，要求英伟达董事会恢复黄仁勋的 CEO 职务。截至IT之家发文，<strong>该活动已收集超过 12 万个签名</strong>，<a target=\"_b",
+    "pubDate": "2026-11-14T23:18:00.000Z",
+    "source": "IT之家",
+    "category": "科技"
+  },
+  {
+    "title": "香港迪士尼乐园票务系统遭入侵，约 1.7 万个门票二维码疑似被盗",
+    "link": "https://www.ithome.com/1/027/251.htm",
+    "description": "<p data-vmark=\"d9bf\">IT之家 11 月 15 日消息，据香港电台昨天报道，香港迪士尼乐园近日侦测到公司电脑系统出现异常活动，约 1.7 万个门票二维码疑似被盗取。官方已就此事报警，并即时停止官网乐园门票、预订酒店服务。</p><p style=\"text-align: center;\" data-vmark=\"3eb2\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/11/34d6c393-9855-42c4-bed2-dda051e8551b.jpg\" w=\"1280\" h=\"720\" data-weibo=",
+    "pubDate": "2026-11-14T23:12:05.000Z",
+    "source": "IT之家",
+    "category": "科技"
+  },
+  {
+    "title": "The parade of high-profile men doing wrong is getting exhausting",
+    "link": "https://www.abc.net.au/news/2026-11-15/annabel-crabb-international-mens-day-russell-brand/107383138",
+    "description": "From Russell Brand to Craig Silvey, we are continually subjected to a slew of high-profile men being held responsible for their actions — and somehow still portraying themselves as the true victims.",
+    "pubDate": "2026-11-14T23:11:31.000Z",
+    "source": "ABC Australia",
+    "category": "国际"
+  },
+  {
+    "title": "How telecoms upgrade work sparked US flight chaos",
+    "link": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&amp;at_campaign=rss",
+    "description": "US officials say the disruption was caused by old equipment overloading and not a cyber-attack.",
+    "pubDate": "2026-11-14T23:11:27.000Z",
+    "source": "BBC World",
+    "category": "国际"
+  },
+  {
+    "title": "SpaceX catches upper stage of Starship rocket in historic first",
+    "link": "https://www.cnbc.com/2026/11/14/spacex-plans-to-try-first-ever-catch-of-starship-rocket-from-orbit.html",
+    "description": "Starship Test Flight 15 marked the first time Elon Musk's company tried to catch both the booster and upper stage of the rocket.",
+    "pubDate": "2026-11-14T23:10:14.000Z",
+    "source": "CNBC",
+    "category": "财经"
+  },
+  {
+    "title": "《英雄联盟：曙光》预告片发布：将上线全新客户端，更多详情明年 1 月揭晓",
+    "link": "https://www.ithome.com/1/027/250.htm",
+    "description": "<p data-vmark=\"8af6\">IT之家 11 月 15 日消息，《英雄联盟》2026 全球总决赛（S16）冠亚军决赛正在举行，官方发布《英雄联盟：曙光》预告片。</p><p style=\"text-align: center;\" data-vmark=\"5d90\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/11/19633c59-7845-4f86-bf15-d892ad5e6135.png\" w=\"638\" h=\"470\" data-snap-from=\"%7B%22from%22%3A%22weibo%22%2C",
+    "pubDate": "2026-11-14T23:09:14.000Z",
+    "source": "IT之家",
+    "category": "科技"
+  },
+  {
+    "title": "中国车企首家：小米泰坦合金 2.0 与新一代 SU7 从材料到整车通过国际 EPD 体系认证",
+    "link": "https://www.ithome.com/1/027/249.htm",
+    "description": "<p data-vmark=\"7944\">IT之家 11 月 15 日消息，小米技术官方微博昨晚宣布，在第 31 届联合国气候变化大会（COP31）主题会议上，小米汽车与国际 EPD 体系（The International EPD System）联合发布认证成果：<strong>小米泰坦合金 2.0 与新一代 SU7，从材料到整车，均通过国际 EPD 体系认证</strong>。</p><p style=\"text-align: center;\" data-vmark=\"3153\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/1",
+    "pubDate": "2026-11-14T23:06:33.000Z",
+    "source": "IT之家",
+    "category": "科技"
+  },
+  {
+    "title": "Author Tim Winton says Exmouth wrong place for a port",
+    "link": "https://www.abc.net.au/news/2026-11-15/exmouth-gascoyne-gateway-deep-sea-port-proposal-sparks-backlash/107382166",
+    "description": "A proposed deep sea port could see Exmouth transformed into a major trading centre for the Gascoyne region, but a world-renowned writer and some locals fear it will cause irreversible damage.",
+    "pubDate": "2026-11-14T23:06:14.000Z",
+    "source": "ABC Australia",
+    "category": "国际"
+  },
+  {
+    "title": "美联邦航空局局长：全美航空运输预计15日晚恢复正常",
+    "link": "https://m.cnbeta.com.tw/view/1586438.htm",
+    "description": "在全国航班停飞引发航空出行混乱后，贝德福德14日向美国公众道歉，并称“最糟糕的时期已经过去”，全国航空运输预计15日晚能恢复正常。 美国联邦航空局局长布赖恩·贝德福德14日说，全美航空运输预计15日晚能恢复正常。 据美国方面14日消息，达美航空、美国联合航空和美国航空当天取消了约20%航班，捷蓝航空取消了约40%航班。 美国交通部长肖恩·达菲当天表示，正在调查此次通信故障是否由操作人员失误引发。故障发生时，美国联邦航空局的承包商正在进行通信线路升级，将铜缆更换为光纤。 美国联邦航空局13日因大规模通信故障发布全国航班停飞令后，航空公司已取消近1万架次航班，另有超过7000架次航班延误。 此次停",
+    "pubDate": "2026-11-14T23:05:46.000Z",
+    "source": "cnBeta",
+    "category": "科技"
+  },
+  {
+    "title": "台积电确认员工个人信息遭泄露 问题指向第三方云服务商",
+    "link": "https://m.cnbeta.com.tw/view/1586436.htm",
+    "description": "全球最大晶圆代工企业台积电（TSMC）近日确认，部分现任及前任员工的个人信息未经授权出现在外部网站上。台积电表示，初步调查没有发现公司自身的信息系统遭到入侵的证据，涉事数据与一家第三方云服务提供商系统中保存的信息相吻合，但不涉及台积电的生产运营、商业机密以及客户相关数据。 台积电于11月12日向美国证券交易委员会（SEC）提交了一份6-K文件，正式披露此次员工个人信息泄露事件。公司表示，已经确认部分员工个人资料在未经授权的情况下被发布到外部网站。目前掌握的信息显示，这些资料与某家云服务提供商系统服务中保存的数据相匹配。 台积电强调，目前没有证据表明公司的内部系统遭到破坏，也没有发现此次事件涉及",
+    "pubDate": "2026-11-14T23:05:36.000Z",
+    "source": "cnBeta",
+    "category": "科技"
+  },
+  {
+    "title": "Windows 11启动界面大翻新 首个被淘汰的是沿用多年的设备连接弹窗",
+    "link": "https://m.cnbeta.com.tw/view/1586434.htm",
+    "description": "微软已经开始向用户推送Windows 11新一轮界面现代化改造，而最先发生变化的并非开始菜单或任务栏，而是许多用户几乎每天都会遇到的AutoPlay（自动播放）窗口。随着2026年11月更新发布，这个自Windows 8时代沿用至今的老旧弹窗终于迎来彻底重设计。 对于经常通过USB连接手机、U盘、相机存储卡等设备的用户来说，AutoPlay并不陌生。当设备接入电脑时，Windows会弹出一个窗口，询问用户希望执行何种操作，例如导入照片和视频、同步媒体文件、在资源管理器中查看设备内容，或者直接忽略设备。 这一功能最早可以追溯到Windows XP时代。当年主要服务于光盘和可移动存储设备，后来随着",
+    "pubDate": "2026-11-14T23:05:27.000Z",
+    "source": "cnBeta",
+    "category": "科技"
+  },
+  {
+    "title": "英伟达两大机构投资者致信董事会：要求谨慎选择继任者 为黄仁勋回归保留可能",
+    "link": "https://m.cnbeta.com.tw/view/1586432.htm",
+    "description": "在黄仁勋突然辞去英伟达首席执行官职务后，围绕这家全球最大人工智能芯片公司的领导层变动，外界的关注正在迅速升温。当地时间11月13日，英伟达两家重要机构投资者向公司董事会提交联名信，要求董事会不要仓促确定新的永久首席执行官，而应采取更加审慎、充分的决策程序，并明确保留黄仁勋未来重新执掌公司的可能性。 这封信由Altimeter Capital创始人兼首席执行官布拉德·格斯特纳（Brad Gerstner），以及Atreides Management联合创始人、管理合伙人加文·贝克（Gavin Baker）共同签署。格斯特纳随后于11月14日在社交平台X上公开了这封信，称其阐述了董事会在当前特殊情",
+    "pubDate": "2026-11-14T23:05:18.000Z",
+    "source": "cnBeta",
+    "category": "科技"
+  },
+  {
+    "title": "微软大规模全球宕机引发索赔行动 部分客户寻求获得服务补偿",
+    "link": "https://m.cnbeta.com.tw/view/1586430.htm",
+    "description": "微软日前遭遇持续近一整天的大规模全球服务中断事件，多项在线服务受到不同程度影响。随着事故影响逐渐显现，一些客户开始采取行动，希望推动微软为此次故障造成的损失承担相应责任，并向受影响用户提供服务补偿。 据了解，在 Reddit 的 MSP（托管服务提供商）社区中，有用户发起倡议，呼吁微软云解决方案提供商（CSP）合作伙伴及托管服务提供商代表受影响客户提交服务级别协议（SLA）补偿申请。倡议者认为，企业和个人客户应当通过正规途径争取补偿，让微软为此次服务中断付出相应的经济代价。 根据相关讨论，部分用户认为此次事故可能符合获得最高50%服务信用额度补偿的条件，但最终补偿比例仍需由微软根据具体情况进行",
+    "pubDate": "2026-11-14T23:05:09.000Z",
+    "source": "cnBeta",
+    "category": "科技"
+  },
+  {
+    "title": "Netanyahu says only a unity government can guarantee Israel’s security",
+    "link": "https://www.aljazeera.com/news/2026/11/14/netanyahu-says-only-a-unity-government-can-guarantee-israels-security?traffic_source=rss",
+    "description": "Eisenkot, in charge of forming a government, dismisses the appeal as ‘tricks’ as talks and a Knesset speaker vote loom.",
+    "pubDate": "2026-11-14T23:01:30.000Z",
+    "source": "Al Jazeera",
+    "category": "国际"
+  },
+  {
+    "title": "David Jones’ future looks grim. Is Myer next?",
+    "link": "https://www.theguardian.com/business/2026/nov/15/myer-david-jones-stores-closures-administration",
+    "description": "<p>With Myer’s profitability battered and share price languishing near all-time lows, DJs’ slide into administration raises an uncomfortable question</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">breaking news email</a>, <a href=\"https://app.adjust.com/w4",
+    "pubDate": "2026-11-14T23:00:01.000Z",
+    "source": "The Guardian",
+    "category": "国际"
+  },
+  {
+    "title": "Why your SD card won't let you transfer files bigger than 4GB, and how to fix it",
+    "link": "https://www.engadget.com/2313042/sd-card-4-gb-file-transfer-limit-fat32-explained/",
+    "description": "Some SD cards just won't accept files larger than 4GB, no matter the total capacity or how much free storage there is. But don't worry, it's not hard to fix.",
+    "pubDate": "2026-11-14T23:00:00.000Z",
+    "source": "Engadget",
+    "category": "科技"
+  },
+  {
+    "title": "US air travel chaos exposes system held together by ‘string and duct tape’",
+    "link": "https://www.ft.com/content/9df17e1c-c77a-4f67-b5b4-1adb64bcd063?syn-25a6b1a6=1",
+    "description": "Decades of bipartisan neglect have left America’s aviation infrastructure unfit for purpose, say experts",
+    "pubDate": "2026-11-14T22:57:26.000Z",
+    "source": "FT",
+    "category": "财经"
+  },
+  {
+    "title": "创造历史：美国 SpaceX 首次实现筷子夹星舰飞船",
+    "link": "https://www.ithome.com/1/027/248.htm",
+    "description": "<p data-vmark=\"c3f3\">IT之家 11 月 15 日消息，当地时间今日，美国太空探索技术公司（SpaceX）在星舰第 15 次试飞任务中，<strong>首次成功利用发射塔“筷子”机械臂</strong>，<strong>捕获从地球轨道返回的星舰上面级飞船。这是历史上首家公司</strong>，成功将轨道级火箭的上面级（Upper Stage）送回发射场，并通过发射塔完成捕获。</p><p data-vmark=\"c439\" style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles",
+    "pubDate": "2026-11-14T22:54:47.000Z",
+    "source": "IT之家",
+    "category": "科技"
+  },
+  {
+    "title": "Mike Morrice — the only candidate on the ballot — wins Green Party leadership with 96.6% of vote",
+    "link": "https://www.cbc.ca/news/politics/green-party-leader-mike-morrice-9.7422321?cmp=rss",
+    "description": "The Green Party of Canada enters a new era with former MP Mike Morrice taking over the political party's top job.",
+    "pubDate": "2026-11-14T22:51:24.000Z",
+    "source": "CBC",
+    "category": "国际"
+  },
+  {
+    "title": "Philippines wins first Eurovision Song Contest Asia",
+    "link": "https://www.dw.com/en/philippines-wins-first-eurovision-song-contest-asia/a-79950050?maca=en-rss-en-all-1573-rdf",
+    "description": "Eleven countries took part in the competition in Bangkok. Teenage winner Carmelle Collado's winning dance song is a tribute to Filipino women.",
+    "pubDate": "2026-11-14T22:44:00.000Z",
+    "source": "DW English",
+    "category": "国际"
+  },
+  {
+    "title": "Explosion near Syria’s capital kills father and child",
+    "link": "https://www.aljazeera.com/news/2026/11/14/explosion-near-syrias-capital-kills-father-and-child?traffic_source=rss",
+    "description": "Syria’s Internal Security Forces have launched an investigation into a suspected bomb attack in a suburb of Damascus.",
+    "pubDate": "2026-11-14T22:43:12.000Z",
+    "source": "Al Jazeera",
+    "category": "国际"
+  },
+  {
+    "title": "[推广] 阿里下个月要有大动作！融合模型要上线了",
+    "link": "https://www.v2ex.com/t/1257141#reply0",
+    "description": "还记得之前 happy horse 还在测试的时候就拿下榜首，大家还一直在猜是哪家的模型，憋了很久才出，原来是阿里的。但是正式上线后没什么后续啊，现在基本都没有动静了。其实还是很希望百家齐放的，有竞争就会有让利抢用户，最开始的即梦和 sora 之争，sora 一倒即梦就背刺会员，做的有点难看啊，那时候真是无奈，即梦当时拉开别的模型太多了。但是现在内部消息透露月阿里将会把 happy horse 和 wan 两个模型结合推出新的模型 happy wan。 很期待新的模型，有新的消息我也会第一时间发出， happy-wan.co 免费创作",
+    "pubDate": "2026-11-14T22:39:27.000Z",
+    "source": "V2EX",
+    "category": "开发"
+  },
+  {
+    "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
+    "link": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&amp;at_campaign=rss",
+    "description": "The US has not confirmed the Ukrainian president's comments - a US official told the BBC \"many ideas continue to be discussed\".",
+    "pubDate": "2026-11-14T22:37:25.000Z",
+    "source": "BBC World",
+    "category": "国际"
+  },
+  {
+    "title": "SpaceX’s Starship returns to launch pad from orbit in victory for company",
+    "link": "https://www.theguardian.com/science/2026/nov/14/spacex-starship-double-catch",
+    "description": "<p>Although booster exploded, company caught upper stage for first time in campaign to make megarocket reusable</p><p>SpaceX’s megarocket Starship <a href=\"https://www.theguardian.com/science/2026/nov/13/spacex-starship-megarocket-blasts-off-earth-orbit\">returned</a> to its Texas launch tower on Sat",
+    "pubDate": "2026-11-14T22:35:06.000Z",
+    "source": "The Guardian",
+    "category": "国际"
+  },
+  {
+    "title": "SpaceX rocket orbits Earth then returns to launch pad in breakthrough for Musk",
+    "link": "https://www.abc.net.au/news/2026-11-15/spacex-rocket-returns-to-launch-pad-after-orbitting-earth/107387168",
+    "description": "The successful return of the SpaceX rocket to its launch pad is a breakthrough in the company's decade-long effort to develop a fully reusable rocket.",
+    "pubDate": "2026-11-14T22:34:32.000Z",
+    "source": "ABC Australia",
+    "category": "国际"
+  },
+  {
+    "title": "$180 million Van Gogh tests the art market and collector confidence",
+    "link": "https://www.cnbc.com/2026/11/14/180-million-van-gogh-tests-the-art-market-and-collector-confidence-.html",
+    "description": "The art auctions in New York next week could top $2 billion, as a treasure trove of masterpieces comes to the market for the first time in decades.",
+    "pubDate": "2026-11-14T22:34:07.000Z",
+    "source": "CNBC",
+    "category": "财经"
+  },
+  {
+    "title": "This underrated Google Health app feature can make food tracking less annoying",
+    "link": "https://www.engadget.com/2312924/underrated-google-health-app-food-tracker/",
+    "description": "There's a suite of features with Google's Health app, but you've likely overlooked the intuitive food tracking function that helps keep your diet in check.",
+    "pubDate": "2026-11-14T22:30:00.000Z",
+    "source": "Engadget",
+    "category": "科技"
+  },
+  {
+    "title": "Cyber protection of critical infrastructure is 'priority work' but taking at least a year",
+    "link": "https://www.rnz.co.nz/news/political/2605865/cyber-protection-of-critical-infrastructure-is-priority-work-but-taking-at-least-a-year",
+    "description": "Friday's Microsoft Outlook outage has reminded government officials that cyber security is a burning issue.",
+    "pubDate": "2026-11-14T22:29:42.000Z",
+    "source": "RNZ",
+    "category": "国际"
+  },
+  {
+    "title": "Palestinian stories set for major presence at 2027 Oscars",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/palestinian-stories-set-for-major-presence-at-2027-oscars?traffic_source=rss",
+    "description": "Al Jazeera spoke to the director and cast of Who Is Still Alive, Switzerland’s Oscar entry for Best International Film.",
+    "pubDate": "2026-11-14T22:28:47.000Z",
+    "source": "Al Jazeera",
+    "category": "国际"
+  },
+  {
+    "title": "(Digital) SpaceX Catches Starship in Novel Landing",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-14/-digital-spacex-catches-starship-in-novel-landing",
+    "description": "(Digital) SpaceX Catches Starship in Novel Landing (Source: Bloomberg)",
+    "pubDate": "2026-11-14T22:25:41.000Z",
+    "source": "Bloomberg",
+    "category": "财经"
+  },
+  {
+    "title": "MetService warns of heavy rain, severe gales across South Island",
+    "link": "https://www.rnz.co.nz/news/weather/2607775/metservice-warns-of-heavy-rain-severe-gales-across-south-island",
+    "description": "A front moving slowly northwards is the cause, bringing heavy north-westerly rain to the western South Island and the Tararua Range.",
+    "pubDate": "2026-11-14T22:17:44.000Z",
+    "source": "RNZ",
+    "category": "国际"
+  },
+  {
+    "title": "Russia seeks NATO pullback; Zelensky says U.S. asked about ceding territory",
+    "link": "https://www.washingtonpost.com/world/2026/11/14/russia-seeks-nato-pullback-zelensky-says-us-asked-about-ceding-territory/",
+    "description": "At peace talks this week, Russia returned to hard-line ultimatums the Kremlin issued to NATO and the U.S. before its invasion of Ukraine in 2022.",
+    "pubDate": "2026-11-14T22:17:35.000Z",
+    "source": "Washington Post",
+    "category": "国际"
+  },
+  {
+    "title": "How to get better results from Google Gemini",
+    "link": "https://www.engadget.com/2312834/how-to-get-better-results-google-gemini/",
+    "description": "These tips and tricks will help you prompt Gemini better.",
+    "pubDate": "2026-11-14T22:15:00.000Z",
+    "source": "Engadget",
+    "category": "科技"
+  },
+  {
+    "title": "'Can you believe it?': SpaceX catches part of its Starship rocket on return to Earth",
+    "link": "https://www.bbc.co.uk/news/videos/cwlym2gy3y3eo?at_medium=RSS&amp;at_campaign=rss",
+    "description": "SpaceX has performed the historic catch using mechanical arms nicknamed \"chopsticks\".",
+    "pubDate": "2026-11-14T22:09:40.000Z",
+    "source": "BBC World",
+    "category": "国际"
+  },
+  {
+    "title": "Ronaldo-less Portugal thrashed 4-1 by Denmark in the Nations League",
+    "link": "https://www.aljazeera.com/sports/2026/11/14/ronaldo-less-portugal-thrashed-4-1-by-denmark-in-the-nations-league?traffic_source=rss",
+    "description": "Rasmus Hojlund stars with brace as Denmark close in on a spot in the Nations League quarterfinals.",
+    "pubDate": "2026-11-14T22:00:45.000Z",
+    "source": "Al Jazeera",
+    "category": "国际"
+  },
+  {
+    "title": "[Claude] 两个 Claude Pro 号 KYC，两个号都找 KYC 代过，一个号秒封，一个号现在还活着",
+    "link": "https://www.v2ex.com/t/1257137#reply14",
+    "description": "我大号用了 4 个月，在 11 月 11 日跳 KYC 验证，此前一直在蹬 fable5.2, 想着有 fable5.2 重置卡，想多用用体验一下新模型，没想到触发了 KYC 。小号用了一周，在 11 月 11 前一直在蹬 fable5.2, 大号跳 KYC 了，怀疑是 A÷新模型防蒸馏严格一些，11 月 12 日就不敢用 fable5.2 了，开着 opus5.5 meduim 来蹬，晚上用到周额度 95%了给我跳出 KYC ，这天聊的都是爬虫，这个我怀疑是滥用的原因或者是聊的内容有点不合规，或者是 fable5.2 蹬太狠了。 说一下我的环境，我买的 lisahost 9929 400gb",
+    "pubDate": "2026-11-14T22:00:22.000Z",
+    "source": "V2EX",
+    "category": "开发"
+  },
+  {
+    "title": "Urban expansion causes ecological collapse in streams in the São Paulo Metropolitan Area",
+    "link": "https://phys.org/news/2026-11-urban-expansion-ecological-collapse-streams.html",
+    "description": "The advance of urbanization in the São Paulo Metropolitan Area in Brazil is causing the collapse of food webs in local streams. A study published in August in the journal Nature Cities reveals that the impact of the metropolis goes far beyond a simple reduction in species. Degradation selectively el",
+    "pubDate": "2026-11-14T22:00:01.000Z",
+    "source": "Phys.org",
+    "category": "科学"
+  },
+  {
+    "title": "Honor Magic8 Pro vs. Magic9 Pro Max: What's been upgraded?",
+    "link": "https://www.engadget.com/2307825/honor-magic-8-pro-vs-9-pro-upgrade-comparison/",
+    "description": "This Pro upgrade is messier than the typical year-over-year refresh, but the new flagship does give us a pretty good idea of where Honor put its priorities.",
+    "pubDate": "2026-11-14T22:00:00.000Z",
+    "source": "Engadget",
+    "category": "科技"
+  },
+  {
+    "title": "King Charles stops by Elton John’s podcast to talk music",
+    "link": "https://www.washingtonpost.com/entertainment/music/2026/11/14/king-charles-stops-by-elton-johns-podcast-talk-music/",
+    "description": "The show celebrated 50 years of the British monarch's charity, now known as the King's Trust, and its benefit concerts featuring some of the world's top artists.",
+    "pubDate": "2026-11-14T22:00:00.000Z",
+    "source": "Washington Post",
+    "category": "国际"
+  },
+  {
+    "title": "Here's when a dedicated graphics card is worth it",
+    "link": "https://www.engadget.com/2312688/when-dedicated-graphics-card-worth-it/",
+    "description": "Modern iGPUs are surprisingly capable, but they aren't without limitations.",
+    "pubDate": "2026-11-14T21:45:00.000Z",
+    "source": "Engadget",
+    "category": "科技"
+  },
+  {
+    "title": "Watch SpaceX successfully execute the first ‘chopstick’ catch of Starship",
+    "link": "https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch",
+    "description": "After aborting a planned catch of Starship Flight 15's booster, SpaceX successfully captured Starship with its \"Mechazilla\" launch and catch tower for the first time. The company has performed 'chopstick' catches of its boosters before, but this is the first time the maneuver has successfully been e",
+    "pubDate": "2026-11-14T21:44:44.000Z",
+    "source": "The Verge",
+    "category": "科技"
+  },
+  {
+    "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+    "link": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+    "description": "The petition had attracted more than 115,000 signatures as of Saturday afternoon.",
+    "pubDate": "2026-11-14T21:41:22.000Z",
+    "source": "TechCrunch",
+    "category": "科技"
+  },
+  {
+    "title": "US flights resume after ageing technology blamed for outage",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/us-flights-resume-after-ageing-technology-blamed-for-outage?traffic_source=rss",
+    "description": "US flights resume after ageing technology blamed for outage",
+    "pubDate": "2026-11-14T21:36:19.000Z",
+    "source": "Al Jazeera",
+    "category": "国际"
+  },
+  {
+    "title": "SpaceX carries out first-ever spaceship capture",
+    "link": "https://www.dw.com/en/spacex-carries-out-first-ever-spaceship-capture/a-79950275?maca=en-rss-en-all-1573-rdf",
+    "description": "The successful recovery of SpaceX's Starship marks a breakthrough in founder Elon Musk’s goal of developing a fully reusable rocket system.",
+    "pubDate": "2026-11-14T21:35:00.000Z",
+    "source": "DW English",
+    "category": "国际"
+  },
+  {
+    "title": "SpaceX successfully carries out first-ever spaceship catch",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3374463/spacex-successfully-carries-out-first-ever-spaceship-catch",
+    "description": "SpaceX’s Starship made a triumphant return to Earth on Saturday, caught in mid-air by giant mechanical arms where its journey began 22 hours earlier. It was the grand finale that Elon Musk and his team hoped for – the first-ever capture of a Starship flying back from space. But with the first-stage ",
+    "pubDate": "2026-11-14T21:32:46.000Z",
+    "source": "SCMP",
+    "category": "国际"
+  },
+  {
+    "title": "For Bangladesh and others, climate disasters should not add to debt burdens",
+    "link": "https://www.scmp.com/opinion/asia-opinion/article/3374115/bangladesh-and-others-climate-disasters-should-not-add-debt-burdens",
+    "description": "Talks at Cop31, the United Nations climate change conference being held in Antalya, Turkey, come at a critical moment for climate-vulnerable countries across the Global South. Bangladesh is among those bearing the brunt of climate change despite having negligible historical responsibility for global",
+    "pubDate": "2026-11-14T21:30:11.000Z",
+    "source": "SCMP",
+    "category": "国际"
+  },
+  {
+    "title": "Amid the Xi-Trump clamour, can Apec revive the business of cooperation?",
+    "link": "https://www.scmp.com/opinion/china-opinion/article/3374048/amid-xi-trump-clamour-can-apec-revive-business-cooperation",
+    "description": "The 33rd Asia-Pacific Economic Cooperation (Apec) summit will be held in Shenzhen from November 18 to 19. The venue is not accidental. Forty years ago, this was a border town of rice fields and duck ponds; it is now where a good part of the world’s electronics are designed and built, and the showcas",
+    "pubDate": "2026-11-14T21:30:08.000Z",
+    "source": "SCMP",
+    "category": "国际"
+  },
+  {
+    "title": "The reasons why your TV soundbar has an audio delay",
+    "link": "https://www.engadget.com/2312648/reasons-why-tv-soundbar-audio-delay/",
+    "description": "Audio delays are really irritating, especially when watching sports and live events. We've got several possible causes and what you can do about them.",
+    "pubDate": "2026-11-14T21:30:00.000Z",
+    "source": "Engadget",
+    "category": "科技"
+  },
+  {
+    "title": "Stranded B.C. flyers out thousands amid flight cancellations due to Friday's ground stop",
+    "link": "https://www.cbc.ca/news/canada/british-columbia/customers-frustrated-paying-for-accommodation-after-cancellations-9.7422364?cmp=rss",
+    "description": "Some frustrated Air Canada passengers say spotty communication and a lack of rebooking help has left them paying thousands out of pocket amid widespread flight cancellations due to the FAA-ordered ground stop Friday.",
+    "pubDate": "2026-11-14T21:18:50.000Z",
+    "source": "CBC",
+    "category": "国际"
+  },
+  {
+    "title": "A slowing economy could mean higher youth unemployment, economist warns",
+    "link": "https://www.abc.net.au/news/2026-11-15/youth-unemployment-could-rise-as-economy-softens/107382888",
+    "description": "Australia's youth unemployment rate was 11.1 per cent in September and economists say a slowing economy could mean it rises further in coming months.",
+    "pubDate": "2026-11-14T21:18:23.000Z",
+    "source": "ABC Australia",
+    "category": "国际"
+  },
+  {
+    "title": "Why some USB ports are yellow (and less common than others)",
+    "link": "https://www.engadget.com/2312464/why-some-usb-ports-yellow-less-common/",
+    "description": "Not every USB port color means what you think. Learn why yellow ports are so uncommon and what to check before you plug in anything important.",
+    "pubDate": "2026-11-14T21:15:00.000Z",
+    "source": "Engadget",
+    "category": "科技"
+  },
+  {
+    "title": "[问与答] 求助: 想在寝室搞一个小主机 有推荐么?",
+    "link": "https://www.v2ex.com/t/1257109#reply25",
+    "description": "目前只有一台 8845H 的笔记本 + iPad air(有点想把 pad 出掉... 记笔记屏幕滑的一 看书不如手机随时随地又小巧 拿着舒服) 预算 4000 左右 用途 挂 agent 跑任务(主要是翻译一些文档 搜集一些资料 完成一些重复小任务 小机器人监控一些任务 有时候有一些想法直接丢给 ai one-shot 先跑三四轮 然后后看一看结果是否收敛 如果有感觉就继续迭代 感觉完成的不好或者是后续投入优化的时间会花费的很大的话就放弃掉) 如果在本机跑的话老是控制不住自己 tmux 切过去看进程 有点难受. 挂 pt 喜欢折腾 最近在学运维 docker 想要自己装台机子舒服一下 :) ",
+    "pubDate": "2026-11-14T21:12:56.000Z",
+    "source": "V2EX",
+    "category": "开发"
+  },
+  {
+    "title": "US envoy Kushner says he aims to broker Europe-Russia talks on Ukraine",
+    "link": "https://www.aljazeera.com/news/2026/11/14/us-envoy-kushner-says-he-aims-to-broker-europe-russia-talks-on-ukraine?traffic_source=rss",
+    "description": "Europe's direct engagement with Moscow as part of Ukraine-Russia peace talks is edging closer to becoming a reality.",
+    "pubDate": "2026-11-14T21:10:26.000Z",
+    "source": "Al Jazeera",
+    "category": "国际"
+  },
+  {
+    "title": "AFC Toronto beats Montreal Roses to win 1st NSL title",
+    "link": "https://www.cbc.ca/sports/soccer/nsl-final-montreal-roses-afc-toronto-9.7421039?cmp=rss",
+    "description": "Olivia Chisholm's first-half goal allowed AFC Toronto to capture its first Diana B. Matheson Cup with a 1-0 victory over the Montreal Roses Saturday afternoon at TD Place in Ottawa.",
+    "pubDate": "2026-11-14T21:09:30.000Z",
+    "source": "CBC",
+    "category": "国际"
+  },
+  {
+    "title": "Germany's 2027 budget: A record €561 billion and a mountain of debt",
+    "link": "https://www.dw.com/en/germany-s-2027-budget-a-record-€561-billion-and-a-mountain-of-debt/a-79943216?maca=en-rss-en-all-1573-rdf",
+    "description": "The 2027 federal budget proposal has finally been hammered out and is set for a vote in parliament. What are the government's policy priorities in defense, infrastructure, the economy and social spending?",
+    "pubDate": "2026-11-14T21:09:00.000Z",
+    "source": "DW English",
+    "category": "国际"
+  },
+  {
+    "title": "Moscow says it will not dictate EU delegation's participation in Ukraine talks",
+    "link": "https://www.euronews.com/2026/11/14/moscow-says-it-will-not-dictate-eu-delegations-participation-in-ukraine-talks",
+    "description": "Moscow, which had previously insisted that European representatives had no place at the negotiating table, has now softened its stance.",
+    "pubDate": "2026-11-14T21:05:23.000Z",
+    "source": "Euronews",
+    "category": "国际"
+  },
+  {
+    "title": "Nigeria's upcoming election marred by rising AI disinformation",
+    "link": "https://www.dw.com/en/nigeria-s-upcoming-election-marred-by-rising-ai-disinformation/a-79946897?maca=en-rss-en-all-1573-rdf",
+    "description": "As Nigeria inches closer to the 2027 polls, the use of artificial intelligence in the electoral process has prompted questions about integrity and institutional readiness. Can Nigerians trust their democratic processes?",
+    "pubDate": "2026-11-14T21:05:00.000Z",
+    "source": "DW English",
+    "category": "国际"
+  },
+  {
+    "title": "Brisbane buildings made from sandstone touched by dinosaurs",
+    "link": "https://www.abc.net.au/news/2026-11-15/qld-dinosaur-footprints-sandstone-buildings/107370156",
+    "description": "Fossilised footprints belonging to 230-million-year-old dinosaurs have been unearthed in Brisbane, imprinted in the same sandstone used to construct the city's most recognisable buildings.",
+    "pubDate": "2026-11-14T21:04:54.000Z",
+    "source": "ABC Australia",
+    "category": "国际"
+  },
+  {
+    "title": "Nurse offers 'out of the blue' to have surrogate baby for colleague",
+    "link": "https://www.abc.net.au/news/2026-11-15/qld-woman-gives-birth-to-surrogate-baby/107350062",
+    "description": "Doctors warned Bec Vallee against pregnancy after she was diagnosed with a kidney disorder. But she's experienced the \"incredible blessing\" of having two daughters through surrogacy.",
+    "pubDate": "2026-11-14T21:04:15.000Z",
+    "source": "ABC Australia",
+    "category": "国际"
+  },
+  {
+    "title": "A dead star is flashing radio waves every 8 minutes, and its partner looks a lot like the sun",
+    "link": "https://phys.org/news/2026-11-dead-star-radio-minutes-partner.html",
+    "description": "Since 2022, astronomers have been puzzling over a new kind of cosmic object called long-period radio transients. These are objects that emit bright flashes of radio waves into space every few minutes to every few hours. Some have been traced back to binary systems consisting of a small, dim, cool st",
+    "pubDate": "2026-11-14T21:00:01.000Z",
+    "source": "Phys.org",
+    "category": "科学"
+  },
+  {
+    "title": "How to clear the cache on your Samsung TV",
+    "link": "https://www.engadget.com/2312222/how-to-clear-cache-samsung-tv/",
+    "description": "Your TV's cache is a collection of temporary files, some of which you don't need anymore. Here's why you might want to clear those out – and how.",
+    "pubDate": "2026-11-14T21:00:00.000Z",
+    "source": "Engadget",
+    "category": "科技"
+  },
+  {
+    "title": "SpaceX successfully catches Starship after launch for the first time",
+    "link": "https://www.engadget.com/2316926/watch-spacex-attempt-to-catch-the-starship-upper-stage-for-the-first-time/",
+    "description": "While the company has pulled off this trick a few times with Super Heavy boosters, it was a first for the Ship.",
+    "pubDate": "2026-11-14T20:54:14.000Z",
+    "source": "Engadget",
+    "category": "科技"
+  },
+  {
+    "title": "Veteran broadcaster Kim Hill is back in your ears, but there's one thing she hates",
+    "link": "https://www.rnz.co.nz/life/people/veteran-broadcaster-kim-hill-is-back-in-your-ears-but-there-s-one-thing-she-hates",
+    "description": "Back with a new series of Kim Hill Wants to Know, the veteran broadcaster says she hates being filmed 'with every atom of my being'.",
+    "pubDate": "2026-11-14T20:53:04.000Z",
+    "source": "RNZ",
+    "category": "国际"
+  },
+  {
+    "title": "South Sudan pushes back elections amid violent flare-ups",
+    "link": "https://www.dw.com/en/south-sudan-pushes-back-elections-amid-violent-flare-ups/a-79949622?maca=en-rss-en-all-1573-rdf",
+    "description": "South Sudan has been independent from Sudan since 2011, and has not yet held national elections. Since then, the country faces cycles of violence after a civil war led to a tenuous peace deal.",
+    "pubDate": "2026-11-14T20:53:00.000Z",
+    "source": "DW English",
+    "category": "国际"
+  },
+  {
+    "title": "SpaceX's Starship completes first-ever mid-air catch after return from orbit",
+    "link": "https://www.france24.com/en/spacex-starship-set-for-return-to-earth-after-failed-booster-catch",
+    "description": "SpaceX's Starship spacecraft made a successful return to Earth on Saturday, completing its first mid-air catch by giant robot arms in Texas, after an aborted recovery attempt.",
+    "pubDate": "2026-11-14T20:51:24.000Z",
+    "source": "France 24",
+    "category": "国际"
+  },
+  {
+    "title": "Work to replace old copper wire led to the FAA’s ground stop",
+    "link": "https://www.theverge.com/transportation/1033898/faa-ground-stop-sean-duffy-faa-copper-wire",
+    "description": "At a press conference today, Transportation Secretary Sean Duffy said that Friday's nationwide ground stop ordered by the FAA was related to work replacing outdated copper wire with a fiber optic line at a \"remote FAA facility.\" The secretary said that this was \"routine maintenance,\" rather than the",
+    "pubDate": "2026-11-14T20:46:54.000Z",
+    "source": "The Verge",
+    "category": "科技"
+  },
+  {
+    "title": "How to clear the cache on your Xbox Series X",
+    "link": "https://www.engadget.com/2312189/how-to-clear-cache-xbox-series-x/",
+    "description": "Clearing the cache on your Xbox Series X can help it retain its snappiness while avoiding glitches, or you can perform a console reset if all else fails.",
+    "pubDate": "2026-11-14T20:45:00.000Z",
+    "source": "Engadget",
+    "category": "科技"
+  },
+  {
+    "title": "Ocean that once covered Flinders Ranges preserved Earth's earliest life",
+    "link": "https://www.abc.net.au/news/2026-11-15/flinders-ranges-ocean-ediacaran-fossils-research-earth-life/107377008",
+    "description": "Ancient sea level changes led to the preservation of some of the Earth's earliest complex life forms, according to new research that mapped the Flinders Ranges.",
+    "pubDate": "2026-11-14T20:36:15.000Z",
+    "source": "ABC Australia",
+    "category": "国际"
+  },
+  {
+    "title": "Netanyahu renews call for Israeli unity government as Eisenkot dismisses 'tricks'",
+    "link": "https://www.france24.com/en/middle-east/20261114-netanyahu-renews-call-for-israeli-government-unity-as-eisenkot-dismisses-tricks",
+    "description": "Israeli caretaker Prime Minister Benjamin Netanyahu on Saturday renewed his call for a national unity government with Gadi Eisenkot, who dismissed the appeal as a political ploy. This comes as the incoming premier is in the midst of negotiations to form a new administration.",
+    "pubDate": "2026-11-14T20:35:22.000Z",
+    "source": "France 24",
+    "category": "国际"
+  },
+  {
+    "title": "All Blacks suffer 73-year first in defeat to Wales",
+    "link": "https://www.abc.net.au/news/2026-11-15/all-blacks-beaten-by-wales-for-first-time-in-73-years/107387094",
+    "description": "Wales have pulled off one of the greatest wins in their recent history, beating the All Blacks for the first time in 73 years in a Nations Championship boilover.",
+    "pubDate": "2026-11-14T20:35:19.000Z",
+    "source": "ABC Australia",
+    "category": "国际"
+  },
+  {
+    "title": "US: Duffy says 'incompetence' or bad tech to blame for flight haltings",
+    "link": "https://www.dw.com/en/us-duffy-says-incompetence-or-bad-tech-to-blame-for-flight-haltings/a-79949977?maca=en-rss-en-all-1573-rdf",
+    "description": "Air carriers in the US canceled some 16,000 flights over the past 24 hours in the biggest such grounding since 9/11. Officials hinted that incompetence or faulty equipment, not malfeasance, is the cause.",
+    "pubDate": "2026-11-14T20:33:00.000Z",
+    "source": "DW English",
+    "category": "国际"
+  },
+  {
+    "title": "Is your car tracking your location? Here's how to check and opt out",
+    "link": "https://www.engadget.com/2312168/car-location-tracking-how-to-opt-out/",
+    "description": "Modern cars are great for farming user data, and big tech companies know it. It's important to know how this information is collected and how to opt out.",
+    "pubDate": "2026-11-14T20:30:00.000Z",
+    "source": "Engadget",
+    "category": "科技"
+  },
+  {
+    "title": "Philippines wins Eurovision Asia, making history",
+    "link": "https://www.abc.net.au/news/2026-11-15/eurovision-asia-2026-song-contest-debuts-in-bangkok-thailand/107381792",
+    "description": "Seventy years after Eurovision was conceived as a way to unite a war-torn Europe through music, the competition has embarked on an ambitious new chapter in Asia.",
+    "pubDate": "2026-11-14T20:27:14.000Z",
+    "source": "ABC Australia",
+    "category": "国际"
+  },
+  {
+    "title": "Fact check: 'Iranian' content farms reach millions",
+    "link": "https://www.dw.com/en/fact-check-iranian-content-farms-reach-millions/a-79934190?maca=en-rss-en-all-1573-rdf",
+    "description": "Several social media accounts claiming to represent the Iranian military show signs of being part of so-called content farms. DW Fact Check looks at how they operate and how users can spot them.",
+    "pubDate": "2026-11-14T20:26:00.000Z",
+    "source": "DW English",
+    "category": "国际"
+  },
+  {
+    "title": "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
+    "link": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo?at_medium=RSS&amp;at_campaign=rss",
+    "description": "The collision leaves 32 people in hospital with non-critical injuries, but no-one unaccounted for.",
+    "pubDate": "2026-11-14T20:23:06.000Z",
+    "source": "BBC World",
+    "category": "国际"
+  },
+  {
+    "title": "Bondi terror attack hero Ahmed Al Ahmed left with permanent disability",
+    "link": "https://www.abc.net.au/news/2026-11-15/nsw-bondi-terror-attack-hero-ahmed-al-ahmed-one-year-on/107379802",
+    "description": "The man who went viral after managing to wrestle a firearm away from a gunman during Australia's deadliest terror attack says he still suffers mentally and physically.",
+    "pubDate": "2026-11-14T20:18:45.000Z",
+    "source": "ABC Australia",
+    "category": "国际"
+  },
+  {
+    "title": "Macron says limiting Ukraine aid would pave way to 'another war'",
+    "link": "https://www.france24.com/en/europe/20261114-macron-says-limiting-ukraine-aid-would-pave-way-to-another-war",
+    "description": "French President Emmanuel Macron on Saturday warned that limiting aid to Ukraine would force Kyiv into an \"unjust peace\" and risk another war. His statement comes as the United States pushes ahead with efforts to negotiate between Ukraine and Moscow.",
+    "pubDate": "2026-11-14T20:15:43.000Z",
+    "source": "France 24",
+    "category": "国际"
+  },
+  {
+    "title": "This built-in Windows tool can diagnose your PC's battery health",
+    "link": "https://www.engadget.com/2312107/built-in-windows-tool-diagnose-pc-battery-health-powercfg/",
+    "description": "If your laptop doesn't seem to hold a charge as well as it used to, start by checking the diagnostics this tool can report. We'll show you how to use it.",
+    "pubDate": "2026-11-14T20:15:00.000Z",
+    "source": "Engadget",
+    "category": "科技"
+  },
+  {
+    "title": "Evacuation zone lifted after bomb found at Illinois ethanol plant",
+    "link": "https://www.theguardian.com/us-news/2026/nov/14/peoria-illinois-evacuation-bomb",
+    "description": "<p>Peoria officials said a bomb was found at BioUrja Renewables and later defused; FBI said it is investigating</p><p>Residents were ordered to evacuate parts of an <a href=\"https://www.theguardian.com/us-news/illinois\">Illinois</a> community on Friday after the mayor there said authorities found a ",
+    "pubDate": "2026-11-14T20:14:27.000Z",
+    "source": "The Guardian",
+    "category": "国际"
+  },
+  {
+    "title": "India’s Assam state demolishes homes of 132 Muslim families",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/14-11-sv-assam-muslim-families-evicted-demolition-drive?traffic_source=rss",
+    "description": "Authorities in India’s Assam have demolished the homes of 132 Muslim families.",
+    "pubDate": "2026-11-14T20:14:10.000Z",
+    "source": "Al Jazeera",
+    "category": "国际"
+  },
+  {
+    "title": "Portugal sees fresh protests over government policies seen as worsening housing crisis",
+    "link": "https://www.euronews.com/2026/11/14/portugal-sees-fresh-protests-over-government-policies-seen-as-worsening-housing-crisis",
+    "description": "Dozens of Portuguese cities saw protests Saturday against the housing shortage. Demonstrators demand rent caps, stronger tenant protection and more public housing.",
+    "pubDate": "2026-11-14T20:10:27.000Z",
+    "source": "Euronews",
+    "category": "国际"
+  },
+  {
+    "title": "New Orleans port sues for control of China-linked tanker that crashed into cruise ship",
+    "link": "https://www.cbc.ca/news/world/new-orleans-tanker-cruise-ship-chinese-ownership-sue-9.7422329?cmp=rss",
+    "description": "Just hours after a tanker in New Orleans lost its steering and slammed into a docked river cruise boat, the city's port sued to make sure federal investigators can seize the vessel that is owned by a subsidiary of a Chinese company.",
+    "pubDate": "2026-11-14T20:08:07.000Z",
+    "source": "CBC",
+    "category": "国际"
+  },
+  {
+    "title": "Questions remain whether Victoria's election is tackling the big issues",
+    "link": "https://www.abc.net.au/news/2026-11-15/victorian-election-big-issues-crime-rate-focus-mental-health/107384002",
+    "description": "Both the Coalition and Labor argue this election is the most consequential in the Victoria's history, but it's lacking stand-out moments or generation-defining policies.",
+    "pubDate": "2026-11-14T20:06:58.000Z",
+    "source": "ABC Australia",
+    "category": "国际"
+  },
+  {
+    "title": "Tesla opens Cybercab pre-orders ‘for personal use,’ with geo restrictions and a $299 monthly fee",
+    "link": "https://techcrunch.com/2026/11/14/tesla-opens-cybercab-pre-orders-for-personal-use-with-geo-restrictions-and-a-299-monthly-fee/",
+    "description": "Even Elon Musk said the monthly fee is \"too high.\"",
+    "pubDate": "2026-11-14T20:04:44.000Z",
+    "source": "TechCrunch",
+    "category": "科技"
+  },
+  {
+    "title": "Change these Fitbit Edge settings for a better experience",
+    "link": "https://www.engadget.com/2311860/change-fitbit-edge-settings-better-user-experience/",
+    "description": "The Fitbit Edge not only looks good, but packs plenty of features while remaining minimal. To get the most out of it, you only need to tweak a few settings.",
+    "pubDate": "2026-11-14T20:00:00.000Z",
+    "source": "Engadget",
+    "category": "科技"
+  },
+  {
+    "title": "Open-weight AI like 'a Nazi coach', UN-backed anti-terror group says",
+    "link": "https://www.abc.net.au/news/2026-11-15/open-source-ai-like-nazi-coach-un-backed-anti-terror-group-says/107368512",
+    "description": "A group that aims to prevent the unsafe use of artificial intelligence says open-source AI is like \"having a Nazi coach at your disposal, reinforcing your thoughts\".",
+    "pubDate": "2026-11-14T20:00:00.000Z",
+    "source": "ABC Australia",
+    "category": "国际"
+  },
+  {
+    "title": "Juicy 6% Yields Gain Appeal After Nvidia Drama: Credit Weekly",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-14/juicy-6-yields-gain-appeal-after-nvidia-drama-credit-weekly",
+    "description": "US corporate bonds have been rallying in recent weeks, drawing the attention of money managers seeking shelter from turbulence in stocks.",
+    "pubDate": "2026-11-14T20:00:00.000Z",
+    "source": "Bloomberg",
+    "category": "财经"
+  },
+  {
+    "title": "[宽带症候群] 杭州动态公网家宽求推荐",
+    "link": "https://www.v2ex.com/t/1257101#reply7",
+    "description": "各位大佬杭州移动用了 10 年的公网动态 IPV4 被回收，要不回来了。现在还有哪些宽带可以有动态公网 IPV4 和 IPV6 的？求性价比比高的套餐可纯宽带或者新入网融合套餐。求各位大佬推荐。",
+    "pubDate": "2026-11-14T19:52:55.000Z",
+    "source": "V2EX",
+    "category": "开发"
+  },
+  {
+    "title": "Can being ‘non-Western’ cost you your home in Denmark?",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/adlern-can_non-westren_cost_home_denmark-141126?traffic_source=rss",
+    "description": "Denmark’s Supreme Court is set to rule on whether families can be forced from their homes under a law.",
+    "pubDate": "2026-11-14T19:52:49.000Z",
+    "source": "Al Jazeera",
+    "category": "国际"
+  },
+  {
+    "title": "[分享创造] 陪女儿玩大富翁，顺手做了个带动画的随机数 App，今天在 Product Hunt 上 launch 了",
+    "link": "https://www.v2ex.com/t/1257089#reply6",
+    "description": "之前陪女儿玩大富翁的时候，想做个比普通摇骰子更有意思的工具，于是有了 Lucky Step 。 其实就是一个随机数生成器，做了数字滚动、幸运转盘、翻牌三种动画，带音效和语音播报。数字范围可以自己设置，除了大富翁、飞行棋，也能用在聚会小游戏、比点数大小、随机选人这些场景。 目前支持 iPhone 和 iPad ，完全免费，不用注册，也可以离线使用。 这是我第一个独立开发并上架的 iOS App ，主要用 React Native 、Expo 和 Codex 做的。 今天第一次自己在 Product Hunt 发 Launch ，也想借这个机会给自己的 App 增加一点曝光和互动。 Product",
+    "pubDate": "2026-11-14T19:50:01.000Z",
+    "source": "V2EX",
+    "category": "开发"
+  },
+  {
+    "title": "Magic: The Gathering is getting a Netflix animated series. For real this time.",
+    "link": "https://www.theverge.com/entertainment/1033909/magic-the-gathering-netflix-series",
+    "description": "\"It's really happening. I promise. For real.\" Those are the first words from Roy Graham, Head of Story at Magic: The Gathering, in a video posted yesterday announcing Planeswalker, the animated series heading to Netflix in 2027. An animated Magic: The Gathering series was first teased back in 2019 w",
+    "pubDate": "2026-11-14T19:47:40.000Z",
+    "source": "The Verge",
+    "category": "科技"
+  },
+  {
+    "title": "Deadly car bomb blast kills two near Syria’s capital",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/deadly-car-bomb-blast-kills-two-near-syrias-capital?traffic_source=rss",
+    "description": "At least two people, a man and a girl, have been killed in a car bomb blast in Jaramana, near Syria's capital Damascus.",
+    "pubDate": "2026-11-14T19:46:36.000Z",
+    "source": "Al Jazeera",
+    "category": "国际"
+  },
+  {
+    "title": "More than 100,000 rally across France in new Yellow Vest protests",
+    "link": "https://www.aljazeera.com/news/2026/11/14/more-than-100000-rally-across-france-in-new-yellow-vest-protests?traffic_source=rss",
+    "description": "Protesters chanted against declining affordability, the Macron government, police violence and poor school conditions.",
+    "pubDate": "2026-11-14T19:46:24.000Z",
+    "source": "Al Jazeera",
+    "category": "国际"
+  },
+  {
+    "title": "Tens of thousands march in latest Portugal housing protests",
+    "link": "https://www.aljazeera.com/news/2026/11/14/tens-of-thousands-march-in-latest-portugal-housing-protests?traffic_source=rss",
+    "description": "These were the biggest protests against rising housing costs in Portugal since the social movement began weeks ago.",
+    "pubDate": "2026-11-14T19:27:55.000Z",
+    "source": "Al Jazeera",
+    "category": "国际"
+  },
+  {
+    "title": "‘Get Focused on London’: How Iran’s Agents Attacked European Targets",
+    "link": "https://www.nytimes.com/2026/11/13/world/europe/iran-attacks-europe-britain.html",
+    "description": "A wave of assaults in Britain and elsewhere in the spring sowed fear across Europe. Prosecutors shed new light on how Iran took aim at U.S. allies.",
+    "pubDate": "2026-11-14T19:23:20.000Z",
+    "source": "NYT World",
+    "category": "国际"
+  },
+  {
+    "title": "Pope Leo urges end to violence in Peru during visit to remote Andes town",
+    "link": "https://www.aljazeera.com/news/2026/11/14/pope-leo-urges-end-to-violence-in-peru-during-visit-to-remote-andes-town?traffic_source=rss",
+    "description": "In Santa Cruz de Succhabamba, the pope told people not to respond to injustice with brutality.",
+    "pubDate": "2026-11-14T19:20:11.000Z",
+    "source": "Al Jazeera",
+    "category": "国际"
+  },
+  {
+    "title": "Watch: Cruise ship overturns after collision with tanker in New Orleans",
+    "link": "https://www.bbc.co.uk/news/videos/ck4gn4y77m40o?at_medium=RSS&amp;at_campaign=rss",
+    "description": "Around 130 people were rescued from a cruise ship after it was struck by a tanker while docked in New Orleans, Louisiana on Friday.",
+    "pubDate": "2026-11-14T19:14:33.000Z",
+    "source": "BBC World",
+    "category": "国际"
+  },
+  {
+    "title": "Copper wire upgrade caused nationwide flight suspension, US transport secretary says",
+    "link": "https://www.bbc.co.uk/news/articles/c6wy9lynq4qno?at_medium=RSS&amp;at_campaign=rss",
+    "description": "The US government is trying to find out whether the chaos was caused by \"incompetence\" or faulty equipment.",
+    "pubDate": "2026-11-14T19:12:25.000Z",
+    "source": "BBC World",
+    "category": "国际"
+  },
+  {
+    "title": "European security plan floated by U.S. would benefit Putin, Zelenskyy says",
+    "link": "https://www.cbc.ca/news/world/european-security-zelenskyy-putin-9.7422273?cmp=rss",
+    "description": "Ukrainian President Volodymyr Zelenskyy said the United States had raised the possibility of a new security framework for Europe as part of efforts to end Russia’s war in Ukraine, warning that Moscow could use such discussions to weaken NATO and reshape the continent’s borders.",
+    "pubDate": "2026-11-14T19:06:09.000Z",
+    "source": "CBC",
+    "category": "国际"
+  },
+  {
+    "title": "Experts say Australia appears 'willing to tolerate' rheumatic heart disease",
+    "link": "https://www.abc.net.au/news/2026-11-15/australia-criticised-over-indigenous-rheumatic-heart-disease/107377218",
+    "description": "Australia is criticised for being \"willing to tolerate\" some of the world's highest rates of rheumatic heart disease. Today, global health leaders in Perth will endorse a bold plan to eradicate the disease by 2040.",
+    "pubDate": "2026-11-14T19:01:48.000Z",
+    "source": "ABC Australia",
+    "category": "国际"
+  },
+  {
+    "title": "Philippines’ Carmelle wins first Eurovision contest in Asia",
+    "link": "https://www.theguardian.com/tv-and-radio/2026/nov/14/philippines-carmelle-wins-first-eurovision-contest-in-asia",
+    "description": "<p>Filipino entry, pop and rap song Sobra-Sobra, takes 19-year-old to victory at grand final in Bangkok</p><p>Carmelle Collado has won the first Eurovision song contest Asia, taking the Philippines’ entry, <a href=\"https://youtu.be/ccfIW1zsNdM?si=_hxvLB6itaDQmCun\">Sobra-Sobra</a>, to victory in Bang",
+    "pubDate": "2026-11-14T19:01:32.000Z",
+    "source": "The Guardian",
+    "category": "国际"
+  },
+  {
+    "title": "'We're getting shellacked': Nvidia saga prompts calls for US spy strategy",
+    "link": "https://www.abc.net.au/news/2026-11-15/sex-spies-silicon-valley-nvidia-saga-highlights-risks-for-tech/107386438",
+    "description": "Chinese economic espionage is in the spotlight after the downfall of Nvidia chief Jensen Huang, and former intelligence officials say the US is not doing enough to combat it.",
+    "pubDate": "2026-11-14T19:01:02.000Z",
+    "source": "ABC Australia",
+    "category": "国际"
+  },
+  {
+    "title": "Even Labor MPs are at a loss over the Victorian premier’s ‘tough love’ plan for youth offenders",
+    "link": "https://www.theguardian.com/australia-news/2026/nov/15/victoria-premier-ben-caroll-youth-crime-offenders-plan-ntwnfb",
+    "description": "<p>Parliamentarians across factional lines share concerns about policy that legal expert says ‘paints the imprisonment of children as therapeutic’</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">daily political email</a>, <a href=\"https://app.adjust.com/w4u",
+    "pubDate": "2026-11-14T19:00:53.000Z",
+    "source": "The Guardian",
+    "category": "国际"
+  },
+  {
+    "title": "Art ‘must not be sacrificed on the altar of corporate profit’, Liberal senator says as AI policy debate rages",
+    "link": "https://www.theguardian.com/australia-news/2026/nov/15/art-over-profit-ai-policy-debate-andrew-mclachlan",
+    "description": "<p>Andrew McLachlan says he chooses ‘real forests over virtual ones’ as he urges Labor government to consider AI’s impact on artists and environment</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">daily political email</a>, <a href=\"https://app.adjust.com/w",
+    "pubDate": "2026-11-14T19:00:52.000Z",
+    "source": "The Guardian",
+    "category": "国际"
+  },
+  {
+    "title": "Does your culture shape how you look at art? What an eye‑tracking study in Sudan revealed",
+    "link": "https://phys.org/news/2026-11-culture-art-eyetracking-sudan-revealed.html",
+    "description": "Today, Old Dongola is an abandoned settlement on the banks of the Nile in northern Sudan. Hundreds of years ago, however, this place looked very different.",
+    "pubDate": "2026-11-14T19:00:01.000Z",
+    "source": "Phys.org",
+    "category": "科学"
+  },
+  {
+    "title": "Albanese caught between climate ambition and political reality at COP31",
+    "link": "https://www.abc.net.au/news/2026-11-15/climate-ambition-political-reality-cop31-albanese/107383424",
+    "description": "Australia wants to establish itself as a serious global climate player, but its efforts at this week's UN climate change conference expose the contradictions in current climate politics, both internationally and at home.",
+    "pubDate": "2026-11-14T18:50:21.000Z",
+    "source": "ABC Australia",
+    "category": "国际"
+  },
+  {
+    "title": "Don't just take the cheapest and other expert tips to find the best solar installer",
+    "link": "https://www.abc.net.au/news/2026-11-15/solar-battery-installation-expert-explainer/107365122",
+    "description": "Hundreds of thousands of Australians are installing solar batteries, but there's also been a spike in consumer complaints. Here's what the experts say you should consider when deciding which company to use.",
+    "pubDate": "2026-11-14T18:48:55.000Z",
+    "source": "ABC Australia",
+    "category": "国际"
+  },
+  {
+    "title": "Nvidia's leadership crisis rattles the AI trade. Here's how we're adjusting our portfolio",
+    "link": "https://www.cnbc.com/investingclub/2026/11/14/nvidias-leadership-crisis-rattles-wall-street-how-were-adjusting.html",
+    "description": "Despite the turbulence, the S&P 500 secured a weekly gain of 2.5%, while the tech-heavy Nasdaq added 2.3%.",
+    "pubDate": "2026-11-14T18:48:39.000Z",
+    "source": "CNBC",
+    "category": "财经"
+  },
+  {
+    "title": "[AI Agent 智能体] AI slop 是怎么来的，从提工单可窥见一角",
+    "link": "https://www.v2ex.com/t/1257136#reply5",
+    "description": "我让 Claude Opus 5.5 跑整个系统的全项目测试，测试到有一个比较极限的场景有 BUG ，于是我让 Agent 自己提了一个 jira 工单，然后呼叫对应模块的 owner 来解决这个 bug ，但是 owner 告诉我，他看不懂我的工单里是在说什么 于是我查看了一下 Agent 生成的工单，工单写的十分详细，但是根本没有重点，只是把我们做过的实验全部放上去，并且自创了一堆词汇，这些词汇讲道理我在 Claude 内其实能大致看得懂意思，因为我基本上习惯了 Agent 的这种语言习惯，或者说简化词习惯，并且如果我看不懂的话我可以追问我的 Agent ，但是收到工单的 owner 几乎",
+    "pubDate": "2026-11-14T18:48:24.000Z",
+    "source": "V2EX",
+    "category": "开发"
+  },
+  {
+    "title": "How Does a 74-Year-Old in Argentina Escape House Arrest on the Fifth Floor?",
+    "link": "https://www.nytimes.com/2026/11/13/world/americas/74-year-old-in-argentina-escapes-house-arrest.html",
+    "description": "It involved a heating pad, animal fat and a bomb scare. The police are still looking for an Italian man facing extradition on 1970s-era terrorism charges.",
+    "pubDate": "2026-11-14T18:44:13.000Z",
+    "source": "NYT World",
+    "category": "国际"
+  },
+  {
+    "title": "[Claude] 请大佬推荐一下 可以支持 Claude Desktop 桌面版 可通过「开发者模式」中转站，谢谢",
+    "link": "https://www.v2ex.com/t/1257097#reply5",
+    "description": "",
+    "pubDate": "2026-11-14T18:42:25.000Z",
+    "source": "V2EX",
+    "category": "开发"
+  },
+  {
+    "title": "Italy slaps Meta with €805mn fine over access to Android photos",
+    "link": "https://www.dw.com/en/italy-slaps-meta-with-€805mn-fine-over-access-to-android-photos/a-79949032?maca=en-rss-en-all-1573-rdf",
+    "description": "Italian regulators say Meta accessed photos and multimedia content from Italian users via the Facebook application for Android devices. Meta said it would appeal the decision, calling the fine \"disproportionate.\"",
+    "pubDate": "2026-11-14T18:41:00.000Z",
+    "source": "DW English",
+    "category": "国际"
+  },
+  {
+    "title": "US government says wire replacement caused nationwide grounding of flights",
+    "link": "https://www.abc.net.au/news/2026-11-15/us-airlines-more-disruptions-ahead-of-thanksgiving/107386452",
+    "description": "The US government has blamed a nationwide aviation shutdown which has disrupted more than 20,000 flights on a program to replace copper wires with new fibre ones.",
+    "pubDate": "2026-11-14T18:40:57.000Z",
+    "source": "ABC Australia",
+    "category": "国际"
+  },
+  {
+    "title": "A ‘Generational Clash’ Is Fueling Europe’s Protests",
+    "link": "https://www.nytimes.com/2026/11/14/world/europe/student-protests-pensions-generations.html",
+    "description": "As retirees live longer, governments need to spend more on pensions. That makes it harder to fund other services, spurring protests like those in France.",
+    "pubDate": "2026-11-14T18:39:59.000Z",
+    "source": "NYT World",
+    "category": "国际"
+  },
+  {
+    "title": "NASA's Voyager 1 closes in on a light-day in interstellar space for a new distance record",
+    "link": "https://phys.org/news/2026-11-nasa-voyager-day-interstellar-space.html",
+    "description": "NASA's Voyager 1 is about to become humanity's first object to reach one light-day from Earth as it pushes ever deeper into interstellar space.",
+    "pubDate": "2026-11-14T18:37:10.000Z",
+    "source": "Phys.org",
+    "category": "科学"
+  },
+  {
+    "title": "Gorgeous, heartrending Club Kid is hitting Canadian theatres. Read our TIFF review",
+    "link": "https://www.cbc.ca/news/entertainment/club-kid-review-9.7347277?cmp=rss",
+    "description": "Hitting Canadian theatres now, Club Kid is without doubt a major work. It was without doubt one of the best films at this year's Toronto International Film Festival. And while there is some doubt here, Club Kid just might make you cry.",
+    "pubDate": "2026-11-14T18:34:26.000Z",
+    "source": "CBC",
+    "category": "国际"
+  },
+  {
+    "title": "US blames outdated technology for nationwide flight disruption",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/us-blames-outdated-technology-for-nationwide-flight-disruption?traffic_source=rss",
+    "description": "US blames outdated technology for nationwide flight disruption",
+    "pubDate": "2026-11-14T18:32:40.000Z",
+    "source": "Al Jazeera",
+    "category": "国际"
+  },
+  {
+    "title": "SpaceX Starship re-enters Earth, lands at same spot from which it launched a day ago",
+    "link": "https://www.cbc.ca/news/world/spacex-starship-re-entry-space-earth-9.7422284?cmp=rss",
+    "description": "SpaceX's Starship spacecraft on Saturday returned from its longest flight in orbit yet to the Texas launch tower it was launched from a day prior, demonstrating the first key recovery of the rocket system's centerpiece vessel in the company's decade-long effort to ‌develop a fully reusable rocket.",
+    "pubDate": "2026-11-14T18:29:44.000Z",
+    "source": "CBC",
+    "category": "国际"
+  },
+  {
+    "title": "Italy fines Meta €805m over accessing users' photos",
+    "link": "https://www.bbc.co.uk/news/articles/cwn83gxemk35o?at_medium=RSS&amp;at_campaign=rss",
+    "description": "The social media giant is accused of not informing 20 million users it had access to their photos.",
+    "pubDate": "2026-11-14T18:28:06.000Z",
+    "source": "BBC World",
+    "category": "国际"
+  },
+  {
+    "title": "Transport chief blames US-wide flight disruptions on upgrade of old copper wiring",
+    "link": "https://www.scmp.com/news/world/united-states-canada/article/3374456/transport-chief-blames-us-wide-flight-disruptions-upgrade-old-copper-wiring",
+    "description": "Weary travellers braced for more flight disruptions on Saturday as service resumed from US airports after an hours-long stoppage that the Trump administration blamed on faulty equipment or an error by a contractor tasked with switching out old copper wire communication lines. Friday’s nationwide gro",
+    "pubDate": "2026-11-14T18:26:10.000Z",
+    "source": "SCMP",
+    "category": "国际"
+  },
+  {
+    "title": "'No justice, no peace': Fifth round of protests sweep across France",
+    "link": "https://www.france24.com/en/france/20261114-no-justice-no-peace-fifth-round-of-protests-sweep-across-france",
+    "description": "Between 106,000 and 200,000 people took to the streets across France on Saturday for the fifth round of protests, according to figures from the interior ministry and student unions respectively, as turnout fell and some incidents were reported.",
+    "pubDate": "2026-11-14T18:23:25.000Z",
+    "source": "France 24",
+    "category": "国际"
+  },
+  {
+    "title": "A cosmic magnifying glass could reveal the same supernova two more times in roughly 70 years",
+    "link": "https://phys.org/news/2026-11-cosmic-magnifying-glass-reveal-supernova.html",
+    "description": "Thanks to the gravitational lensing caused by a massive galaxy cluster and high-resolution images from the James Webb Space Telescope (JWST), astronomers discovered an exploding star when the universe was 4.9 billion years old. The discovery paper, posted to the arXiv preprint server on Oct. 23, pre",
+    "pubDate": "2026-11-14T18:20:01.000Z",
+    "source": "Phys.org",
+    "category": "科学"
+  },
+  {
+    "title": "Carney says he will not boycott APEC 'family photo' with Putin",
+    "link": "https://www.cbc.ca/news/politics/carney-apec-boycott-photo-putin-9.7422267?cmp=rss",
+    "description": "Prime Minister Mark Carney says he will participate in an upcoming group photo with Russian President Vladimir Putin at the APEC summit out of respect for the host, Chinese President Xi Jinping.",
+    "pubDate": "2026-11-14T18:18:59.000Z",
+    "source": "CBC",
+    "category": "国际"
+  },
+  {
+    "title": "Philippines wins first Eurovision Song Contest Asia",
+    "link": "https://www.bbc.co.uk/news/articles/cqrlgnx9dx6eo?at_medium=RSS&amp;at_campaign=rss",
+    "description": "Front-runner Carmelle emerges victorious with her women's empowerment anthem Sobra-Sobra.",
+    "pubDate": "2026-11-14T18:17:58.000Z",
+    "source": "BBC World",
+    "category": "国际"
+  },
+  {
+    "title": "France sees fifth consecutive Saturday of nationwide protests",
+    "link": "https://www.euronews.com/2026/11/14/france-sees-fifth-consecutive-saturday-of-nationwide-protests",
+    "description": "Yellow vests, students, and education unions took to the streets to voice a range of frustrations, from rising cost of living and calls for better funding for education to stronger protection for children and teenagers and a new police law.",
+    "pubDate": "2026-11-14T18:11:18.000Z",
+    "source": "Euronews",
+    "category": "国际"
+  },
+  {
+    "title": "Google为Gemini推出个人财务分析功能 接入银行账户和信用卡 帮用户分析收支",
+    "link": "https://m.cnbeta.com.tw/view/1586428.htm",
+    "description": "Google正在进一步扩大Gemini人工智能助手的个人信息整合能力。当地时间11月13日，Google宣布为Gemini推出全新的个人财务分析功能，通过整合Google Wallet（Google钱包）以及第三方金融数据服务Plaid，允许用户将银行账户、信用卡等金融账户连接到Gemini，让AI直接读取个人交易记录，分析消费习惯、追踪资金流向，并根据实际财务状况制定预算和储蓄计划。 这项功能是GooglePersonal Intelligence（个人智能）体系的最新扩展。此前，Gemini已经能够在用户授权的情况下连接Gmail、Google Photos、YouTube和Google ",
+    "pubDate": "2026-11-14T18:05:53.000Z",
+    "source": "cnBeta",
+    "category": "科技"
+  },
+  {
+    "title": "微软365大规模故障冲击日企 传真机与固定电话“被迫营业”",
+    "link": "https://m.cnbeta.com.tw/view/1586426.htm",
+    "description": "微软本周发生的大规模Microsoft 365服务中断事件，给日本企业和政府机构带来了广泛影响。由于多项云服务无法正常使用，大量组织不得不重新启用传真机和固定电话等传统通信工具，以维持日常业务运转。一些缺乏备用方案的机构则被迫暂停工作。 此次事故影响范围覆盖微软旗下多项核心云服务，包括Outlook、Teams、SharePoint、OneDrive、Copilot以及Xbox等。尽管微软持续进行修复，但截至报道发布时，相关服务仍未完全恢复正常。 据日本媒体报道，全国多地员工在系统中断期间不得不回归传统办公方式。有些企业迅速启动模拟通信备份机制，而另一些完全依赖云服务的组织则面临业务停摆。日本",
+    "pubDate": "2026-11-14T18:05:37.000Z",
+    "source": "cnBeta",
+    "category": "科技"
+  },
+  {
+    "title": "​新加坡澄清未调查黄乐涉间谍案 但曾调查她在Megaspeed相关案件中的角色",
+    "link": "https://m.cnbeta.com.tw/view/1586424.htm",
+    "description": "新加坡内政部否认《华尔街日报》报道所称政府官员曾因黄乐与英伟达前首席执行官黄仁勋的关系，或怀疑她是中国情报人员而对她展开调查。内政部表示，政府此前回复报社的内容并未提到黄仁勋、情报活动或相关担忧。不过，内政部11月12日公布的后续说明显示，新加坡警方和海关确实曾调查黄乐在Megaspeed服务器采购案中的角色，调查对象是涉嫌违反新加坡法律的行为，并非间谍活动。 新加坡警方与海关于2025年2月启动独立调查，涉及Megaspeed及其他公司和关键负责人，重点是购买服务器时是否存在虚假申报等问题。内政部称，黄乐当时是Megaspeed首席执行官、董事长及主要控制人之一，警方因此调查她是否涉嫌参与相",
+    "pubDate": "2026-11-14T18:05:22.000Z",
+    "source": "cnBeta",
+    "category": "科技"
+  },
+  {
+    "title": "混合动力水上货机M1 Hybrid亮相 电力助推起飞六分钟 续航可达1850公里",
+    "link": "https://m.cnbeta.com.tw/view/1586422.htm",
+    "description": "美国佛罗里达州航空企业Maxwell Aircraft近日公布了一款名为M1 Hybrid的两栖混合动力货运飞机。该机型采用独特的柴油与电动混合推进方案，利用电动机在起飞阶段提供强劲动力，随后由柴油发动机接管巡航飞行，从而兼顾高功率起降能力和长距离运输效率。 按照设计思路，传统飞机通常需要配备能够满足起飞需求的大功率发动机，而在巡航阶段仅使用其中一部分能力，造成效率浪费。为解决这一问题，Maxwell开发了专利申请中的混合动力系统，将高功率需求集中在起飞和爬升阶段，通过电池和电动机提供额外推力，而在后续飞行中则依靠更节能的发动机维持运行。 M1 Hybrid配备两套推进系统，每个螺旋桨均由一台",
+    "pubDate": "2026-11-14T18:05:11.000Z",
+    "source": "cnBeta",
+    "category": "科技"
+  },
+  {
+    "title": "US blames system upgrade for longest nationwide FAA ground stop since 9/11",
+    "link": "https://www.aljazeera.com/news/2026/11/14/us-blames-system-upgrade-for-longest-nationwide-faa-ground-stop-since-9?traffic_source=rss",
+    "description": "Sean Duffy, the country's transportation secretary, said his agency is 'going to hold people accountable'.",
+    "pubDate": "2026-11-14T18:02:53.000Z",
+    "source": "Al Jazeera",
+    "category": "国际"
+  },
+  {
+    "title": "Margaret Atwood joins other bird lovers to fight against a proposed 600-foot tower on Pelee Island",
+    "link": "https://www.cbc.ca/news/canada/windsor/fight-against-proposed-600-foot-tower-pelee-island-9.7421940?cmp=rss",
+    "description": "Atwood called the location, which is one road over from the new Atwood-Gibson Bird Centre, \"one of the stupidest places on the planet\" to put a tower.",
+    "pubDate": "2026-11-14T18:02:13.000Z",
+    "source": "CBC",
+    "category": "国际"
+  },
+  {
+    "title": "ERO suspends school hostel after lack of evidence regulations were met",
+    "link": "https://www.rnz.co.nz/news/education/2604434/ero-suspends-school-hostel-after-lack-of-evidence-regulations-were-met",
+    "description": "Hato Pāora College has until 8 December to remedy the problems ERO identified.",
+    "pubDate": "2026-11-14T18:00:52.000Z",
+    "source": "RNZ",
+    "category": "国际"
+  },
+  {
+    "title": "Sotheby's auction of $180m Van Gogh challenged over claims it was 'sold under duress'",
+    "link": "https://www.bbc.co.uk/news/articles/cmwy05gg75lvo?at_medium=RSS&amp;at_campaign=rss",
+    "description": "Sotheby's says it will work with the heirs of a family who had previously owned the artwork to try and reach a solution.",
+    "pubDate": "2026-11-14T18:00:10.000Z",
+    "source": "BBC World",
+    "category": "国际"
+  },
+  {
+    "title": "Got an iPhone Duo? These 9 settings make it easier to use",
+    "link": "https://techcrunch.com/2026/11/14/got-an-iphone-duo-these-9-settings-make-it-easier-to-use/",
+    "description": "From Touch ID shortcuts to smarter volume buttons and camera tricks, these tweaks make Apple's foldable iPhone easier to use every day.",
+    "pubDate": "2026-11-14T18:00:00.000Z",
+    "source": "TechCrunch",
+    "category": "科技"
+  },
+  {
+    "title": "Black Sea now the world's deadliest waterway as Russia tests NATO limits",
+    "link": "https://www.abc.net.au/news/2026-11-15/inside-crew-rescuing-sailors-from-black-sea-drone-attacks/107380692",
+    "description": "The Black Sea has become a deadly theatre of battle as merchant ships carrying things like grain, chemicals and oil are increasingly caught in the crossfire of Russia's war in Ukraine.",
+    "pubDate": "2026-11-14T18:00:00.000Z",
+    "source": "ABC Australia",
+    "category": "国际"
+  },
+  {
+    "title": "All Blacks stunned as Wales break 73 years of heartbreak in Cardiff",
+    "link": "https://www.rnz.co.nz/news/sport/2603812/all-blacks-stunned-as-wales-break-73-years-of-heartbreak-in-cardiff",
+    "description": "Wales first victory over New Zealand since 1953 was based on a fearless attack and incredible second-half defensive effort.",
+    "pubDate": "2026-11-14T17:59:46.000Z",
+    "source": "RNZ",
+    "category": "国际"
+  },
+  {
+    "title": "Family of Watford woman set alight ‘desperate for answers’ after attack",
+    "link": "https://www.theguardian.com/uk-news/2026/nov/14/family-of-watford-woman-set-alight-desperate-for-answers-after-attack",
+    "description": "<p>Appeal for information comes after Brenda Raymond, 80, was set on fire outside her flat on Monday</p><p>The family of an elderly woman who was set on fire outside a block of flats in Watford have said they are “desperate for answers”.</p><p>Brenda Raymond, 80, was found set alight outside her fla",
+    "pubDate": "2026-11-14T17:59:12.000Z",
+    "source": "The Guardian",
+    "category": "国际"
+  },
+  {
+    "title": "Philippines’ Carmelle storms to victory in Eurovision Asia debut in Bangkok",
+    "link": "https://www.scmp.com/news/asia/southeast-asia/article/3374455/philippines-carmelle-storms-victory-eurovision-asia-debut-bangkok",
+    "description": "Filipino singer Carmelle won the first Asian edition of the Eurovision Song Contest on Saturday with a fiery performance of her dance-pop song “Sobra-Sobra”. The 19-year-old beat 10 other acts in the grand final in Bangkok, with the winner chosen through votes from national juries in participating c",
+    "pubDate": "2026-11-14T17:58:57.000Z",
+    "source": "SCMP",
+    "category": "国际"
+  },
+  {
+    "title": "Rising costs and arrests fuel protests in Central African Republic",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/rising-costs-and-arrests-fuel-protests-in-central-african-republic?traffic_source=rss",
+    "description": "Hundreds take to the streets of Bangui to protest rising fuel prices and arrests in the Central African Republic.",
+    "pubDate": "2026-11-14T17:50:28.000Z",
+    "source": "Al Jazeera",
+    "category": "国际"
+  },
+  {
+    "title": "Does New Zealand law need a constitutional change?",
+    "link": "https://www.rnz.co.nz/news/political/2604145/does-new-zealand-law-need-a-constitutional-change",
+    "description": "Professor Claire Charters says Aotearoa is unique in that it doesn't have a single written constitutional document.",
+    "pubDate": "2026-11-14T17:47:15.000Z",
+    "source": "RNZ",
+    "category": "国际"
+  },
+  {
+    "title": "Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors",
+    "link": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html",
+    "description": "Two Nvidia investors with about $2.13 billion of stock disclosed as of June 30 are calling for a deliberate leadership search after Huang’s resignation.",
+    "pubDate": "2026-11-14T17:46:06.000Z",
+    "source": "CNBC",
+    "category": "财经"
+  },
+  {
+    "title": "Transportation secretary blames ‘routine’ equipment upgrade for grounding flights nationwide",
+    "link": "https://techcrunch.com/2026/11/14/transportation-secretary-blames-routine-equipment-upgrade-for-grounding-flights-nationwide/",
+    "description": "FAA administrator Bryan Bedford also said there's \"zero evidence of anything AI-related.\"",
+    "pubDate": "2026-11-14T17:45:04.000Z",
+    "source": "TechCrunch",
+    "category": "科技"
+  },
+  {
+    "title": "Elon Musk's SpaceX aborts booster recovery due to technical issues",
+    "link": "https://www.france24.com/en/elon-musk-s-spacex-aborts-booster-recovery-due-to-technical-issues",
+    "description": "Elon Musk's SpaceX is in the midst of a 15th test-flight of its Starship rocket. The company was hoping to pull off the first-ever \"double catch\" - with both the booster and the ship itself coming safely back down to earth. Instead, an unspecified problem forced the company to abort recovery of the ",
+    "pubDate": "2026-11-14T17:33:37.000Z",
+    "source": "France 24",
+    "category": "国际"
+  },
+  {
+    "title": "[程序员] xxl-job 是放弃维护了吗？ PG 版本的兼容 PR 提了那么长时间都没人合并，还没有更好的组件选择？",
+    "link": "https://www.v2ex.com/t/1257091#reply9",
+    "description": "xxl-job 不知道有没有人搞过迁移 PG 的？我看 GITHUB 上的 PG 版本的 PR 都是去年 9 月份就有的，但是一直没人维护合并，是不是不维护了？还有没有其它更好的组件选择？",
+    "pubDate": "2026-11-14T17:30:07.000Z",
+    "source": "V2EX",
+    "category": "开发"
+  },
+  {
+    "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+    "link": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+    "description": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+    "pubDate": "2026-11-14T17:30:00.000Z",
+    "source": "TechCrunch",
+    "category": "科技"
+  },
+  {
+    "title": "Youth Olympic Games organisers hail Senegal's capability to host major events",
+    "link": "https://www.france24.com/en/youth-olympic-games-organisers-hail-senegal-s-capability-to-host-major-events",
+    "description": "Dakar 2026 is over. Two weeks of competition, thousands of young athletes and a historic first for Africa. The Youth Olympic Games brought the world to Senegal for the first Olympic sporting event ever held on the continent. From record-breaking performances to historic medals for the host nation, D",
+    "pubDate": "2026-11-14T17:25:51.000Z",
+    "source": "France 24",
+    "category": "国际"
+  },
+  {
+    "title": "France and Cambodia share their love for pétanque in Phnom Penh",
+    "link": "https://www.france24.com/en/video/20261114-france-and-cambodia-share-their-love-for-p%C3%A9tanque-in-phnom-penh",
+    "description": "Phnom Penh is hosting the 20th Francophonie Summit this Sunday and Monday. French President Emmanuel Macron is attending as part of a 3-day state visit to Cambodia. France and Cambodia's history is deep rooted and complex, but the two countries have one thing in common: a love for pétanque. Story by",
+    "pubDate": "2026-11-14T17:23:02.000Z",
+    "source": "France 24",
+    "category": "国际"
+  },
+  {
+    "title": "Washington divided over how to deal with fallout from the Nvidia case",
+    "link": "https://www.france24.com/en/washington-divided-over-how-to-deal-with-fallout-from-the-nvidia-case",
+    "description": "After the fall, the fallout. US government agencies are squabbling after AI leader Jensen Huang stepped down from chips giant Nvidia in disgrace. The Treasury says it wanted to blacklist a Singapore company at the heart of the scandal, but the Commerce Department didn't act. Megaspeed was run by sus",
+    "pubDate": "2026-11-14T17:21:26.000Z",
+    "source": "France 24",
+    "category": "国际"
+  },
+  {
+    "title": "COP31: Protesters, UN urge swift climate deal",
+    "link": "https://www.dw.com/en/cop31-protesters-un-urge-swift-climate-deal/a-79948501?maca=en-rss-en-all-1573-rdf",
+    "description": "The UN climate chief has warned that \"tactical delays\" at the COP31 climate talks in Turkey could prevent a deal to slow global warming.",
+    "pubDate": "2026-11-14T17:19:00.000Z",
+    "source": "DW English",
+    "category": "国际"
+  },
+  {
+    "title": "US officials say flight stoppage stemmed from ‘routine maintenance’ as travel chaos continues",
+    "link": "https://www.theguardian.com/world/2026/nov/14/faa-ground-stop-flights-resume-airport-chaos",
+    "description": "<p>Thousands of flights still canceled as officials blamed ageing air control system for nationwide grounding</p><p>The Trump administration says Friday’s four-hour nationwide Federal Aviation Administration (FAA) <a href=\"https://www.theguardian.com/world/2026/nov/13/faa-ground-stop-flights-explain",
+    "pubDate": "2026-11-14T17:11:18.000Z",
+    "source": "The Guardian",
+    "category": "国际"
+  },
+  {
+    "title": "[全球工单系统] 怎么样才能解决淘宝的谜之风控",
+    "link": "https://www.v2ex.com/t/1257119#reply5",
+    "description": "海外 IP 试图购买 App Store 充值卡旗舰店（ https://appstore.tmall.com ）的商品，会触发谜之风控：部分面值（ 10 元、68 元）可以购买，部分面值（ 50 元、100 元）不可购买（提示“同一时间下单人数过多，建议您稍后再试”）。 触发风控后无论打客服电话，还是在安全中心反馈，都是装傻充愣、制式回复。 10 元、68 元可以正常下单 50 元无法下单 反馈只剩制式回复",
+    "pubDate": "2026-11-14T17:05:49.000Z",
+    "source": "V2EX",
+    "category": "开发"
+  },
+  {
+    "title": "Change to Ontario's 'safer-supply' opioid prescriptions abruptly paused due to legal challenge",
+    "link": "https://www.cbc.ca/news/canada/hamilton/safe-supply-drug-prescriptions-change-9.7421199?cmp=rss",
+    "description": "A controversial change to \"safer-supply\" opioid prescriptions in Ontario that would force recipients to take them in front of a pharmacist, rather than on their own schedule at home, has been abruptly paused due to a legal challenge. Critics said the proposal would drastically affect the lives of dr",
+    "pubDate": "2026-11-14T17:01:28.000Z",
+    "source": "CBC",
+    "category": "国际"
+  },
+  {
+    "title": "NHS England on track to miss key cancer treatment target by 10,000 patients",
+    "link": "https://www.theguardian.com/society/2026/nov/14/nhs-england-62-day-cancer-treatment-target-by-10000-patients",
+    "description": "<p>Exclusive: 2,850 more patients a month would need to be treated within 62 days to meet March 2027 goal, as experts warn of failure of leadership</p><p>Nearly 10,000 more cancer patients in England will not be treated on time because the government will fail to meet its targets, amid a failure of ",
+    "pubDate": "2026-11-14T17:00:49.000Z",
+    "source": "The Guardian",
+    "category": "国际"
+  },
+  {
+    "title": "Some of the oldest rocks ever discovered shed light on Earth's early history",
+    "link": "https://phys.org/news/2026-11-oldest-earth-early-history.html",
+    "description": "Earth is approximately 4.5 billion years old, according to estimates. However, rocks dating back to the planet's earliest days are extremely rare. Hence the excitement over the discovery in northern China of some of the oldest known rocks on Earth, dating back 3.95 billion years. And one of the reas",
+    "pubDate": "2026-11-14T17:00:33.000Z",
+    "source": "Phys.org",
+    "category": "科学"
+  },
+  {
+    "title": "Latest news bulletin | November 14th, 2026 – Evening",
+    "link": "https://www.euronews.com/video/2026/11/14/latest-news-bulletin-november-14th-2026-evening",
+    "description": "Catch up with the most important stories from around Europe and beyond this November 14th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+    "pubDate": "2026-11-14T17:00:26.000Z",
+    "source": "Euronews",
+    "category": "国际"
+  },
+  {
+    "title": "Can these true crime sleuths solve Australia's most infamous cold cases?",
+    "link": "https://www.abc.net.au/news/2026-11-15/true-crime-festival-victor-harbor-cold-cases/107354812",
+    "description": "At a seaside festival in regional South Australia, true crime obsession meets the grief of families whose loved ones are presumed murdered.",
+    "pubDate": "2026-11-14T17:00:00.000Z",
+    "source": "ABC Australia",
+    "category": "国际"
+  },
+  {
+    "title": "Democrat wins Alaska governor’s seat for first time in nearly 30 years",
+    "link": "https://www.theguardian.com/us-news/2026/nov/14/alaska-governor-democrat-jonathan-kreiss-tomkins-wins",
+    "description": "<p>Jonathan Kreiss-Tomkins’ victory means Democrats will now hold 30 US governorships after midterm blowout</p><p><a href=\"https://www.theguardian.com/us-news/democrats\">Democrats</a> have captured <a href=\"https://www.theguardian.com/us-news/alaska\">Alaska</a>’s governor’s seat for the first time i",
+    "pubDate": "2026-11-14T16:58:33.000Z",
+    "source": "The Guardian",
+    "category": "国际"
+  },
+  {
+    "title": "US suggested Ukraine cede parts of Donbas to Russia to become part of NATO",
+    "link": "https://www.aljazeera.com/news/2026/11/14/us-suggested-ukraine-cede-parts-of-donbas-to-russia-to-become-part-of-nato?traffic_source=rss",
+    "description": "Zelenskyy rejected the possibility of Ukraine committing to neutrality and said he refused to cede territory to Russia.",
+    "pubDate": "2026-11-14T16:53:39.000Z",
+    "source": "Al Jazeera",
+    "category": "国际"
+  },
+  {
+    "title": "美国失去麻疹消除地位",
+    "link": "https://www.solidot.org/story?sid=85889",
+    "description": "受益于疫苗接种，美国自 2000 年起被认定“消灭”了麻疹。但最近几年疫苗接种率持续下降，麻疹卷土重来在美国多地再次流行。如果由同一毒株引起的感染在同一国家内持续发生人际传播，且时间至少达到一年，那么该感染即被视为“地方性流行”，即失去消除地位。犹他州的研究人员今年 8 月报告，麻疹同一毒株引起的感染在该州持续传播超过一年。今年美国已报告逾 5400 例麻疹病例，创下自 1991 年以来的最高纪录。今年报告的病例几乎所有患者此前都未接种过麻疹、腮腺炎和风疹（MMR）疫苗，或者其疫苗接种状况不明。根据美国各州的报告，至少 10 人在感染麻疹后死亡。",
+    "pubDate": "2026-11-14T16:52:55.000Z",
+    "source": "Solidot",
+    "category": "科技"
+  },
+  {
+    "title": "[问与答] Google Gemini 有好用的其他家 agent 吗",
+    "link": "https://www.v2ex.com/t/1257126#reply4",
+    "description": "Claude 开了 5x ，124 刀，用了半个月，昨天被封了，申请退款，退了 56 刀。 GPT 已经彻底废了，完全干不了活，x 上看到不少推荐 Gemini 的，模型能力还可以，5x 土区大概 280 元，之前有 20x 大概 470 元。 但是众所周知，谷歌反重力并不好用。似乎没有办法将它接入到 Claude code 或者 codex 。",
+    "pubDate": "2026-11-14T16:52:38.000Z",
+    "source": "V2EX",
+    "category": "开发"
+  },
+  {
+    "title": "South Sudan’s National Election, Its First, Will Be Delayed",
+    "link": "https://www.nytimes.com/2026/11/14/world/africa/south-sudan-election.html",
+    "description": "Analysts had warned that the vote, originally set for December, faced a legitimacy crisis. South Sudan has not held a national election since gaining independence in 2011.",
+    "pubDate": "2026-11-14T16:51:55.000Z",
+    "source": "NYT World",
+    "category": "国际"
+  },
+  {
+    "title": "Nationwide Ground Stop Lifted, Nvidia Spy Scandal, Starship’s Longest Test Flight",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-14/bloomberg-this-weekend-11-14-2026-video",
+    "description": "The news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. Joined by Former UK Prime Minister and “Ending Alzheimer’s” Podcast Host David Cameron, Space Network Co-Foun",
+    "pubDate": "2026-11-14T16:45:01.000Z",
+    "source": "Bloomberg",
+    "category": "财经"
+  },
+  {
+    "title": "Portugal 1-4 Denmark: UEFA Nations League – as it happened",
+    "link": "https://www.aljazeera.com/sports/liveblog/2026/11/14/portugal-vs-denmark-live-uefa-nations-league?traffic_source=rss",
+    "description": "All the updates as Denmark thrash Portugal in Braga in Nations League Group A4 clash.",
+    "pubDate": "2026-11-14T16:45:00.000Z",
+    "source": "Al Jazeera",
+    "category": "国际"
+  },
+  {
+    "title": "Cold weather health alerts issued for parts of UK on Sunday night",
+    "link": "https://www.theguardian.com/uk-news/2026/nov/14/uk-weather-milder-weekend-autumn-freeze-frost",
+    "description": "<p>UKHSA warns of threat to vulnerable people from frosty conditions expected to last until Thursday</p><p>More cold health alerts have been issued for parts of the UK on Sunday night and next week.</p><p>The alerts were issued by the UK Health Security Agency (UKHSA) for the north-west, West Midlan",
+    "pubDate": "2026-11-14T16:42:04.000Z",
+    "source": "The Guardian",
+    "category": "国际"
+  },
+  {
+    "title": "US: What exactly caused the longest nationwide ground stop in 25 years?",
+    "link": "https://www.france24.com/en/us-what-exactly-caused-the-longest-nationwide-ground-stop-in-25-years",
+    "description": "After a nearly five-hour ground stoppage, flights in the US have resumed. However, officials are warning that it will take days to recover from the ongoing delays related to the incident. Transport Secretary Sean Duffy explained the crisis was due to a failure in ageing telecommunications equipment.",
+    "pubDate": "2026-11-14T16:35:52.000Z",
+    "source": "France 24",
+    "category": "国际"
+  },
+  {
+    "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+    "link": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+    "description": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
+    "pubDate": "2026-11-14T16:34:15.000Z",
+    "source": "TechCrunch",
+    "category": "科技"
+  },
+  {
+    "title": "[分享创造] 分享一个自己做的截图工具 sniplite: 有 Snipaste 的核心功能，但是更快，开源，极其轻量",
+    "link": "https://www.v2ex.com/t/1257125#reply5",
+    "description": "分享一个自己做的截图工具 sniplite 。它实现了 Snipaste 的核心功能，但是开源，而且极其轻量 即使加上安装包也不到 300KB ，核心用汇编和 C 语言开发。 现在能搞 截图：按 F1 ，自动识别鼠标下的窗口和控件，带放大镜 标注：画圈、箭头、文字、序号、马赛克 贴图：按 F3 把复制的图片或文字钉在屏幕上，滚轮缩放 命令行：功能都能用命令调用，方便写脚本 内置 8 种语言 轻量 安装包约 300 KB ，主程序约 220 KB 不依赖 C 运行库，不用另外装任何东西 没有广告，不收集数据，MIT 协议开源 和几款常用的截图软件简单比了一下体积、内存和速度，表格在 README",
+    "pubDate": "2026-11-14T16:33:01.000Z",
+    "source": "V2EX",
+    "category": "开发"
+  },
+  {
+    "title": "US Transport Secretary asks Congress for $30 bn to upgrade aviation infrastructure",
+    "link": "https://www.france24.com/en/us-transport-secretary-asks-congress-for-30-bn-to-upgrade-aviation-infrastructure",
+    "description": "A failure in aging telecommunications equipment Friday forced a nationwide halt to departures from US airports. Homeland Security Secretary Markwayne Mullin says officials have found no evidence so far of a cyberattack, but that they're not ruling it out. Details by Jack Pownall.",
+    "pubDate": "2026-11-14T16:32:52.000Z",
+    "source": "France 24",
+    "category": "国际"
+  },
+  {
+    "title": "EU reiterates ‘grave concern’ over Gaza humanitarian crisis as winter approaches",
+    "link": "https://www.politico.eu/article/eu-reiterates-grave-concern-over-gaza-humanitarian-crisis-as-winter-approaches/?utm_source=RSS_Feed&#038;utm_medium=RSS&#038;utm_campaign=RSS_Syndication",
+    "description": "The bloc's foreign policy chief Kaja Kallas has called on Israel to allow more humanitarian aid into Gaza as weather worsens living conditions.",
+    "pubDate": "2026-11-14T16:28:36.000Z",
+    "source": "Politico EU",
+    "category": "国际"
+  },
+  {
+    "title": "Wales claim historic victory against All Blacks for first time since 1953",
+    "link": "https://www.france24.com/en/sport/20261114-wales-claim-historic-victory-against-all-blacks-for-first-time-since-1953",
+    "description": "Wales claimed a historic 35-28 victory over New Zealand in Cardiff on Saturday, securing their first win over the All Blacks since 1953.",
+    "pubDate": "2026-11-14T16:27:21.000Z",
+    "source": "France 24",
+    "category": "国际"
+  },
+  {
+    "title": "Pointed! Bloomberg’s Weekly News Quiz For Risk-Takers",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-14/pointed-bloomberg-s-weekly-news-quiz-for-risk-takers-video",
+    "description": "Pointed offers a strategic twist to the news quiz format, testing not just players’ knowledge of the news but also their confidence in their answers. Join Bloomberg’s Lisa Mateo, Christina Ruffini and David Gura as they play and check out the quiz for yourself at Bloomberg.com (Source: Bloomberg)",
+    "pubDate": "2026-11-14T16:22:29.000Z",
+    "source": "Bloomberg",
+    "category": "财经"
+  },
+  {
+    "title": "[程序员] Runner iPhone 版开启 TestFlight 内测：在手机上看终端、回消息、带 crew 干活",
+    "link": "https://www.v2ex.com/t/1257131#reply0",
+    "description": "Runner 是我做的一个管理 CLI agent 的开源桌面工具，之前在 V 站 介绍过 ，可以在同一个 app 里用 Claude Code 、Codex 等，也可以把不同的 agent 放进一个 crew 里一起做任务。上次发 0.18 桌面端远程控制 的时候提过移动端会优先做 iOS ，最近把 Runner iPhone 版的 UI 和主要交互定下来了，已经上传 TestFlight ，开放给想试试的朋友一起内测。 手机端通过和桌面端一样的端到端加密 relay 连回你的 Mac 、Windows 或 Linux 电脑，agent 仍然跑在电脑后台的 runnerd 里，手机上用 6 ",
+    "pubDate": "2026-11-14T16:21:00.000Z",
+    "source": "V2EX",
+    "category": "开发"
+  },
+  {
+    "title": "Here’s the latest.",
+    "link": "https://www.nytimes.com/live/2026/11/14/world/asia-eurovision/heres-the-latest",
+    "description": "",
+    "pubDate": "2026-11-14T16:20:20.000Z",
+    "source": "NYT World",
+    "category": "国际"
+  },
+  {
+    "title": "Italy fines Meta $880m over photo privacy",
+    "link": "https://www.aljazeera.com/news/2026/11/14/italy-fines-meta-880m-over-photo-privacy?traffic_source=rss",
+    "description": "Regulator said Meta's 'lack of cooperation' and the large number of people affected contributed to size of the fine.",
+    "pubDate": "2026-11-14T16:16:15.000Z",
+    "source": "Al Jazeera",
+    "category": "国际"
+  },
+  {
+    "title": "The Entrepreneurs Behind Poppi Start Over",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-14/the-entrepreneurs-behind-poppi-start-over-video",
+    "description": "Poppi founders Allison and Stephen Ellsworth tell Bloomberg This Weekend how they turned a farmers market business into a nearly $2 billion beverage brand and what they learned from the decade-long journey. Speaking with hosts David Gura and Lisa Mateo, the couple explains why they are starting over",
+    "pubDate": "2026-11-14T16:13:04.000Z",
+    "source": "Bloomberg",
+    "category": "财经"
+  },
+  {
+    "title": "[创业组队] 在英国做了五年 AI 创业，找几个能自己把事做成的人一起做英国市场",
+    "link": "https://www.v2ex.com/t/1257138#reply0",
+    "description": "我是 Tim，2021 年在英国开了家公司 Mutus Tech，做农业和产业场景的 AI。和谢菲尔德大学、利物浦大学、Harper Adams 大学和农业咨询机构 ADAS 做过项目，参与过多个 Innovate UK 支持的研发项目，今年 4 月 Innovate UK Business Connect 写过一篇我们的案例。 五年下来最大的感受：在英国，技术不是最难的，难的是找对需求、拿到第一批客户、把研发项目变成能持续收钱的生意。这些坑我们一个个踩过。现在想把经验、团队和平台开放出来，和外面的人一起做新项目。 找谁。三类人： 1. 有技术或产品、已经有一点验证（原型、试点、客户、收入至少",
+    "pubDate": "2026-11-14T16:00:57.000Z",
+    "source": "V2EX",
+    "category": "开发"
+  },
+  {
+    "title": "A rapid interest rate rise seems inevitable – and households are expected to pick up the tab",
+    "link": "https://www.theguardian.com/business/2026/nov/14/interest-rate-rise-phillip-inman-inflation-economy",
+    "description": "<p>Raising borrowing costs too far risks laying waste to whatever growth there is in the economy</p><p>A head of steam is building up behind the Bank of England raising interest rates again. With the latest forecasts by the central bank showing inflation rising to 5% next spring, another increase in",
+    "pubDate": "2026-11-14T16:00:48.000Z",
+    "source": "The Guardian",
+    "category": "国际"
+  },
+  {
+    "title": "[Claude] portal kyc 使用 personal 认证完成后又回到 start",
+    "link": "https://www.v2ex.com/t/1257123#reply1",
+    "description": "使用护照做完 portal kyc ，personal 提示 done 了，但刷新原页面却回到了开始认证页面 点击 start 又开始重新选择 “What country is your government ID from?” 什么情况，不是说没通过是秒封吗？比较奇怪的是，如果 personal 本身没成功，那么 claude 的 portal 页面应该还是二维码页面才对，但又不是。会不会是等到人工审核再处理？",
+    "pubDate": "2026-11-14T16:00:34.000Z",
+    "source": "V2EX",
+    "category": "开发"
+  },
+  {
+    "title": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
+    "link": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&amp;at_campaign=rss",
+    "description": "Trump will discuss the \"reduction of nuclear weapons\" during the unprecedented talks, a spokeswoman says.",
+    "pubDate": "2026-11-14T15:53:55.000Z",
+    "source": "BBC World",
+    "category": "国际"
+  },
+  {
+    "title": "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
+    "link": "https://www.cnbc.com/2026/11/14/nvidia-ai-trade-data-centers-congress.html",
+    "description": "ETF experts say Nvidia’s leadership turmoil and Democratic control of Congress could shift AI demand to the benefit of other Big Tech stocks, rival chipmakers.",
+    "pubDate": "2026-11-14T15:50:43.000Z",
+    "source": "CNBC",
+    "category": "财经"
+  },
+  {
+    "title": "Why Aid Isn’t Reaching Ebola’s Epicenter",
+    "link": "https://www.nytimes.com/video/world/africa/100000011257751/why-aid-isnt-reaching-ebolas-epicenter.html",
+    "description": "The Ebola outbreak in the eastern Democratic Republic of the Congo has a new epicenter, one largely isolated from aid by an armed group that has killed and kidnapped aid workers. Declan Walsh, our chief Africa correspondent, reports from a town where health workers are struggling to contain the outb",
+    "pubDate": "2026-11-14T15:43:16.000Z",
+    "source": "NYT World",
+    "category": "国际"
+  },
+  {
+    "title": "Nigeria cautions against travel via Ethiopia's main airport due to altitude",
+    "link": "https://www.bbc.co.uk/news/articles/cmz6qjpdy2wqo?at_medium=RSS&amp;at_campaign=rss",
+    "description": "The foreign ministry in Abuja says 6 Nigerians with underlying health problems have died this year while transiting through Addis Ababa.",
+    "pubDate": "2026-11-14T15:42:54.000Z",
+    "source": "BBC World",
+    "category": "国际"
+  },
+  {
+    "title": "How China’s Intelligence Operations Target Tech",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-14/how-china-s-intelligence-operations-target-tech-video",
+    "description": "Former CIA counterintelligence analyst Peter Mattis tells Bloomberg This Weekend how China’s Ministry of State Security can use business and personal relationships to gather intelligence and potentially influence decision-making in strategically important industries. Speaking with hosts David Gura a",
+    "pubDate": "2026-11-14T15:41:12.000Z",
+    "source": "Bloomberg",
+    "category": "财经"
+  },
+  {
+    "title": "World's largest freshwater lake is recovering after decades of decline",
+    "link": "https://phys.org/news/2026-11-world-largest-freshwater-lake-recovering.html",
+    "description": "Lake Baikal in Siberia holds around 20% of the world's surface freshwater, making it the most voluminous freshwater lake (Lake Superior on the United States–Canada border is the largest by surface area). This makes the lake one of the most important environments for biodiversity—in fact, it was desi",
+    "pubDate": "2026-11-14T15:40:01.000Z",
+    "source": "Phys.org",
+    "category": "科学"
+  },
+  {
+    "title": "Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials",
+    "link": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
+    "description": "Nvidia CEO Jensen Huang resigned this week after reports of multiple affairs, including one with a suspected Chinese spy, Alice Huang.",
+    "pubDate": "2026-11-14T15:36:47.000Z",
+    "source": "CNBC",
+    "category": "财经"
+  },
+  {
+    "title": "3 kids, 2 adults in life-threatening condition after Burlington, Ont., house fire: police",
+    "link": "https://www.cbc.ca/news/canada/hamilton/burlington-house-fire-halton-police-9.7422200?cmp=rss",
+    "description": "Five people, including three children, are in life-threatening condition in hospital after a house fire in Burlington on Saturday morning, Halton police say.",
+    "pubDate": "2026-11-14T15:32:22.000Z",
+    "source": "CBC",
+    "category": "国际"
+  },
+  {
+    "title": "马斯克再度力挺黄仁勋：没有他，英伟达将失去部分关键合作",
+    "link": "https://www.ithome.com/1/027/247.htm",
+    "description": "<p data-vmark=\"89c6\">IT之家 11 月 14 日消息，今天（14 日）晚间，马斯克在 X 平台发文称，随着黄仁勋离任 CEO，英伟达将<strong>失去一些至关重要的商业合作</strong>。</p><p data-vmark=\"605f\">马斯克称赞黄仁勋在供应链管理方面表现出色，指出英伟达许多交易都是靠黄仁勋<strong>与合作方握手达成的</strong>，<strong>并没有签署书面合同</strong>。</p><p data-vmark=\"53dc\">紧接着，马斯克又补充说：“如果黄仁勋答应向我交付算力，或者我要求加快零部件供应，<strong>他每次",
+    "pubDate": "2026-11-14T15:28:14.000Z",
+    "source": "IT之家",
+    "category": "科技"
+  },
+  {
+    "title": "Meet the Fans Who Traveled to Bangkok for Eurovision Asia",
+    "link": "https://www.nytimes.com/2026/11/14/world/asia/eurovision-asia-fans.html",
+    "description": "Some were Asia-based Europeans chasing nostalgia. Others were Americans eager to experience their first edition of the song contest.",
+    "pubDate": "2026-11-14T15:27:30.000Z",
+    "source": "NYT World",
+    "category": "国际"
+  },
+  {
+    "title": "Werner Holzer Prize awarded to Katja Gloger and DW's Jaafar Abdul Karim",
+    "link": "https://www.dw.com/en/werner-holzer-prize-awarded-to-katja-gloger-and-dw-s-jaafar-abdul-karim/a-79946916?maca=en-rss-en-all-1573-rdf",
+    "description": "DW journalist Jaafar Abdul Karim and Russia correspondent Katja Gloger have been awarded the prestigious Werner Holzer Prize for international journalism.",
+    "pubDate": "2026-11-14T15:24:00.000Z",
+    "source": "DW English",
+    "category": "国际"
+  },
+  {
+    "title": "[Google Gemini] Argon 莫名其妙抽风来了句印地语",
+    "link": "https://www.v2ex.com/t/1257115#reply5",
+    "description": "https://imgur.com/a/OpipObE 这让我对 Gemini 的能力感到怀疑，有没有遇到过的也用 Gemini 的朋友",
+    "pubDate": "2026-11-14T15:23:59.000Z",
+    "source": "V2EX",
+    "category": "开发"
+  },
+  {
+    "title": "Tesla is inviting some people to buy a Cybercab ‘for personal use’ — but read the fine print",
+    "link": "https://www.theverge.com/transportation/1033844/tesla-personal-cybercab-orders-299-subscription-fine-print",
+    "description": "Tesla is doubling, or perhaps tripling down on its bold claims of an autonomous future with the offer to \"select customers\" to purchase a Cybercab for \"personal use.\" But the gilded, steering-wheel-free two-seater will \"only be available in supported service areas\" - meaning you'll only be able to b",
+    "pubDate": "2026-11-14T15:22:41.000Z",
+    "source": "The Verge",
+    "category": "科技"
+  },
+  {
+    "title": "以顿巴斯换北约？泽连斯基：可交全民公投",
+    "link": "https://www.dw.com/zh/以顿巴斯换北约？泽连斯基：可交全民公投/a-79948962?maca=chi-rss-chi-all-1127-rdf",
+    "description": "泽连斯基表示，美国和平特使在阿布扎比会谈后询问，如果乌克兰加入北约，乌方是否愿意撤出顿巴斯。泽连斯基重申不会向俄罗斯割让领土，但表示如能达成包括安全保障在内的全面协议，他将交由全民公投决定。欧盟称，德法英波等国外交官将参加今后的和谈。",
+    "pubDate": "2026-11-14T15:20:00.000Z",
+    "source": "DW 中文",
+    "category": "国际"
+  },
+  {
+    "title": "Rising rents draw Wall Street money to industrial outdoor storage lot investments across the U.S.",
+    "link": "https://www.cnbc.com/2026/11/14/real-estate-rental-income-industrial-storage-market.html",
+    "description": "A real estate investment in markets across the U.S. called 'industrial outdoor storage' is attracting Wall Street giants including Brookfield and Blackstone.",
+    "pubDate": "2026-11-14T15:14:57.000Z",
+    "source": "CNBC",
+    "category": "财经"
+  },
+  {
+    "title": "Zelensky says US floated idea of Ukraine ceding Donbas for Nato membership",
+    "link": "https://www.scmp.com/news/world/europe/article/3374450/zelensky-says-us-floated-idea-ukraine-ceding-donbas-nato-membership",
+    "description": "US negotiators have floated the idea of Ukraine’s potential withdrawal from its eastern region of Donbas in exchange for joining Nato, President Volodymyr Zelensky said, following the latest round of peace talks with Russia in Abu Dhabi. This is the first time the question of linking Nato membership",
+    "pubDate": "2026-11-14T15:14:00.000Z",
+    "source": "SCMP",
+    "category": "国际"
+  },
+  {
+    "title": "Jensen Huang and the decline of the visionary showman founder CEO",
+    "link": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+    "description": "On January 6th, 2025, Nvidia CEO Jensen Huang got his rockstar moment at last. He strode triumphantly onstage, hand raised in the air, to the claps and cheers of a 14,000-person arena absolutely packed with influencers and fans, their faces awash in blue glow, as he made his entrance in a black leat",
+    "pubDate": "2026-11-14T15:12:19.000Z",
+    "source": "The Verge",
+    "category": "科技"
+  },
+  {
+    "title": "Canada and the Philippines conclude talks on free trade deal, Mark Carney says",
+    "link": "https://www.euronews.com/2026/11/14/canada-and-the-philippines-conclude-talks-on-free-trade-deal-mark-carney-says",
+    "description": "\"This is good news for Canadians in the agriculture sector, in the aerospace sector, even in AI, and our businesses working across forest products, mining, energy, services and beyond,\" Carney told reporters.",
+    "pubDate": "2026-11-14T15:09:25.000Z",
+    "source": "Euronews",
+    "category": "国际"
+  },
+  {
+    "title": "26年纪录终结！美国失去“消除麻疹”地位",
+    "link": "https://www.dw.com/zh/26年纪录终结！美国失去-消除麻疹-地位/a-79948420?maca=chi-rss-chi-all-1127-rdf",
+    "description": "据《华尔街日报》报道，泛美卫生组织已取消美国的“麻疹消除认证”，结束了这一持续26年的纪录。美国目前正经历30多年来最严重的麻疹疫情。今年已累计逾5000例确诊，疫苗接种率下降引发关注。",
+    "pubDate": "2026-11-14T15:08:00.000Z",
+    "source": "DW 中文",
+    "category": "国际"
+  },
+  {
+    "title": "导致全美航班停飞的“罪魁祸首”找到了？FAA 调查指向 20 年历史路由器",
+    "link": "https://www.ithome.com/1/027/246.htm",
+    "description": "<p data-vmark=\"2e8d\">IT之家 11 月 14 日消息，美国 CBS 电视台交通记者克里斯 · 范 · 克利夫在 X 平台发文称，收到一位美国政府高级官员的消息：导致全美航班地面停飞的故障设备<strong>已被查明并隔离</strong>。</p><p data-vmark=\"3781\">克利夫援引官员的话说，美国联邦航空管理局（FAA）认为，故障仅涉及一种“特定型号”的 20 年历史老路由器。“（系统）基本上是被负载压垮了，不过具体原因尚不清楚。”</p><p data-vmark=\"1e39\">初步信息显示，<strong>路由器过载后开始传输不同步的数据</stro",
+    "pubDate": "2026-11-14T15:06:32.000Z",
+    "source": "IT之家",
+    "category": "科技"
+  },
+  {
+    "title": "乌克兰“星盾”又被限速 泽连斯基痛批SpaceX",
+    "link": "https://m.cnbeta.com.tw/view/1586420.htm",
+    "description": "乌克兰总统泽连斯基周六加大了对SpaceX的批评，称该公司对其军用级“星盾”（Starshield）卫星终端实施的速度限制，会带来危险的政治后果，并削弱了乌克兰关键的防空能力。 泽连斯基表示，在乌克兰境内被俄罗斯临时占领地区运行的“星盾”终端，过去五天里被限制在最高161公里/小时的速度，这阻碍了乌克兰的军事能力。 泽连斯基称，乌克兰国防部已就这一问题与SpaceX公司进行了官方层面的交涉。 “这些限制措施已经实施五天了。他们声称这是某种技术问题，但我们并不相信事实如此。”泽连斯基周六对记者表示。 “如果在这方面施加限制，就等同于在一定程度上承认那些被临时占领的领土不属于我们。正因如此，我认为",
+    "pubDate": "2026-11-14T15:05:26.000Z",
+    "source": "cnBeta",
+    "category": "科技"
+  },
+  {
+    "title": "美国航班大乱持续 数千架次取消或延误",
+    "link": "https://m.cnbeta.com.tw/view/1586418.htm",
+    "description": "美国航空出行周六仍在艰难恢复。此前发生的系统故障导致美国经历自2001年9月恐怖袭击以来持续时间最长的全国性航班停飞，数千架次航班被取消，暴露出美国航空基础设施的脆弱性。 航空公司正加紧恢复正常航班时刻表。根据航空数据公司FlightAware的数据，截至纽约时间周六上午7：15，进出美国、尤其是美国国内的航班约有3500架次被取消，1200架次延误。 “今天早上的运营正在缓慢恢复正常，”美国交通部长肖恩·达菲在X平台发帖表示。“随着航空公司重新安排航班，并将飞机/机组人员调配到最需要的地方，你们还会继续看到一些延误和取消。” 周五美国发生了该国历史上第三次全国性航班停飞。美国联邦航空管理局（",
+    "pubDate": "2026-11-14T15:05:13.000Z",
+    "source": "cnBeta",
+    "category": "科技"
+  },
+  {
+    "title": "The Stadium Bidding War Shaking Up the Midwest",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-14/the-stadium-bidding-war-shaking-up-the-midwest-video",
+    "description": "The Chicago Bears are weighing three possible homes for a new stadium: downtown Chicago, suburban Arlington Heights and Hammond, Indiana. The competition has turned into a high-stakes economic development battle involving billions of dollars in potential investment, tax incentives and public financi",
+    "pubDate": "2026-11-14T15:04:14.000Z",
+    "source": "Bloomberg",
+    "category": "财经"
+  },
+  {
+    "title": "[天黑以后] 20261114 午夜俱乐部",
+    "link": "https://www.v2ex.com/t/1257118#reply2",
+    "description": "失业快一个月了，申领失业金通过了，三个月的房租暂时有着落了，但陆续在 boss 上打招呼和投的简历都没什么下文，要么就是不匹配。 和家里人说了后，我妈也只会喊口号说着不管我做啥都支持我，我爸依旧只会隔段时间问我吃饭没然后喊我考公，我想回家吃饭但他们这样我又想远离。 这次离职后反倒感觉没上一次紧张，虽然存款不多撑不了太长时间，但总觉得心里一直崩的那个弦似乎松了好多。只是没朋友的我有时候想找人说说话，也只能找咸鱼上的心理咨询付费。 就这样吧，还能坏到哪去。",
+    "pubDate": "2026-11-14T15:02:43.000Z",
+    "source": "V2EX",
+    "category": "开发"
+  }
+]
