@@ -5,69 +5,15 @@
     <link>https://news.yaonet.de5.net</link>
     <description>聚合 56 个新闻源，自动去重、按时间排序。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 15 Nov 2026 02:06:23 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 02:16:53 GMT</lastBuildDate>
     <atom:link href="https://news.yaonet.de5.net/feed.xml" rel="self" type="application/rss+xml"/>
     
-    <item>
-      <title><![CDATA[GeoRA: 为RLVR设计的LoRA——ACL 2026杰出论文解析]]></title>
-      <link>https://tech.meituan.com/2026/08/27/ACL-Outstanding-Paper-GeoRA.html</link>
-      <guid isPermaLink="false">https://tech.meituan.com/2026/08/27/ACL-Outstanding-Paper-GeoRA.html</guid>
-      <description><![CDATA[ACL 2026杰出论文奖（Outstanding Paper）揭晓，全球共 18 篇入选，其中包含美团履约技术团队的1篇论文。本文介绍了一种专为 RLVR 设计的低秩训练方法，以及它在业务 Agentic RL 中的落地经验。]]></description>
-      <pubDate>Sun, 15 Nov 2026 02:06:17 GMT</pubDate>
-      <category><![CDATA[开发]]></category>
-      <source>美团技术</source>
-    </item>
-    <item>
-      <title><![CDATA[美团搜索3.0：LLM 语义表征在排序模型的探索与应用]]></title>
-      <link>https://tech.meituan.com/2026/08/20/01-meituan-Query-3.0.html</link>
-      <guid isPermaLink="false">https://tech.meituan.com/2026/08/20/01-meituan-Query-3.0.html</guid>
-      <description><![CDATA[美团搜索团队正依托团垂融合新架构与生成式大模型新技术，全面重构本地生活搜索底座。本系列技术博客将持续介绍美团搜索 3.0 的技术探索，本文聚焦 LLM 语义表征在服务零售排序场景上的三期实践——从单点特征验证到系统性表征体系构建，再到跨场景迁移复用，探索语义匹配信号在搜索排序中的应用路径。]]></description>
-      <pubDate>Sun, 15 Nov 2026 02:06:17 GMT</pubDate>
-      <category><![CDATA[开发]]></category>
-      <source>美团技术</source>
-    </item>
-    <item>
-      <title><![CDATA[美团 LongCat-2.5 正式开源：从看见，到抵达]]></title>
-      <link>https://tech.meituan.com/2026/11/10/Meituan-LongCat-2.5-Open-Source.html</link>
-      <guid isPermaLink="false">https://tech.meituan.com/2026/11/10/Meituan-LongCat-2.5-Open-Source.html</guid>
-      <description><![CDATA[美团正式开源 LongCat-2.5，采用MIT协议，支持商用推理部署与二次训练，无需额外授权。]]></description>
-      <pubDate>Sun, 15 Nov 2026 02:06:17 GMT</pubDate>
-      <category><![CDATA[开发]]></category>
-      <source>美团技术</source>
-    </item>
-    <item>
-      <title><![CDATA[美团正式发布 LongCat-2.5：面向智能体任务的原生多模态模型]]></title>
-      <link>https://tech.meituan.com/2026/11/02/Meituan-LongCat-2.5.html</link>
-      <guid isPermaLink="false">https://tech.meituan.com/2026/11/02/Meituan-LongCat-2.5.html</guid>
-      <description><![CDATA[美团发布 LongCat-2.5，一个面向长程智能体任务的原生多模态模型。模型总参数量为 1.6 万亿，每个 token 激活约 480 亿参数，在 LongCat-2.0 的基础上进一步强化原生视觉理解与智能体编程能力。]]></description>
-      <pubDate>Sun, 15 Nov 2026 02:06:17 GMT</pubDate>
-      <category><![CDATA[开发]]></category>
-      <source>美团技术</source>
-    </item>
-    <item>
-      <title><![CDATA[如何在“不能出错”的系统里使用 AI Coding？分布式存储实践与边界]]></title>
-      <link>https://tech.meituan.com/2026/10/29/AI-Coding-IN-Distributed-Storage-System.html</link>
-      <guid isPermaLink="false">https://tech.meituan.com/2026/10/29/AI-Coding-IN-Distributed-Storage-System.html</guid>
-      <description><![CDATA[本文结合美团基础技术部在 AI 评审、问题排查和自动化开发中的真实实践，分享 AI 能帮上什么忙、容易在哪些地方犯错，以及哪些地方仍需要人来把关。比「多写代码」更重要的，是让代码和结论经得起验证。]]></description>
-      <pubDate>Sun, 15 Nov 2026 02:06:17 GMT</pubDate>
-      <category><![CDATA[开发]]></category>
-      <source>美团技术</source>
-    </item>
-    <item>
-      <title><![CDATA[从 LOOP 到图探索 —— 算法模型的 AutoResearch 自进化系统架构演进之路]]></title>
-      <link>https://tech.meituan.com/2026/10/22/LOOP-AutoResearch.html</link>
-      <guid isPermaLink="false">https://tech.meituan.com/2026/10/22/LOOP-AutoResearch.html</guid>
-      <description><![CDATA[本文分享这套系统的设计理念、架构演进与可信度设计，希望对大家有所帮助或启发。]]></description>
-      <pubDate>Sun, 15 Nov 2026 02:06:17 GMT</pubDate>
-      <category><![CDATA[开发]]></category>
-      <source>美团技术</source>
-    </item>
     <item>
       <title><![CDATA[SLM 生成式高并发推理引擎：延迟约束下的有效吞吐优化]]></title>
       <link>https://tech.meituan.com/2026/10/15/Small-Language-Model-in-meituan.html</link>
       <guid isPermaLink="false">https://tech.meituan.com/2026/10/15/Small-Language-Model-in-meituan.html</guid>
       <description><![CDATA[本文为SLM（Small Language Model， 小参数量语言模型0.5~1B）在搜推场景的大规模落地提供了一套高性能、可复用的工程实践。]]></description>
-      <pubDate>Sun, 15 Nov 2026 02:06:17 GMT</pubDate>
+      <pubDate>Sun, 15 Nov 2026 02:16:43 GMT</pubDate>
       <category><![CDATA[开发]]></category>
       <source>美团技术</source>
     </item>
@@ -76,7 +22,7 @@
       <link>https://tech.meituan.com/2026/09/22/Meituan-Foundation-Model-for-Recommendation.html</link>
       <guid isPermaLink="false">https://tech.meituan.com/2026/09/22/Meituan-Foundation-Model-for-Recommendation.html</guid>
       <description><![CDATA[美团在 MTGR 基础上提出统一推荐基座大模型 MTFM，首次实现外卖多个主要业务的统一精排模型。]]></description>
-      <pubDate>Sun, 15 Nov 2026 02:06:17 GMT</pubDate>
+      <pubDate>Sun, 15 Nov 2026 02:16:43 GMT</pubDate>
       <category><![CDATA[开发]]></category>
       <source>美团技术</source>
     </item>
@@ -85,7 +31,7 @@
       <link>https://tech.meituan.com/2026/09/10/Agent-Evaluation-White-Paper-01.html</link>
       <guid isPermaLink="false">https://tech.meituan.com/2026/09/10/Agent-Evaluation-White-Paper-01.html</guid>
       <description><![CDATA[我们推出了《Agent评测白皮书》系列博客，体系化地为大家讲解评测的落地指南，分为《评测全览》、《冷启动篇》、《扩量篇》、《自进化篇》等共4篇，本文为系列的第一篇。]]></description>
-      <pubDate>Sun, 15 Nov 2026 02:06:17 GMT</pubDate>
+      <pubDate>Sun, 15 Nov 2026 02:16:43 GMT</pubDate>
       <category><![CDATA[开发]]></category>
       <source>美团技术</source>
     </item>
@@ -94,16 +40,79 @@
       <link>https://tech.meituan.com/2026/09/03/meituan-Digital-Human-practice.html</link>
       <guid isPermaLink="false">https://tech.meituan.com/2026/09/03/meituan-Digital-Human-practice.html</guid>
       <description><![CDATA[美团智播围绕 AI 主播「长得真→动得准→演得活→卖得好」构建了完整技术闭环：真人 1:1 复刻、换装换背景身份不跑偏；动作自然流畅，告别「木偶戏」；边说边动、音画一致；背后还有推理加速技术支撑万路并发开播，让普惠落地成为可能。]]></description>
-      <pubDate>Sun, 15 Nov 2026 02:06:17 GMT</pubDate>
+      <pubDate>Sun, 15 Nov 2026 02:16:43 GMT</pubDate>
       <category><![CDATA[开发]]></category>
       <source>美团技术</source>
+    </item>
+    <item>
+      <title><![CDATA[GeoRA: 为RLVR设计的LoRA——ACL 2026杰出论文解析]]></title>
+      <link>https://tech.meituan.com/2026/08/27/ACL-Outstanding-Paper-GeoRA.html</link>
+      <guid isPermaLink="false">https://tech.meituan.com/2026/08/27/ACL-Outstanding-Paper-GeoRA.html</guid>
+      <description><![CDATA[ACL 2026杰出论文奖（Outstanding Paper）揭晓，全球共 18 篇入选，其中包含美团履约技术团队的1篇论文。本文介绍了一种专为 RLVR 设计的低秩训练方法，以及它在业务 Agentic RL 中的落地经验。]]></description>
+      <pubDate>Sun, 15 Nov 2026 02:16:43 GMT</pubDate>
+      <category><![CDATA[开发]]></category>
+      <source>美团技术</source>
+    </item>
+    <item>
+      <title><![CDATA[美团搜索3.0：LLM 语义表征在排序模型的探索与应用]]></title>
+      <link>https://tech.meituan.com/2026/08/20/01-meituan-Query-3.0.html</link>
+      <guid isPermaLink="false">https://tech.meituan.com/2026/08/20/01-meituan-Query-3.0.html</guid>
+      <description><![CDATA[美团搜索团队正依托团垂融合新架构与生成式大模型新技术，全面重构本地生活搜索底座。本系列技术博客将持续介绍美团搜索 3.0 的技术探索，本文聚焦 LLM 语义表征在服务零售排序场景上的三期实践——从单点特征验证到系统性表征体系构建，再到跨场景迁移复用，探索语义匹配信号在搜索排序中的应用路径。]]></description>
+      <pubDate>Sun, 15 Nov 2026 02:16:43 GMT</pubDate>
+      <category><![CDATA[开发]]></category>
+      <source>美团技术</source>
+    </item>
+    <item>
+      <title><![CDATA[美团 LongCat-2.5 正式开源：从看见，到抵达]]></title>
+      <link>https://tech.meituan.com/2026/11/10/Meituan-LongCat-2.5-Open-Source.html</link>
+      <guid isPermaLink="false">https://tech.meituan.com/2026/11/10/Meituan-LongCat-2.5-Open-Source.html</guid>
+      <description><![CDATA[美团正式开源 LongCat-2.5，采用MIT协议，支持商用推理部署与二次训练，无需额外授权。]]></description>
+      <pubDate>Sun, 15 Nov 2026 02:16:43 GMT</pubDate>
+      <category><![CDATA[开发]]></category>
+      <source>美团技术</source>
+    </item>
+    <item>
+      <title><![CDATA[美团正式发布 LongCat-2.5：面向智能体任务的原生多模态模型]]></title>
+      <link>https://tech.meituan.com/2026/11/02/Meituan-LongCat-2.5.html</link>
+      <guid isPermaLink="false">https://tech.meituan.com/2026/11/02/Meituan-LongCat-2.5.html</guid>
+      <description><![CDATA[美团发布 LongCat-2.5，一个面向长程智能体任务的原生多模态模型。模型总参数量为 1.6 万亿，每个 token 激活约 480 亿参数，在 LongCat-2.0 的基础上进一步强化原生视觉理解与智能体编程能力。]]></description>
+      <pubDate>Sun, 15 Nov 2026 02:16:43 GMT</pubDate>
+      <category><![CDATA[开发]]></category>
+      <source>美团技术</source>
+    </item>
+    <item>
+      <title><![CDATA[如何在“不能出错”的系统里使用 AI Coding？分布式存储实践与边界]]></title>
+      <link>https://tech.meituan.com/2026/10/29/AI-Coding-IN-Distributed-Storage-System.html</link>
+      <guid isPermaLink="false">https://tech.meituan.com/2026/10/29/AI-Coding-IN-Distributed-Storage-System.html</guid>
+      <description><![CDATA[本文结合美团基础技术部在 AI 评审、问题排查和自动化开发中的真实实践，分享 AI 能帮上什么忙、容易在哪些地方犯错，以及哪些地方仍需要人来把关。比「多写代码」更重要的，是让代码和结论经得起验证。]]></description>
+      <pubDate>Sun, 15 Nov 2026 02:16:43 GMT</pubDate>
+      <category><![CDATA[开发]]></category>
+      <source>美团技术</source>
+    </item>
+    <item>
+      <title><![CDATA[从 LOOP 到图探索 —— 算法模型的 AutoResearch 自进化系统架构演进之路]]></title>
+      <link>https://tech.meituan.com/2026/10/22/LOOP-AutoResearch.html</link>
+      <guid isPermaLink="false">https://tech.meituan.com/2026/10/22/LOOP-AutoResearch.html</guid>
+      <description><![CDATA[本文分享这套系统的设计理念、架构演进与可信度设计，希望对大家有所帮助或启发。]]></description>
+      <pubDate>Sun, 15 Nov 2026 02:16:43 GMT</pubDate>
+      <category><![CDATA[开发]]></category>
+      <source>美团技术</source>
+    </item>
+    <item>
+      <title><![CDATA[51个一类新药进医保 创新药惠民“再提速”]]></title>
+      <link>http://china.chinadaily.com.cn/a/202611/15/WS6af8ee6de4b0e14252fcb1d1.html</link>
+      <guid isPermaLink="false">http://china.chinadaily.com.cn/a/202611/15/WS6af8ee6de4b0e14252fcb1d1.html</guid>
+      <description><![CDATA[11月14日，在苏州举行的2026创新药高质量发展大会上，2026年国家医保药品目录和商保创新药目录正式发布，107种药品进医保目录、12种药品进商保创新药目录，参保人用药保障迎来新一轮扩容升级。 ——创新药惠民“提级换挡”。 “新”是这次调整的鲜明底色：新增一类新药数量再创历史新高，达到51个；CAR-T、双抗ADC等创新性药物首次纳入医保目录；打通商保创新药目录与基本医保目录。 “此次调整重点将临床获益明确、能够填补治疗空白的创新药纳入保障范围，兼顾重大疾病、儿童用药、老年慢病用药等民生急需品种。”国家医保局医药服务管理司司长黄心宇说。 107种新增药品包括31种肿瘤用药、7种抗感染用药、]]></description>
+      <pubDate>Sun, 15 Nov 2026 02:16:40 GMT</pubDate>
+      <category><![CDATA[新闻]]></category>
+      <source>中国日报</source>
     </item>
     <item>
       <title><![CDATA[我国新增3处世界地质遗产地]]></title>
       <link>http://china.chinadaily.com.cn/a/202611/15/WS6af8ee6ee4b0e14252fcb1d3.html</link>
       <guid isPermaLink="false">http://china.chinadaily.com.cn/a/202611/15/WS6af8ee6ee4b0e14252fcb1d3.html</guid>
-      <description><![CDATA[<div><div id="Content"> <p>新华社重庆11月14日电（记者郑世昌）14日，记者从第三批国际地质科学联合会地质遗产地中国入选地名单发布会上了解到，我国新增3处地质遗产地，分别为：重庆云阳中侏罗世恐龙化石群、四川鲜水河断裂、安徽大别山三叠纪超高压变质带。至此，我国共有13处入选。</p> <p>重庆云阳中侏罗世恐龙化石群是本世纪以来新发现的世界罕见的中侏罗世恐龙化石集中产地。化石种类丰富多样，共6纲12目19科。该遗址发现的云阳恐龙动物群具有全球对比意义，填补了早-中侏罗世恐龙演化序列的空白。</p> <p>鲜水河断裂位于四川西部、青藏高原东缘，形成于约2亿年前，是全球活]]></description>
-      <pubDate>Sun, 15 Nov 2026 02:06:10 GMT</pubDate>
+      <description><![CDATA[新华社重庆11月14日电（记者郑世昌）14日，记者从第三批国际地质科学联合会地质遗产地中国入选地名单发布会上了解到，我国新增3处地质遗产地，分别为：重庆云阳中侏罗世恐龙化石群、四川鲜水河断裂、安徽大别山三叠纪超高压变质带。至此，我国共有13处入选。 重庆云阳中侏罗世恐龙化石群是本世纪以来新发现的世界罕见的中侏罗世恐龙化石集中产地。化石种类丰富多样，共6纲12目19科。该遗址发现的云阳恐龙动物群具有全球对比意义，填补了早-中侏罗世恐龙演化序列的空白。 鲜水河断裂位于四川西部、青藏高原东缘，形成于约2亿年前，是全球活动性最强的大陆内部左旋走滑断裂之一，沿线完整保存着古地震地表破裂形迹，地貌错断遗迹]]></description>
+      <pubDate>Sun, 15 Nov 2026 02:16:40 GMT</pubDate>
       <category><![CDATA[新闻]]></category>
       <source>中国日报</source>
     </item>
@@ -111,8 +120,8 @@
       <title><![CDATA[2026年全国城市联合招聘高校毕业生秋季专场活动]]></title>
       <link>http://cn.chinadaily.com.cn/a/202611/14/WS6af86b02e4b0e14252fcb1cc.html</link>
       <guid isPermaLink="false">http://cn.chinadaily.com.cn/a/202611/14/WS6af86b02e4b0e14252fcb1cc.html</guid>
-      <description><![CDATA[<div><div id="Content"> <figure class="image" style="display: table;"> <img src="http://img3.chinadaily.com.cn/images/202611/14/6af86b89e4b0e1427c735603.jpeg" data-from="newsroom" data-mimetype="image/jpeg" id="img-6af86b89e4b0e1427c735603"> <figcaption style="display: table-caption; caption-side: b]]></description>
-      <pubDate>Sun, 15 Nov 2026 02:06:10 GMT</pubDate>
+      <description><![CDATA[记者11月13日从人力资源社会保障部获悉，自9月20日启动以来，职引未来——2026年全国城市联合招聘高校毕业生秋季专场活动持续深入开展。全国2400多家公共就业人才服务机构、部分头部人力资源服务机构以及相关行业协会协同发力，陆续推出覆盖不同行业、区域的各类专场招聘及就业指导活动，把适宜岗位推送到毕业生身边，把就业服务延伸到求职全过程。截至目前，线上线下共举办1万余场招聘会，26.4万家用人单位提供岗位551.5万个，参与求职毕业生529.1万人次。 抢抓秋招黄金期，让求职机会集中释放。9至11月是企业招聘和高校毕业生求职的重要时段。各地抢抓秋招关键窗口期，密集组织线上线下招聘活动，围绕数字经]]></description>
+      <pubDate>Sun, 15 Nov 2026 02:16:40 GMT</pubDate>
       <category><![CDATA[新闻]]></category>
       <source>中国日报</source>
     </item>
@@ -120,8 +129,8 @@
       <title><![CDATA[数说APEC丨中国生态治理经验 如何为亚太增“绿”]]></title>
       <link>http://china.chinadaily.com.cn/a/202611/14/WS6af86b01e4b0e14252fcb1ca.html</link>
       <guid isPermaLink="false">http://china.chinadaily.com.cn/a/202611/14/WS6af86b01e4b0e14252fcb1ca.html</guid>
-      <description><![CDATA[<div><div id="Content"> <figure class="image" style="display: table;"> <a href="https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=4511338471042251569&amp;toc_style_id=feeds_default&amp;share_to=copy_url&amp;track_id=35f1c38b-2ff5-4c6f-a2d3-62dfbf9622b9_1794625166331"><img src="ht]]></description>
-      <pubDate>Sun, 15 Nov 2026 02:06:10 GMT</pubDate>
+      <description><![CDATA[点击图片 观看视频 最新数据显示，中国近十年一直是全球森林面积年均净增长最多的国家。来自中国的生态治理经验，如今也在为亚太地区增“绿”。 如今，到曼谷邦加巢骑行，成为不少外国游客喜爱的体验。穿行在这片约2800个足球场大小的城市绿洲，人们很难想象这里曾经垃圾遍地、蚊虫滋生。由中国倡议发起的亚太森林组织，在这里联合打造了生态步道、修复城市森林。 从巴布亚新几内亚社区造林项目，到秘鲁南部海岸干旱地恢复，还有斐济檀香木可持续经营项目等……亚太森林组织已为20多个APEC经济体落地50多个林业示范项目，投入资金超4500万美元。 2007年APEC第十五次会议提出悉尼目标：到2020年亚太森林面积至少]]></description>
+      <pubDate>Sun, 15 Nov 2026 02:16:40 GMT</pubDate>
       <category><![CDATA[新闻]]></category>
       <source>中国日报</source>
     </item>
@@ -129,19 +138,109 @@
       <title><![CDATA[青春华章・我们的新长征｜津门砺技 匠心育才]]></title>
       <link>http://china.chinadaily.com.cn/a/202611/14/WS6af86b3ae4b0e14252fcb1ce.html</link>
       <guid isPermaLink="false">http://china.chinadaily.com.cn/a/202611/14/WS6af86b3ae4b0e14252fcb1ce.html</guid>
-      <description><![CDATA[<div><div id="Content"> <p data-spm-anchor-id="C73544894212.P59511941341.0.i1">央视网消息（记者 孙晓媛）：“十五五”时期是基本实现社会主义现代化夯实基础、全面发力的关键时期。推动高质量发展，走好新的长征路，既需要科技创新勇攀高峰，也需要大批技艺精湛的产业劳动者扎根一线、实干笃行。</p> <p data-spm-anchor-id="C73544894212.P59511941341.0.i0">近年来，坐落于天津海河教育园区的中国（天津）职业技能公共实训中心依托“海河工匠”建设政策，积极面向社会各界开展技能提升服]]></description>
-      <pubDate>Sun, 15 Nov 2026 02:06:10 GMT</pubDate>
+      <description><![CDATA[央视网消息（记者 孙晓媛）：“十五五”时期是基本实现社会主义现代化夯实基础、全面发力的关键时期。推动高质量发展，走好新的长征路，既需要科技创新勇攀高峰，也需要大批技艺精湛的产业劳动者扎根一线、实干笃行。 近年来，坐落于天津海河教育园区的中国（天津）职业技能公共实训中心依托“海河工匠”建设政策，积极面向社会各界开展技能提升服务，为发展新质生产力培养了大批高技能人才。11月12日，“青春华章・我们的新长征”大思政课网络主题宣传和互动引导活动媒体行走进实训中心。 中国（天津）职业技能公共实训中心由天津市政府于2011年6月投资兴建，占地120亩，涵盖现代制造、现代控制、现代物流、现代电子和信息技术5]]></description>
+      <pubDate>Sun, 15 Nov 2026 02:16:40 GMT</pubDate>
       <category><![CDATA[新闻]]></category>
       <source>中国日报</source>
     </item>
     <item>
-      <title><![CDATA[51个一类新药进医保 创新药惠民“再提速”]]></title>
-      <link>http://china.chinadaily.com.cn/a/202611/15/WS6af8ee6de4b0e14252fcb1d1.html</link>
-      <guid isPermaLink="false">http://china.chinadaily.com.cn/a/202611/15/WS6af8ee6de4b0e14252fcb1d1.html</guid>
-      <description><![CDATA[<div><div id="Content"> <p>11月14日，在苏州举行的2026创新药高质量发展大会上，2026年国家医保药品目录和商保创新药目录正式发布，107种药品进医保目录、12种药品进商保创新药目录，参保人用药保障迎来新一轮扩容升级。</p> <figure class="image" style="display: table;"> <img src="http://cds.chinadaily.com.cn/dams/capital/image/202611/15/6af8ee136b8e635a962d49dd_m.jpg" data-resourcesrc="/capi]]></description>
-      <pubDate>Sun, 15 Nov 2026 02:06:10 GMT</pubDate>
-      <category><![CDATA[新闻]]></category>
-      <source>中国日报</source>
+      <title><![CDATA[分析：比特币空头正加速入场，市场接近长期趋势通道底部]]></title>
+      <link>https://www.odaily.news/zh-CN/newsflash/534712</link>
+      <guid isPermaLink="false">https://www.odaily.news/zh-CN/newsflash/534712</guid>
+      <description><![CDATA[Odaily星球日报讯 加密货币做市商 GSR 联合创始人 Rich Rosenblum 表示，比特币可能正在接近技术性底部，比特币跌破 200 日移动均线后引发大量杠杆多头仓位被清算，同时吸引更多交易者建立空头头寸，进一步加剧市场抛压，比特币目前正在接近长期趋势通道底部，过去一年中，当前价位附近及略低位置曾多次获得支撑。 市场分析认为，自 10 月 21 日以来，比特币已累计下跌约 25%，10 月 30 日至 11 月 13 日美国现货比特币 ETF 净流出近 30 亿美元，近期还受到利率预期上升、AI 板块引发的避险情绪以及币安近期遭遇的黑客攻击事件等因素冲击，加速多头爆仓与空头入场。 ]]></description>
+      <pubDate>Sun, 15 Nov 2026 02:16:09 GMT</pubDate>
+      <category><![CDATA[财经]]></category>
+      <source>Odaily快讯</source>
+    </item>
+    <item>
+      <title><![CDATA[[生活] BLG 夺冠，B 站给所有人送大会员！定好闹钟今天 12 点！]]></title>
+      <link>https://www.v2ex.com/t/1257151#reply1</link>
+      <guid isPermaLink="false">https://www.v2ex.com/t/1257151#reply1</guid>
+      <description><![CDATA[BLG 3:1 拿下 S16 冠军，LPL 时隔五年再捧杯。B 站当场宣布：给所有人送大会员！ · 时间：11 月 15 日 12:00 — 11 月 16 日 12:00，限时 24 小时 · 领法：打开 B 站，搜索「大会员」，点领取，站内直接到账 领完可以顺手在「订阅精灵」小程序里记了一笔：免费领的会员也有有效期，设个到期提醒。 https://i.imgur.com/G6HCEue.jpeg https://i.imgur.com/R4vtBGx.jpeg]]></description>
+      <pubDate>Sun, 15 Nov 2026 02:15:04 GMT</pubDate>
+      <category><![CDATA[开发]]></category>
+      <source>V2EX</source>
+    </item>
+    <item>
+      <title><![CDATA[麻吉大哥持有5年后以7.3枚ETH卖出Bored Ape 2894，亏损117.7枚ETH]]></title>
+      <link>https://www.odaily.news/zh-CN/newsflash/534709</link>
+      <guid isPermaLink="false">https://www.odaily.news/zh-CN/newsflash/534709</guid>
+      <description><![CDATA[Odaily星球日报讯 据 Lookonchain 监测，Machi（@machibigbrother）5 年前以 125 枚 ETH 买入 Bored Ape 2894，近日以 7.3 枚 ETH 卖出，亏损 117.7 枚 ETH，约合 20.4 万美元。Lookonchain 称，Machi 此举是为高杠杆交易筹集资金。]]></description>
+      <pubDate>Sun, 15 Nov 2026 02:13:12 GMT</pubDate>
+      <category><![CDATA[财经]]></category>
+      <source>Odaily快讯</source>
+    </item>
+    <item>
+      <title><![CDATA[浮盈约1560万美元，某地址持有3万枚ETH 20倍空单]]></title>
+      <link>https://www.odaily.news/zh-CN/newsflash/534707</link>
+      <guid isPermaLink="false">https://www.odaily.news/zh-CN/newsflash/534707</guid>
+      <description><![CDATA[Odaily星球日报讯 据链上分析师 Ai 姨监测，某地址自 11 月 5 日起持有 3 万枚 ETH 的 20 倍空单，目前仓位价值约 5289 万美元，开仓价为 2283.2 美元，浮盈约 1560 万美元，成为 Hyperliquid 上 ETH 单笔浮盈最高的账户。半个月前，该地址做多 ETH 和 BTC 获利 1777.7 万美元，账户总盈利约 3587 万美元。]]></description>
+      <pubDate>Sun, 15 Nov 2026 02:11:28 GMT</pubDate>
+      <category><![CDATA[财经]]></category>
+      <source>Odaily快讯</source>
+    </item>
+    <item>
+      <title><![CDATA[知名交易员：抛售主要发生在Coinbase，激进程度历史罕见]]></title>
+      <link>https://www.odaily.news/zh-CN/newsflash/534706</link>
+      <guid isPermaLink="false">https://www.odaily.news/zh-CN/newsflash/534706</guid>
+      <description><![CDATA[Odaily星球日报讯 知名交易员、Fullstack 创始人 Flood 于 X 发文表示：“这是我这辈子见过的最激进、最不计价格的 BTC 抛售行为之一。看到这样的资金流，你不得不问自己：这个大卖家是不是知道些什么？是不是有什么隐藏的杠杆头寸正在被迫平仓？在这种情况下，不加判断地盲目挂买单，很容易成为被收割的对象。” Flood 补充表示，想到了以下几种可能 —— 这个人是否掌握了某些地缘政治事件的内幕信息？而 BTC 恰好是周末流动性最好的交易标的？这个人是否知道一些关于量子计算的消息？这个人是否在抢先于一个规模更大的被迫卖家出逃？这个人是否正在遭遇清算？如果是最后一种情况，你就应该挂买]]></description>
+      <pubDate>Sun, 15 Nov 2026 02:10:42 GMT</pubDate>
+      <category><![CDATA[财经]]></category>
+      <source>Odaily快讯</source>
+    </item>
+    <item>
+      <title><![CDATA[[计算机] 如果给计算机基础教材列一个「五大经典」，你会选哪几本]]></title>
+      <link>https://www.v2ex.com/t/1257146#reply5</link>
+      <guid isPermaLink="false">https://www.v2ex.com/t/1257146#reply5</guid>
+      <description><![CDATA[最近在整理计算机基础方面的阅读书单，想到能不能按五个方向，各选一本有代表性的经典教材： 计算机系统：《深入理解计算机系统》（CSAPP） 计算机网络：《计算机网络：自顶向下方法》 操作系统：《操作系统导论》（OSTEP） 编译原理：《编译原理》（Dragon Book） 数据库：《数据库系统概念》（Database System Concepts） 这五个方向基本覆盖了我理解的计算机基础知识体系。已经买了 CSAPP、自顶向下。准备都买回来 想问问 V 站的各位： 这五本书作为对应领域的代表教材，选择是否合适？ 有没有你认为更值得推荐的替代书籍？ 除了这五个方向，还有哪些基础领域值得纳入这份书]]></description>
+      <pubDate>Sun, 15 Nov 2026 02:10:10 GMT</pubDate>
+      <category><![CDATA[开发]]></category>
+      <source>V2EX</source>
+    </item>
+    <item>
+      <title><![CDATA[[分享创造] 做了一个本地工具集合：屏幕翻译、语音转写和朗读，电脑端还有文档处理]]></title>
+      <link>https://www.v2ex.com/t/1257156#reply0</link>
+      <guid isPermaLink="false">https://www.v2ex.com/t/1257156#reply0</guid>
+      <description><![CDATA[大家好，我是 Screen Solvely 的开发者，来分享一下这个工具，也想收集一些实际使用反馈。 它主要围绕几个场景： 在其他 App 里读外语内容：选择屏幕区域，翻译结果放在悬浮窗口里，尽量减少来回切换。 听讲座或记录对话：转写 App 音频或麦克风声音，记录保留原文和可选译文，可以导出 PDF；选择保留的音频也可导出。 想听而不想盯着读：朗读文章链接或采集到的屏幕文字，调整语速和音色。 在电脑上处理资料：文档格式转换和 PDF 工具。转换后的段落、公式和复杂版式仍需要对照原稿检查，不承诺无损还原。 上面这些工具免费，在设备上处理，首次使用需要准备相应的离线资源。网页内容加载仍需要网络，]]></description>
+      <pubDate>Sun, 15 Nov 2026 02:08:34 GMT</pubDate>
+      <category><![CDATA[开发]]></category>
+      <source>V2EX</source>
+    </item>
+    <item>
+      <title><![CDATA[辅助驾驶≠自动驾驶：男子载一家四口在高速启用“智驾”玩手机、躺睡被处罚]]></title>
+      <link>https://www.ithome.com/1/027/276.htm</link>
+      <guid isPermaLink="false">https://www.ithome.com/1/027/276.htm</guid>
+      <description><![CDATA[IT之家 11 月 15 日消息，据公安部交通管理局分享，近日，山东青岛。群众举报一司机在高速上驾车时双目闭合， 疑借助车辆智能辅助驾驶功能行车 。 民警随即迅速锁定该车辆。经查，驾驶人当日载着一家四口出行， 认为高速上路况平稳、车流不大，开了“智驾”便放倒座椅闭目休息 ，认为不影响安全。 此外， 交警发现副驾人员未满 12 周岁 ，而且驾驶人此前曾存在多次开着“智驾”玩手机、闭眼休息等危险操作。交警对其盲目依赖“智能辅助驾驶”功能的行为进行了严肃批评教育， 并对其多项违法行为依法予以处罚 。 IT之家提醒： 辅助驾驶≠自动驾驶 ，即使开启相关功能，驾驶员也绝不能放松警惕，驾驶人才是最终的责任]]></description>
+      <pubDate>Sun, 15 Nov 2026 02:07:18 GMT</pubDate>
+      <category><![CDATA[科技]]></category>
+      <source>IT之家</source>
+    </item>
+    <item>
+      <title><![CDATA[[问与答] iphone13 升级 ios27 后，信号差了很多]]></title>
+      <link>https://www.v2ex.com/t/1257154#reply1</link>
+      <guid isPermaLink="false">https://www.v2ex.com/t/1257154#reply1</guid>
+      <description><![CDATA[电信卡，之前旧版本的时候，几乎都是满格的，现在 ios27 上，经常 2 格 3 格的(4 格满格)，网络也还原重置了，以及解决不了问题；]]></description>
+      <pubDate>Sun, 15 Nov 2026 02:06:05 GMT</pubDate>
+      <category><![CDATA[开发]]></category>
+      <source>V2EX</source>
+    </item>
+    <item>
+      <title><![CDATA[How to catch 9000 bees]]></title>
+      <link>https://www.rnz.co.nz/news/environment/2608928/how-to-catch-9000-bees</link>
+      <guid isPermaLink="false">https://www.rnz.co.nz/news/environment/2608928/how-to-catch-9000-bees</guid>
+      <description><![CDATA[An increase in bee swarms around Auckland has made news around the world. Checkpoint's Teuila Fuatai spent a morning with one of the beekeepers tasked with keeping the swarms under control.]]></description>
+      <pubDate>Sun, 15 Nov 2026 02:05:20 GMT</pubDate>
+      <category><![CDATA[国际]]></category>
+      <source>RNZ</source>
+    </item>
+    <item>
+      <title><![CDATA[Legal but not available: Who decides what healthcare is on the table?]]></title>
+      <link>https://www.abc.net.au/news/2026-11-15/catholic-provider-calvary-healthcare-ivf-vad-reproductive-health/107380082</link>
+      <guid isPermaLink="false">https://www.abc.net.au/news/2026-11-15/catholic-provider-calvary-healthcare-ivf-vad-reproductive-health/107380082</guid>
+      <description><![CDATA[IVF, abortion and voluntary assisted dying services are all legal. But when a Catholic provider takes over a hospital and drops services the church opposes, the community is left without.]]></description>
+      <pubDate>Sun, 15 Nov 2026 02:01:56 GMT</pubDate>
+      <category><![CDATA[国际]]></category>
+      <source>ABC Australia</source>
     </item>
     <item>
       <title><![CDATA[AI ‘blue aliens’ rising as health experts on China social media spark pseudoscience backlash]]></title>
@@ -198,10 +297,28 @@
       <source>V2EX</source>
     </item>
     <item>
+      <title><![CDATA[Live cricket: Black Caps v India fifth ODI]]></title>
+      <link>https://www.rnz.co.nz/news/sport/2608764/live-cricket-black-caps-v-india-fifth-odi</link>
+      <guid isPermaLink="false">https://www.rnz.co.nz/news/sport/2608764/live-cricket-black-caps-v-india-fifth-odi</guid>
+      <description><![CDATA[Follow live updates as the Black Caps take on India at Bay Oval in Mt Maunganui.]]></description>
+      <pubDate>Sun, 15 Nov 2026 01:58:51 GMT</pubDate>
+      <category><![CDATA[国际]]></category>
+      <source>RNZ</source>
+    </item>
+    <item>
+      <title><![CDATA[Qld government reveals successful tenderer for $1.4b Brisbane Arena]]></title>
+      <link>https://www.abc.net.au/news/2026-11-15/qld-government-reveals-brisbane-arena-gabba-olympics-tender/107387252</link>
+      <guid isPermaLink="false">https://www.abc.net.au/news/2026-11-15/qld-government-reveals-brisbane-arena-gabba-olympics-tender/107387252</guid>
+      <description><![CDATA[Construction consortium Gather Brisbane has been chosen to build the $1.4 billion Brisbane Arena at Woolloongabba, and to develop the former Gabba site after the stadium is torn down following the 2032 Olympic and Paralympic Games.]]></description>
+      <pubDate>Sun, 15 Nov 2026 01:57:43 GMT</pubDate>
+      <category><![CDATA[国际]]></category>
+      <source>ABC Australia</source>
+    </item>
+    <item>
       <title><![CDATA[总盈利约4,049万美元，某地址平仓全部ETH空单]]></title>
       <link>https://www.odaily.news/zh-CN/newsflash/534704</link>
       <guid isPermaLink="false">https://www.odaily.news/zh-CN/newsflash/534704</guid>
-      <description><![CDATA[<p>据 Odaily 监测，某地址在 2026 年 11 月 15 日 08:49 至 09:53 将剩余约 2,000 枚 ETH 空单全部平仓，此次平仓金额约 345 万美元。其合约账户累计收益约 4,049 万美元。</p><p>地址：0x418aa6bf98a2b2bc93779f810330d88cde488888</p>]]></description>
+      <description><![CDATA[据 Odaily 监测，某地址在 2026 年 11 月 15 日 08:49 至 09:53 将剩余约 2,000 枚 ETH 空单全部平仓，此次平仓金额约 345 万美元。其合约账户累计收益约 4,049 万美元。 地址：0x418aa6bf98a2b2bc93779f810330d88cde488888]]></description>
       <pubDate>Sun, 15 Nov 2026 01:57:19 GMT</pubDate>
       <category><![CDATA[财经]]></category>
       <source>Odaily快讯</source>
@@ -210,10 +327,28 @@
       <title><![CDATA[总盈利约6,693万美元，某地址增持约484万美元BTC多单]]></title>
       <link>https://www.odaily.news/zh-CN/newsflash/534703</link>
       <guid isPermaLink="false">https://www.odaily.news/zh-CN/newsflash/534703</guid>
-      <description><![CDATA[<p>据 Odaily 监测，某地址在 2026 年 11 月 15 日 08:47 至 09:50 增持约 77.57 枚 BTC 多单，价值约 484 万美元，目前持有 203.81 枚 BTC 多单。其合约账户累计收益约 6,693 万美元。</p><p>地址：0x8af700ba841f30e0a3fcb0ee4c4a9d223e1efa05。</p>]]></description>
+      <description><![CDATA[据 Odaily 监测，某地址在 2026 年 11 月 15 日 08:47 至 09:50 增持约 77.57 枚 BTC 多单，价值约 484 万美元，目前持有 203.81 枚 BTC 多单。其合约账户累计收益约 6,693 万美元。 地址：0x8af700ba841f30e0a3fcb0ee4c4a9d223e1efa05。]]></description>
       <pubDate>Sun, 15 Nov 2026 01:57:00 GMT</pubDate>
       <category><![CDATA[财经]]></category>
       <source>Odaily快讯</source>
+    </item>
+    <item>
+      <title><![CDATA[TSB, Heartland delay merger to March 2027]]></title>
+      <link>https://www.rnz.co.nz/news/business/2608890/tsb-heartland-delay-merger-to-march-2027</link>
+      <guid isPermaLink="false">https://www.rnz.co.nz/news/business/2608890/tsb-heartland-delay-merger-to-march-2027</guid>
+      <description><![CDATA[The parties had thought the merger could go ahead by the end of December but that has now been extended to 1 March.]]></description>
+      <pubDate>Sun, 15 Nov 2026 01:55:45 GMT</pubDate>
+      <category><![CDATA[国际]]></category>
+      <source>RNZ</source>
+    </item>
+    <item>
+      <title><![CDATA[Iraq PM sacks nine officials over oil smuggling in pro-Iran stronghold]]></title>
+      <link>https://www.aljazeera.com/news/2026/11/15/iraq-pm-sacks-nine-officials-over-oil-smuggling-in-pro-iran-stronghold?traffic_source=rss</link>
+      <guid isPermaLink="false">https://www.aljazeera.com/news/2026/11/15/iraq-pm-sacks-nine-officials-over-oil-smuggling-in-pro-iran-stronghold?traffic_source=rss</guid>
+      <description><![CDATA[Dismissals follow probe that uncovered illegal oil refineries and smuggling in a region run by Kataib Hezbollah.]]></description>
+      <pubDate>Sun, 15 Nov 2026 01:54:55 GMT</pubDate>
+      <category><![CDATA[国际]]></category>
+      <source>Al Jazeera</source>
     </item>
     <item>
       <title><![CDATA[[问与答] micro center 竟然给了两个树莓派]]></title>
@@ -228,7 +363,7 @@
       <title><![CDATA[Thunderstorms, giant hail and powerful winds forecast for NSW as wild weather hits east coast]]></title>
       <link>https://www.theguardian.com/australia-news/2026/nov/15/australia-weather-east-coast-thunderstorms-giant-hail-and-powerful-winds-ettalong-beach-swimmer-lightning-strike</link>
       <guid isPermaLink="false">https://www.theguardian.com/australia-news/2026/nov/15/australia-weather-east-coast-thunderstorms-giant-hail-and-powerful-winds-ettalong-beach-swimmer-lightning-strike</guid>
-      <description><![CDATA[<p>Volatile weather predicted after storms on Saturday, with a man in his 20s struck by lightning while swimming on NSW Central Coast</p><ul><li><p>Get our <a href="https://www.theguardian.com/email-newsletters?CMP=cvau_sfl">breaking news email</a>, <a href="https://app.adjust.com/w4u7jx3">free app<]]></description>
+      <description><![CDATA[Volatile weather predicted after storms on Saturday, with a man in his 20s struck by lightning while swimming on NSW Central Coast Get our breaking news email , free app or daily news podcast Dangerous and severe “supercell” thunderstorms with the potential for giant hail and destructive winds were ]]></description>
       <pubDate>Sun, 15 Nov 2026 01:52:37 GMT</pubDate>
       <category><![CDATA[国际]]></category>
       <source>The Guardian</source>
@@ -237,19 +372,10 @@
       <title><![CDATA[Bitwise CIO：市场仍将持续低迷，以消化中期选举、币安被盗等事件的影响]]></title>
       <link>https://www.odaily.news/zh-CN/newsflash/534701</link>
       <guid isPermaLink="false">https://www.odaily.news/zh-CN/newsflash/534701</guid>
-      <description><![CDATA[<p>Odaily星球日报讯 Bitwise 首席投资官 Matt Hougan 于 X 发文表示，加密市场现在给人的感觉，很像 2018 年年中。当时整个行业都陷入疲态，很多人开始放弃。考虑到美国大选、币安事件、货币政策收紧等因素带来的长期影响，市场可能还要在低迷中徘徊一段时间。</p><p>未来某个时点，一定会出现一个绝佳的买入机会，但很难判断它究竟何时到来。2018 年打破市场沉闷局面的，是一次创新突破 —— DeFi，这一次可能也会是类似的情况。创新突破最让人头疼的地方就在于，它们根本无法提前预测。如果你能提前预见它的到来，恐怕早就已经创办一家价值数十亿美元的公司，抢先布局了。</p>]]></description>
+      <description><![CDATA[Odaily星球日报讯 Bitwise 首席投资官 Matt Hougan 于 X 发文表示，加密市场现在给人的感觉，很像 2018 年年中。当时整个行业都陷入疲态，很多人开始放弃。考虑到美国大选、币安事件、货币政策收紧等因素带来的长期影响，市场可能还要在低迷中徘徊一段时间。 未来某个时点，一定会出现一个绝佳的买入机会，但很难判断它究竟何时到来。2018 年打破市场沉闷局面的，是一次创新突破 —— DeFi，这一次可能也会是类似的情况。创新突破最让人头疼的地方就在于，它们根本无法提前预测。如果你能提前预见它的到来，恐怕早就已经创办一家价值数十亿美元的公司，抢先布局了。]]></description>
       <pubDate>Sun, 15 Nov 2026 01:51:41 GMT</pubDate>
       <category><![CDATA[财经]]></category>
       <source>Odaily快讯</source>
-    </item>
-    <item>
-      <title><![CDATA[[问与答] iphone13 升级 ios27 后，信号差了很多]]></title>
-      <link>https://www.v2ex.com/t/1257154#reply0</link>
-      <guid isPermaLink="false">https://www.v2ex.com/t/1257154#reply0</guid>
-      <description><![CDATA[电信卡，之前旧版本的时候，几乎都是满格的，现在 ios27 上，经常 2 格 3 格的(4 格满格)，网络也还原重置了，以及解决不了问题；]]></description>
-      <pubDate>Sun, 15 Nov 2026 01:51:37 GMT</pubDate>
-      <category><![CDATA[开发]]></category>
-      <source>V2EX</source>
     </item>
     <item>
       <title><![CDATA[[分享创造] 最近 token 多 学着搞了一个短片 ..无改编 就是封神演义 第一回古诗]]></title>
@@ -264,7 +390,7 @@
       <title><![CDATA[Glassnode：稳定币供应量正在快速萎缩，单月流出创 2022 年以来新高]]></title>
       <link>https://www.odaily.news/zh-CN/newsflash/534697</link>
       <guid isPermaLink="false">https://www.odaily.news/zh-CN/newsflash/534697</guid>
-      <description><![CDATA[<p>Odaily星球日报讯&nbsp; Glassnode 于 X 发文表示：“稳定币供应量正在快速萎缩。过去一个月，稳定币总供应量减少了 170 亿美元，创下自 2022 年以来的最大单月跌幅。随着持有者将稳定币兑换成法币，BTC 和整个加密市场的购买力也随之流失。牛市要想真正到来，资金必须流入加密生态，而不是持续流出。”</p>]]></description>
+      <description><![CDATA[Odaily星球日报讯 Glassnode 于 X 发文表示：“稳定币供应量正在快速萎缩。过去一个月，稳定币总供应量减少了 170 亿美元，创下自 2022 年以来的最大单月跌幅。随着持有者将稳定币兑换成法币，BTC 和整个加密市场的购买力也随之流失。牛市要想真正到来，资金必须流入加密生态，而不是持续流出。”]]></description>
       <pubDate>Sun, 15 Nov 2026 01:46:20 GMT</pubDate>
       <category><![CDATA[财经]]></category>
       <source>Odaily快讯</source>
@@ -273,10 +399,19 @@
       <title><![CDATA[BNC 24小时下跌10.1%]]></title>
       <link>https://www.odaily.news/zh-CN/newsflash/534696</link>
       <guid isPermaLink="false">https://www.odaily.news/zh-CN/newsflash/534696</guid>
-      <description><![CDATA[<p>Odaily星球日报讯 据 MSX.COM 数据，BNC 24 小时下跌 10.1%，现报 3.705 USDT。</p>]]></description>
+      <description><![CDATA[Odaily星球日报讯 据 MSX.COM 数据，BNC 24 小时下跌 10.1%，现报 3.705 USDT。]]></description>
       <pubDate>Sun, 15 Nov 2026 01:43:58 GMT</pubDate>
       <category><![CDATA[财经]]></category>
       <source>Odaily快讯</source>
+    </item>
+    <item>
+      <title><![CDATA[部分电动自行车 3C 认证卡壳，消费者购车后上牌遇阻]]></title>
+      <link>https://www.ithome.com/1/027/275.htm</link>
+      <guid isPermaLink="false">https://www.ithome.com/1/027/275.htm</guid>
+      <description><![CDATA[IT之家 11 月 15 日消息，据中央广播电视总台中国之声今日报道，多地消费者购买的电动自行车因对应 3C 认证证书被暂停，无法办理上牌登记，涉及九号、雅迪、爱玛、新日等品牌的部分车型。 广州的温女士 10 月 21 日购入一辆九号电动自行车， 店方承诺可以上牌 ，合格证 10 月 23 日审核通过。因号源紧张，她最早只能约到 11 月 6 日，取消预约重新核验时才发现证书已被暂停。门店称该品牌一批车型的合格证均被暂停，预计 11 月中旬或月底恢复，届时仍不行可退车，但未必全额退款。 刘女士 9 月末购车，10 月末到办理点被告知证书已停，门店与九号客服均让其等待， 商家随后以车辆已激活为由]]></description>
+      <pubDate>Sun, 15 Nov 2026 01:43:34 GMT</pubDate>
+      <category><![CDATA[科技]]></category>
+      <source>IT之家</source>
     </item>
     <item>
       <title><![CDATA[[Wunder] 关于设置中目前提供的 6 种楼中楼样式的 Demo]]></title>
@@ -286,6 +421,24 @@
       <pubDate>Sun, 15 Nov 2026 01:43:25 GMT</pubDate>
       <category><![CDATA[开发]]></category>
       <source>V2EX</source>
+    </item>
+    <item>
+      <title><![CDATA[华为 Mate X8 折叠屏手机外观公布，余承东宣布屏幕、拍照、性能又有新突破]]></title>
+      <link>https://www.ithome.com/1/027/274.htm</link>
+      <guid isPermaLink="false">https://www.ithome.com/1/027/274.htm</guid>
+      <description><![CDATA[IT之家 11 月 15 日消息，华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东刚刚发布视频，回顾了华为 Mate X 系列折叠屏手机走过的岁月， 并宣布 Mate X8 新机“就要来了” 。 IT之家注意到，余承东还在视频的结尾公开了 Mate X8 折叠屏手机外观，他表示， 新机在屏幕、拍照、性能等方面又有新的突破 。 据IT之家此前报道，11 月 13 日，余承东手持紫色新机的画面在网上流传开来， 被认为是华为 Mate X8 真机 ，圆形镜头模组回归。 据博主 @数码闲聊站 今日爆料，华为 Mate X8 为常规比例的大折叠产品，搭载 8 英寸广色域京东方新屏 + 超平]]></description>
+      <pubDate>Sun, 15 Nov 2026 01:43:06 GMT</pubDate>
+      <category><![CDATA[科技]]></category>
+      <source>IT之家</source>
+    </item>
+    <item>
+      <title><![CDATA[系列游戏首次：R 星称《GTA6》鼓励玩家共情]]></title>
+      <link>https://www.ithome.com/1/027/273.htm</link>
+      <guid isPermaLink="false">https://www.ithome.com/1/027/273.htm</guid>
+      <description><![CDATA[IT之家 11 月 15 日消息，据《卫报》近日报道，Rockstar North 工作室联合负责人罗布 · 尼尔森表示，《GTA6》将成为《GTA》系列游戏中，首款主动鼓励玩家产生共情的作品。 尼尔森透露，Rockstar 在《GTA6》中首次加入能够鼓励玩家产生共情的机制， 使玩家的心境与杰森 、 露西亚联系起来 。这名员工将两名主角描述成一对走投无路的情侣，他们在剧情初期接触的都是低风险犯罪行动，例如偷窃低价的汽车、撬开容易打开的门锁，之后才会逐渐接触规模更大的犯罪行动。 不过他表示，犯罪仍然是《GTA6》的核心元素。Rockstar 不希望惩罚那些按照传统《GTA》玩法行事的玩家。 据]]></description>
+      <pubDate>Sun, 15 Nov 2026 01:42:49 GMT</pubDate>
+      <category><![CDATA[科技]]></category>
+      <source>IT之家</source>
     </item>
     <item>
       <title><![CDATA[[问与答] 求助,三星 S24U ONE9.0 的新功能"保固与维修"怎么无法查到手机信息]]></title>
@@ -300,26 +453,8 @@
       <title><![CDATA[比特币市值全球资产排名跌至第18位]]></title>
       <link>https://www.odaily.news/zh-CN/newsflash/534694</link>
       <guid isPermaLink="false">https://www.odaily.news/zh-CN/newsflash/534694</guid>
-      <description><![CDATA[<p>Odaily星球日报讯 据 8MarketCap 数据，比特币市值已被 Vanguard S&amp;P 500 ETF、礼来（Eli Lilly）及伯克希尔·哈撒韦超越，目前在全球资产市值排名中降至第 18 位，市值现报约 1.259 万亿美元，24 小时跌幅 8.28%，近 7 日跌幅达 17.23%。</p>]]></description>
+      <description><![CDATA[Odaily星球日报讯 据 8MarketCap 数据，比特币市值已被 Vanguard S&P 500 ETF、礼来（Eli Lilly）及伯克希尔·哈撒韦超越，目前在全球资产市值排名中降至第 18 位，市值现报约 1.259 万亿美元，24 小时跌幅 8.28%，近 7 日跌幅达 17.23%。]]></description>
       <pubDate>Sun, 15 Nov 2026 01:40:15 GMT</pubDate>
-      <category><![CDATA[财经]]></category>
-      <source>Odaily快讯</source>
-    </item>
-    <item>
-      <title><![CDATA[[计算机] 如果给计算机基础教材列一个「五大经典」，你会选哪几本]]></title>
-      <link>https://www.v2ex.com/t/1257146#reply3</link>
-      <guid isPermaLink="false">https://www.v2ex.com/t/1257146#reply3</guid>
-      <description><![CDATA[最近在整理计算机基础方面的阅读书单，想到能不能按五个方向，各选一本有代表性的经典教材： 计算机系统：《深入理解计算机系统》（CSAPP） 计算机网络：《计算机网络：自顶向下方法》 操作系统：《操作系统导论》（OSTEP） 编译原理：《编译原理》（Dragon Book） 数据库：《数据库系统概念》（Database System Concepts） 这五个方向基本覆盖了我理解的计算机基础知识体系。已经买了 CSAPP、自顶向下。准备都买回来 想问问 V 站的各位： 这五本书作为对应领域的代表教材，选择是否合适？ 有没有你认为更值得推荐的替代书籍？ 除了这五个方向，还有哪些基础领域值得纳入这份书]]></description>
-      <pubDate>Sun, 15 Nov 2026 01:39:11 GMT</pubDate>
-      <category><![CDATA[开发]]></category>
-      <source>V2EX</source>
-    </item>
-    <item>
-      <title><![CDATA[10小时内遭清算7次，交易员0xc05b的172枚BTC和2984枚ETH仓位被清算]]></title>
-      <link>https://www.odaily.news/zh-CN/newsflash/534693</link>
-      <guid isPermaLink="false">https://www.odaily.news/zh-CN/newsflash/534693</guid>
-      <description><![CDATA[<p>Odaily星球日报讯 据 Lookonchain 监测，Trader 0xc05b (0xc05b...8951) 在过去 10 小时内遭清算 7 次，共有 172 枚 BTC（价值 1103 万美元）和 2984 枚 ETH（价值 544 万美元）仓位被清算。</p>]]></description>
-      <pubDate>Sun, 15 Nov 2026 01:34:56 GMT</pubDate>
       <category><![CDATA[财经]]></category>
       <source>Odaily快讯</source>
     </item>
@@ -327,19 +462,28 @@
       <title><![CDATA[华为 Mate X 系列折叠屏走过第八年，余承东官宣 Mate X8 新机“就要来了”]]></title>
       <link>https://www.ithome.com/1/027/272.htm</link>
       <guid isPermaLink="false">https://www.ithome.com/1/027/272.htm</guid>
-      <description><![CDATA[<p data-vmark="c732">IT之家 11 月 15 日消息，华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东今日发布视频，回顾了华为 Mate X 系列折叠屏手机走过的岁月，<strong>并宣布 Mate X8 新机“就要来了”</strong>。</p><p style="text-align: center;" data-vmark="f1d5"><a href="https://weibo.com/1100856704/RrsCYsTc8" class="ithome_super_player" target="_blank"><img src="http]]></description>
+      <description><![CDATA[IT之家 11 月 15 日消息，华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东今日发布视频，回顾了华为 Mate X 系列折叠屏手机走过的岁月， 并宣布 Mate X8 新机“就要来了” 。 今年是华为 Mate X 系列走过的第八年。从最初少数用户尝鲜，到如今成为越来越多用户的主力机，折叠屏一步步走进日常，也陪伴大家记录了许多重要时刻。感谢大家一路以来的选择和支持！每一份信任，都是我们继续创新、不断进步的动力 [抱拳] 新一代的故事，我们共同见证。华为 Mate X8 ，敬请期待！ 据IT之家此前报道，11 月 13 日，余承东手持紫色新机的画面在网上流传开来， 被认为是华]]></description>
       <pubDate>Sun, 15 Nov 2026 01:34:49 GMT</pubDate>
       <category><![CDATA[科技]]></category>
       <source>IT之家</source>
     </item>
     <item>
-      <title><![CDATA[分析师称BTC凌晨下跌或与周末流动性较差时集中卖出有关]]></title>
-      <link>https://www.odaily.news/zh-CN/newsflash/534692</link>
-      <guid isPermaLink="false">https://www.odaily.news/zh-CN/newsflash/534692</guid>
-      <description><![CDATA[<p>Odaily星球日报讯 Phyrex 在 X 平台发文表示，近期 BTC 转入交易所的数量未见异常，净流量也未大幅积压。他认为，此次 BTC 凌晨下跌更像是周末流动性较差时集中卖出引发的连环踩踏，而非大规模有组织抛售或长期、早期投资者出货。</p>]]></description>
-      <pubDate>Sun, 15 Nov 2026 01:33:35 GMT</pubDate>
-      <category><![CDATA[财经]]></category>
-      <source>Odaily快讯</source>
+      <title><![CDATA[Netanyahu sends plea to Eisenkot for unity government]]></title>
+      <link>https://www.aljazeera.com/video/newsfeed/2026/11/15/netanyahu-sends-plea-to-eisenkot-for-unity-government?traffic_source=rss</link>
+      <guid isPermaLink="false">https://www.aljazeera.com/video/newsfeed/2026/11/15/netanyahu-sends-plea-to-eisenkot-for-unity-government?traffic_source=rss</guid>
+      <description><![CDATA[Benjamin Netanyahu has issued a public plea to opposition leader Gadi Eisenkot to form a unity government.]]></description>
+      <pubDate>Sun, 15 Nov 2026 01:33:11 GMT</pubDate>
+      <category><![CDATA[国际]]></category>
+      <source>Al Jazeera</source>
+    </item>
+    <item>
+      <title><![CDATA[Thailand’s elderly kept in cages]]></title>
+      <link>https://www.aljazeera.com/video/newsfeed/2026/11/15/thailands-elderly-kept-in-cages?traffic_source=rss</link>
+      <guid isPermaLink="false">https://www.aljazeera.com/video/newsfeed/2026/11/15/thailands-elderly-kept-in-cages?traffic_source=rss</guid>
+      <description><![CDATA[A nursing home in Thailand, has been accused of keeping dozens of senior residents, in metal cages.]]></description>
+      <pubDate>Sun, 15 Nov 2026 01:32:08 GMT</pubDate>
+      <category><![CDATA[国际]]></category>
+      <source>Al Jazeera</source>
     </item>
     <item>
       <title><![CDATA[Te Mata Peak closed after person found dead]]></title>
@@ -369,33 +513,6 @@
       <source>RNZ</source>
     </item>
     <item>
-      <title><![CDATA[Tom Lee：加密市场近期承压或与AI股票抛售、Anthropic IPO资金需求及黑客事件资金释放有关]]></title>
-      <link>https://www.odaily.news/zh-CN/newsflash/534691</link>
-      <guid isPermaLink="false">https://www.odaily.news/zh-CN/newsflash/534691</guid>
-      <description><![CDATA[<p>Odaily星球日报讯 Tom Lee 发文表示，过去几周加密市场持续面临较大抛售压力，可能导致市场疲软的原因或包括：1）AI 及半导体股票（尤其是英伟达 NVDA）遭遇抛售并引发追加保证金通知；2）投资者为参与 Anthropic IPO 提前出售资产筹集资金；3）此前 63 亿美元黑客事件相关资金返还后持有人将资产兑换为现金或稳定币。此外，Anthropic 路演期间有关 AI 颠覆各行业的言论，以及美国司法部审查对亚洲和中国的芯片销售，也加剧了市场的风险担忧。</p><p>Tom Lee 重申，加密货币仍代表金融的未来，区块链将成为交易结算层，数字资产则有望重塑资本市场。他认为，加]]></description>
-      <pubDate>Sun, 15 Nov 2026 01:29:27 GMT</pubDate>
-      <category><![CDATA[财经]]></category>
-      <source>Odaily快讯</source>
-    </item>
-    <item>
-      <title><![CDATA[星球早讯]]></title>
-      <link>https://www.odaily.news/zh-CN/newsflash/534687</link>
-      <guid isPermaLink="false">https://www.odaily.news/zh-CN/newsflash/534687</guid>
-      <description><![CDATA[<p>1. 48ClubIan：近 30 日交易亏损超 9136 万美元，账户资产缩水约 7786 万美元；</p><p>2. Strive CEO：若比特币复刻 SpaceX IPO 后走势，明年 2 月或触及 9 万美元；</p><p>3. 特朗普：中期选举后股市蒸发 3 万亿美元，全球投资者都不认可选举结果；</p><p>4. 比特币接近 5.95 万至 6.26 万美元清算密集区，Glassnode 警告多头仓位风险；</p><p>5. 累计浮亏 557 万美元，7 Siblings 7 小时内再花 2000 万 USDT 买入 10,925.6 枚 ETH；</p><p>6. 浮亏约]]></description>
-      <pubDate>Sun, 15 Nov 2026 01:29:00 GMT</pubDate>
-      <category><![CDATA[财经]]></category>
-      <source>Odaily快讯</source>
-    </item>
-    <item>
-      <title><![CDATA[[生活] BLG 夺冠，B 站给所有人送大会员！定好闹钟今天 12 点！]]></title>
-      <link>https://www.v2ex.com/t/1257151#reply0</link>
-      <guid isPermaLink="false">https://www.v2ex.com/t/1257151#reply0</guid>
-      <description><![CDATA[BLG 3:1 拿下 S16 冠军，LPL 时隔五年再捧杯。B 站当场宣布：给所有人送大会员！ · 时间：11 月 15 日 12:00 — 11 月 16 日 12:00，限时 24 小时 · 领法：打开 B 站，搜索「大会员」，点领取，站内直接到账 领完可以顺手在「订阅精灵」小程序里记了一笔：免费领的会员也有有效期，设个到期提醒。 https://i.imgur.com/G6HCEue.jpeg https://i.imgur.com/R4vtBGx.jpeg]]></description>
-      <pubDate>Sun, 15 Nov 2026 01:25:33 GMT</pubDate>
-      <category><![CDATA[开发]]></category>
-      <source>V2EX</source>
-    </item>
-    <item>
       <title><![CDATA[SpaceX’s Starship nails a smooth return with historic catch]]></title>
       <link>https://www.aljazeera.com/video/newsfeed/2026/11/15/aje-onl-nf_spacexs-starship-nails-a-smooth-return-141126?traffic_source=rss</link>
       <guid isPermaLink="false">https://www.aljazeera.com/video/newsfeed/2026/11/15/aje-onl-nf_spacexs-starship-nails-a-smooth-return-141126?traffic_source=rss</guid>
@@ -408,7 +525,7 @@
       <title><![CDATA[老外今年考“中文四六级”人数首破百万人次，169 国设 1500 余个考点]]></title>
       <link>https://www.ithome.com/1/027/270.htm</link>
       <guid isPermaLink="false">https://www.ithome.com/1/027/270.htm</guid>
-      <description><![CDATA[<p data-vmark="9848">IT之家 11 月 15 日消息，11 月 13 日至 15 日，2026 世界中文大会在北京举行，来自 160 多个国家和地区的约 5000 名代表参会。</p><p style="text-align: center;" data-vmark="b602"><a href="https://weibo.com/2656274875/Rrswcrup3" class="ithome_super_player" target="_blank"><img src="https://img.ithome.com/newsuploadfiles/2026/1]]></description>
+      <description><![CDATA[IT之家 11 月 15 日消息，11 月 13 日至 15 日，2026 世界中文大会在北京举行，来自 160 多个国家和地区的约 5000 名代表参会。 据央视新闻报道， 今年中文水平考试（HSK）考生人数首次突破 100 万人次 。随着中文学习需求不断增长，中文的应用场景也在不断拓展。 IT之家注：中文水平考试（HSK），被不少网友称为“外国人的四六级”， 目前已在 169 个国家设立了 1500 余个考点 ，考点覆盖国家数量居全球语言考试首位，累计服务考生超过 900 万人次。与此同时，全球中文学习的规模也在不断扩大， 海外学习和使用中文的人数达 2.1 亿 。 美国纽约曼哈顿中文学习]]></description>
       <pubDate>Sun, 15 Nov 2026 01:21:43 GMT</pubDate>
       <category><![CDATA[科技]]></category>
       <source>IT之家</source>
@@ -426,7 +543,7 @@
       <title><![CDATA[日本制造商 Kyodo 推出 Myofree 护眼平板，号称能让 40cm 近距离观看等效 5m 远距离眺望]]></title>
       <link>https://www.ithome.com/1/027/269.htm</link>
       <guid isPermaLink="false">https://www.ithome.com/1/027/269.htm</guid>
-      <description><![CDATA[<p data-vmark="731b">IT之家 11 月 15 日消息，日本制造商 Kyodo（株式会社協同）近日推出 Myofree 护眼平板电脑。官方宣称该产品为全球首款基于脑科学、眼科学研究成果开发的平板，将于 11 月 18 日通过众筹平台 Makuake 预售。</p><p style="text-align: center;" data-vmark="894f"><img src="https://img.ithome.com/newsuploadfiles/2026/11/6cb1fe5e-1210-4e32-b144-56d5a486cfae.jpg" w="1440" h]]></description>
+      <description><![CDATA[IT之家 11 月 15 日消息，日本制造商 Kyodo（株式会社協同）近日推出 Myofree 护眼平板电脑。官方宣称该产品为全球首款基于脑科学、眼科学研究成果开发的平板，将于 11 月 18 日通过众筹平台 Makuake 预售。 据介绍，这款平板通过自研的平行视图像生成技术和专用眼镜， 让用户在 40cm 距离观看屏幕时 ， 可获得观看 5m 外景物的“平行视”眺望状态 ，有望减轻长时间观看电子设备带来的压力。 同时，该产品配备 15.6 英寸 Full HD 显示屏，搭载 Android 16 系统，可用于观看视频、浏览网站、玩游戏，以及工作和学习等多种场景。并具备 USB Type-]]></description>
       <pubDate>Sun, 15 Nov 2026 01:18:49 GMT</pubDate>
       <category><![CDATA[科技]]></category>
       <source>IT之家</source>
@@ -453,7 +570,7 @@
       <title><![CDATA[马斯克晒 SpaceX 星舰“筷子夹”飞船近距离照片：“我拥抱了它”]]></title>
       <link>https://www.ithome.com/1/027/265.htm</link>
       <guid isPermaLink="false">https://www.ithome.com/1/027/265.htm</guid>
-      <description><![CDATA[<p data-vmark="48d0">IT之家 11 月 15 日消息，当地时间 11 月 14 日，SpaceX 在星舰第 15 次试飞中首次用发射塔机械臂接住从轨道返回的第二级飞船，<strong>这是星舰飞船首次完成发射塔捕获</strong>。</p><p data-vmark="ef89">随后，该公司创始人马斯克在社交平台连续发文并分享该飞船近距离照片，他写道：“多亏了 SpaceX 那群才华横溢的团队，这一伟大时刻终于到来了”“当 42 号飞船返回时，我拥抱了它。”</p><p data-vmark="3f35" style="text-align: center;"><im]]></description>
+      <description><![CDATA[IT之家 11 月 15 日消息，当地时间 11 月 14 日，SpaceX 在星舰第 15 次试飞中首次用发射塔机械臂接住从轨道返回的第二级飞船， 这是星舰飞船首次完成发射塔捕获 。 随后，该公司创始人马斯克在社交平台连续发文并分享该飞船近距离照片，他写道：“多亏了 SpaceX 那群才华横溢的团队，这一伟大时刻终于到来了”“当 42 号飞船返回时，我拥抱了它。” 据IT之家此前报道，SpaceX 第 15 次试飞的星舰组合体于美国中部时间 13 日下午（北京时间 14 日清晨）从得克萨斯州星际基地升空，由超重型助推器与飞船组成。 任务原计划让两级同时返回发射场 ，由发射塔上俗称“筷子”的机]]></description>
       <pubDate>Sun, 15 Nov 2026 01:04:53 GMT</pubDate>
       <category><![CDATA[科技]]></category>
       <source>IT之家</source>
@@ -462,7 +579,7 @@
       <title><![CDATA[[分享创造] 做了个能打断的 AI 语音面试陪练，求拍砖]]></title>
       <link>https://www.v2ex.com/t/1257121#reply10</link>
       <guid isPermaLink="false">https://www.v2ex.com/t/1257121#reply10</guid>
-      <description><![CDATA[大家好，我是独立开发者。面试最难的是找不到人陪练，所以我做了一个 AI 语音面试陪练 ，想请大家帮忙试试、拍拍砖。 跟其他 AI 面试工具有什么不一样 大部分工具是你说完一段、它再回一段，像在发语音消息。这个是 全双工实时对话 ： 你停下来想一想，它会等你，不抢话 它说得太长，你可以直接打断 目前有两个角色：技术面试官 Alex ，练 system design 和项目深挖；英语口语私教 Emma 。 怎么参加 打开 👉 https://aidou.studio/?scene=verify&src=v2ex 用 Google 账号登录，和"小豆"随便聊 5 分钟（不考技术） 系统确认是真人后]]></description>
+      <description><![CDATA[大家好，我是独立开发者。面试最难的是找不到人陪练，所以我做了一个 AI 语音面试陪练 ，想请大家帮忙试试、拍拍砖。 跟其他 AI 面试工具有什么不一样 大部分工具是你说完一段、它再回一段，像在发语音消息。这个是 全双工实时对话 ： 你停下来想一想，它会等你，不抢话 它说得太长，你可以直接打断 目前有两个角色：技术面试官 Alex ，练 system design 和项目深挖；英语口语私教 Emma 。 怎么参加 打开 👉 https://aidou.studio/?scene=verify&src=v2ex 用 Google 账号登录，和"小豆"随便聊 5 分钟（不考技术） 系统确认是真人后，]]></description>
       <pubDate>Sun, 15 Nov 2026 01:02:56 GMT</pubDate>
       <category><![CDATA[开发]]></category>
       <source>V2EX</source>
@@ -471,7 +588,7 @@
       <title><![CDATA[华为：智能车灯原车拨杆闪灯为独立功能，不会被高精 ADB 主动控制干预，随时可用]]></title>
       <link>https://www.ithome.com/1/027/264.htm</link>
       <guid isPermaLink="false">https://www.ithome.com/1/027/264.htm</guid>
-      <description><![CDATA[<p data-vmark="12c5">IT之家 11 月 15 日消息，华为智能汽车解决方案 BU 官方微博昨晚发布了乾崑答网友问（第 18 期），针对<strong>华为智能车载光</strong>相关的四个热门问题进行了集中解答。</p><p style="text-align: center;" data-vmark="a331"><img src="https://img.ithome.com/newsuploadfiles/2026/10/d0d8eeb1-e85c-4674-9f93-0e159ed77b9b.jpg?x-bce-process=image/format,f_a]]></description>
+      <description><![CDATA[IT之家 11 月 15 日消息，华为智能汽车解决方案 BU 官方微博昨晚发布了乾崑答网友问（第 18 期），针对 华为智能车载光 相关的四个热门问题进行了集中解答。 ▲ 图源：华为乾崑智能汽车解决方案官网 IT之家附重点内容及全文截图如下： 在夜间行驶遇到对向来车时，怎么在保证远光灯不晃对向来车驾驶员眼睛的情况下，确保我的驾驶安全？ HUAWEI XPIXEL 智能车灯模组的高精 ADB (智能远光照明)，依托百万像素精准控制车灯。在整个远光灯照射范围， 高精 ADB 功能会识别到对方前挡风玻璃的位置，然后将这个区域的灯光做调整 ，避免远光照射对向来车驾驶员。同时，保持其他远光灯照射区域的基]]></description>
       <pubDate>Sun, 15 Nov 2026 01:01:56 GMT</pubDate>
       <category><![CDATA[科技]]></category>
       <source>IT之家</source>
@@ -561,7 +678,7 @@
       <title><![CDATA[华为首款鸿蒙小折叠电脑 MateBook Fold S 现身官网：至高 32GB/1TB 规格，可选黑白蓝三色]]></title>
       <link>https://www.ithome.com/1/027/263.htm</link>
       <guid isPermaLink="false">https://www.ithome.com/1/027/263.htm</guid>
-      <description><![CDATA[<p data-vmark="5e49">IT之家 11 月 15 日消息，华为首款鸿蒙小折叠电脑 MateBook Fold S 已于昨日 10:08 正式开启预订。</p><p style="text-align: center;" data-vmark="8136"><img src="https://img.ithome.com/newsuploadfiles/2026/11/22a1b183-b834-46bf-a880-39ad2c5c2c4d.jpg?x-bce-process=image/format,f_auto" w="1440" h="720" data-vmark="1]]></description>
+      <description><![CDATA[IT之家 11 月 15 日消息，华为首款鸿蒙小折叠电脑 MateBook Fold S 已于昨日 10:08 正式开启预订。 目前这款新机已现身官网，相关页面显示， 该机折叠态 10.2 英寸、展开态 14.7 英寸 ，会在 11 月 24 日 17:00~11 月 25 日 17:00 支付尾款， 支持 12 期 0 分期利息购买 。 颜色 幻夜黑 天际白 云海蓝 配置 16GB/256GB（含键盘 + 内胆包） 16GB/512GB（含键盘 + 内胆包） 24GB/512GB（含键盘 + 内胆包） 32GB/1TB（含键盘 + 手写笔 + 内胆包） IT之家注意到，华为鸿蒙电脑依旧支持鸿]]></description>
       <pubDate>Sun, 15 Nov 2026 00:44:19 GMT</pubDate>
       <category><![CDATA[科技]]></category>
       <source>IT之家</source>
@@ -570,7 +687,7 @@
       <title><![CDATA[韩国电信运营商 LG U+ 明年进军 AI Token 业务，帮助企业降低 AI 转型成本]]></title>
       <link>https://www.ithome.com/1/027/262.htm</link>
       <guid isPermaLink="false">https://www.ithome.com/1/027/262.htm</guid>
-      <description><![CDATA[<p data-vmark="fa38">IT之家 11 月 15 日消息，据韩媒 Etnews 今天报道，韩国电信运营商 LG U+ 将于明年进军 AI Token 业务，利用自主研发的 Token 优化技术，帮助企业降低 AI 转型（AX）成本。</p><p data-vmark="b112" style="text-align: center;"><img src="https://img.ithome.com/newsuploadfiles/2026/11/7cd9e249-263f-4fe9-817d-95facdace114.jpg" w="960" h="640" alt="뉴스]]></description>
+      <description><![CDATA[IT之家 11 月 15 日消息，据韩媒 Etnews 今天报道，韩国电信运营商 LG U+ 将于明年进军 AI Token 业务，利用自主研发的 Token 优化技术，帮助企业降低 AI 转型（AX）成本。 据介绍，这项服务拥有用于设计 Agent 任务执行路径的“Harness Engineering”、根据问题类型分配模型的“智能路由”，以及为优化推理过程而采用异构半导体的“芯片组合”三项技术。 IT之家从原报道获悉，LG U+ 将减少 AI Agent 执行任务时不必要的重复搜索和验证，并根据任务难度匹配最合适的模型。同时结合模型轻量化和推理技术，该公司的自研端侧 AI 模型在体积缩小]]></description>
       <pubDate>Sun, 15 Nov 2026 00:42:33 GMT</pubDate>
       <category><![CDATA[科技]]></category>
       <source>IT之家</source>
@@ -588,7 +705,7 @@
       <title><![CDATA[B站宣布免费送所有人大会员，英雄联盟 S16 全球总决赛中国战队 BLG 夺冠]]></title>
       <link>https://www.ithome.com/1/027/260.htm</link>
       <guid isPermaLink="false">https://www.ithome.com/1/027/260.htm</guid>
-      <description><![CDATA[<p data-vmark="7965">IT之家 11 月 15 日消息，《英雄联盟》2026 全球总决赛（S16）冠亚军决赛刚刚结束，<a target="_blank" href="https://www.ithome.com/1/027/258.htm">来自 LPL 赛区的 BLG 战队以 3:1 的比分力克韩国 LCK 赛区的 GEN 战队</a>，“一穿四”LCK 赛区，勇夺《英雄联盟》S16 冠军。</p><p data-vmark="330a" style="text-align: center;"><img src="https://img.ithome.com/newsu]]></description>
+      <description><![CDATA[IT之家 11 月 15 日消息，《英雄联盟》2026 全球总决赛（S16）冠亚军决赛刚刚结束， 来自 LPL 赛区的 BLG 战队以 3:1 的比分力克韩国 LCK 赛区的 GEN 战队 ，“一穿四”LCK 赛区，勇夺《英雄联盟》S16 冠军。 IT之家注意到，B站官方今日宣布，为了和大家一起分享这份喜悦， 哔哩哔哩为所有人送大会员 。今日中午 12 点起登录B站，搜索“大会员”即可免费领取， 站内直接到账 。 领取时间：11 月 15 日 12:00 — 11 月 16 日 12:00 领取方式：上B站搜索“大会员”即可免费领取，站内直接到账。 公开资料显示，BLG 是B站旗下战队，由哔哩]]></description>
       <pubDate>Sun, 15 Nov 2026 00:34:09 GMT</pubDate>
       <category><![CDATA[科技]]></category>
       <source>IT之家</source>
@@ -624,7 +741,7 @@
       <title><![CDATA[全日空投资太空建造初创公司 Space Quarters，布局“太空盖大楼”]]></title>
       <link>https://www.ithome.com/1/027/259.htm</link>
       <guid isPermaLink="false">https://www.ithome.com/1/027/259.htm</guid>
-      <description><![CDATA[<p data-vmark="6c6d">IT之家 11 月 15 日消息，全日空本月 13 日宣布，公司已通过 ANA 未来创投基金投资 Space Quarters 公司。这家公司通过电子束焊接技术和自主研发机器人系统，<strong>提供太空组装</strong>、<strong>建设大型建筑物的解决方案</strong>。</p><p style="text-align: center;" data-vmark="87b8"><img src="https://img.ithome.com/newsuploadfiles/2026/11/ff4d220d-80b5-481c-b95e-]]></description>
+      <description><![CDATA[IT之家 11 月 15 日消息，全日空本月 13 日宣布，公司已通过 ANA 未来创投基金投资 Space Quarters 公司。这家公司通过电子束焊接技术和自主研发机器人系统， 提供太空组装 、 建设大型建筑物的解决方案 。 据介绍，火箭发射成本近年来快速下降，太空运输技术也随之进步。但由于火箭整流罩尺寸限制，空间站和轨道设施的尺寸还是受到限制，因此在太空中建造大型居住设施、通信设施仍然面临困难。 Space Quarters 将电子束焊接技术和机器人系统相结合，可以在太空和月球表面建造大型建筑。其中该公司开发的太空建筑机器人系统「DAIQ」，能够完成建筑材料的取出、放置和连接等全部流程]]></description>
       <pubDate>Sun, 15 Nov 2026 00:17:35 GMT</pubDate>
       <category><![CDATA[科技]]></category>
       <source>IT之家</source>
@@ -633,7 +750,7 @@
       <title><![CDATA[UK government to consider changing age of consent after allegations against Russell Brand]]></title>
       <link>https://www.theguardian.com/law/2026/nov/15/uk-government-to-consider-changing-age-of-consent-after-allegations-against-russell-brand</link>
       <guid isPermaLink="false">https://www.theguardian.com/law/2026/nov/15/uk-government-to-consider-changing-age-of-consent-after-allegations-against-russell-brand</guid>
-      <description><![CDATA[<p>Deputy prime minister says change would be a massive step but ‘deserves proper consideration and scrutiny’ </p><p>The government has said it will consider calls to change the age of consent after a woman waived her right to anonymity to publicly claim she was raped by Russell Brand as a 16-year-o]]></description>
+      <description><![CDATA[Deputy prime minister says change would be a massive step but ‘deserves proper consideration and scrutiny’ The government has said it will consider calls to change the age of consent after a woman waived her right to anonymity to publicly claim she was raped by Russell Brand as a 16-year-old schoolg]]></description>
       <pubDate>Sun, 15 Nov 2026 00:17:14 GMT</pubDate>
       <category><![CDATA[国际]]></category>
       <source>The Guardian</source>
@@ -696,7 +813,7 @@
       <title><![CDATA[队史首次！BLG 战队 3:1 力克 GEN 夺《英雄联盟》S16 冠军，中国战队连斩 4 支韩国队时隔 5 年再登顶]]></title>
       <link>https://www.ithome.com/1/027/258.htm</link>
       <guid isPermaLink="false">https://www.ithome.com/1/027/258.htm</guid>
-      <description><![CDATA[<p data-vmark="1c35">IT之家 11 月 15 日消息，《英雄联盟》2026 全球总决赛（S16）冠亚军决赛刚刚结束，来自中国 LPL 赛区的 BLG 战队以 3:1 的比分力克韩国 LCK 赛区的 GEN 战队，“一穿四”LCK 赛区，勇夺《英雄联盟》S16 冠军。</p><p data-vmark="43e5" style="text-align: center;"><img src="https://img.ithome.com/newsuploadfiles/2026/11/b16ec3ed-4261-42b3-8dab-efc87c40ac8e.png" w="1]]></description>
+      <description><![CDATA[IT之家 11 月 15 日消息，《英雄联盟》2026 全球总决赛（S16）冠亚军决赛刚刚结束，来自中国 LPL 赛区的 BLG 战队以 3:1 的比分力克韩国 LCK 赛区的 GEN 战队，“一穿四”LCK 赛区，勇夺《英雄联盟》S16 冠军。 IT之家附官方赛况如下： GEN 1:0 BLG 8 分钟，巢虫处，Knight 洛克在 Xun 嘉文四世的帮助下，击败奥拉夫拿下一血； 22 分钟，小龙处，ON 烈娜塔先手开团，但后续 GEN 更占优势，Chovy 辛德拉击败嘉文四世，Ruler 库奇跟上输出击败卡莉丝塔，GEN 打出零换三； 28 分钟，远古龙处，双方爆发团战，Kiin 奥拉夫侧]]></description>
       <pubDate>Sun, 15 Nov 2026 00:02:49 GMT</pubDate>
       <category><![CDATA[科技]]></category>
       <source>IT之家</source>
@@ -750,7 +867,7 @@
       <title><![CDATA[IT早报 1115：SpaceX 首次完成“筷子夹星舰飞船”；百万级 CAR-T 抗癌药首次进医保；古尔曼重申苹果 iPhone 18 明年春发布；比亚迪辟谣收购某数字能源...]]></title>
       <link>https://www.ithome.com/1/027/257.htm</link>
       <guid isPermaLink="false">https://www.ithome.com/1/027/257.htm</guid>
-      <description><![CDATA[<p data-vmark="a903">“IT早报”时间，大家好，现在是 2026 年 11 月 15 日星期日，今天的重要科技资讯有：</p><h2 data-vmark="e34d">1. 创造历史：美国 SpaceX 首次实现筷子夹星舰飞船</h2><p data-vmark="f2cd">SpaceX 在星舰第 15 次试飞中首次用发射塔“筷子”机械臂捕获轨道返回的星舰上面级，虽未完全回收整枚火箭，但仍是星舰项目重要里程碑，目前正调查助推器中止着陆的原因。&gt;&gt; <a href="https://www.ithome.com/1/027/248.htm" target="_]]></description>
+      <description><![CDATA[“IT早报”时间，大家好，现在是 2026 年 11 月 15 日星期日，今天的重要科技资讯有： 1. 创造历史：美国 SpaceX 首次实现筷子夹星舰飞船 SpaceX 在星舰第 15 次试飞中首次用发射塔“筷子”机械臂捕获轨道返回的星舰上面级，虽未完全回收整枚火箭，但仍是星舰项目重要里程碑，目前正调查助推器中止着陆的原因。>> 查看详情 2. 配 A20 芯片：古尔曼重申苹果 iPhone 18/18e 明年春季将登场 在最新一期 Power On 访谈节目中，彭博社的马克 · 古尔曼（Mark Gurman）再次透露，苹果将会在 2027 年春季发布 iPhone 18 和 iPhone]]></description>
       <pubDate>Sat, 14 Nov 2026 23:55:12 GMT</pubDate>
       <category><![CDATA[科技]]></category>
       <source>IT之家</source>
@@ -777,7 +894,7 @@
       <title><![CDATA[微软 Win11 大规模界面改版已开始推送，首先升级 Win8 时代的自动播放弹窗]]></title>
       <link>https://www.ithome.com/1/027/256.htm</link>
       <guid isPermaLink="false">https://www.ithome.com/1/027/256.htm</guid>
-      <description><![CDATA[<p data-vmark="8f4f">IT之家 11 月 15 日消息，据科技媒体 Windows Latest 今天报道，微软 Win11 系统大规模界面改版的一阶段已开始推送，首个改造的功能是自动播放（AutoPlay）。原本 Win8 时代的直角边框弹窗，现在变成了更加现代的样式。</p><p style="text-align: center;" data-vmark="9ae6"><img src="https://img.ithome.com/newsuploadfiles/2026/11/3948984c-e275-4724-8efd-49a4be581593.jpg" w=]]></description>
+      <description><![CDATA[IT之家 11 月 15 日消息，据科技媒体 Windows Latest 今天报道，微软 Win11 系统大规模界面改版的一阶段已开始推送，首个改造的功能是自动播放（AutoPlay）。原本 Win8 时代的直角边框弹窗，现在变成了更加现代的样式。 IT之家从原报道获悉，本月发布的强制安全更新 KB5132061 已包含新版自动播放。此次更新将 Windows 11 26H2 升级至 Build 26300.9974，将 25H2 升级至 Build 26200.9974，该功能正在分阶段推送，因此安装更新后，用户可能无法立刻看到新界面。 如果您经常将 U 盘、SD 卡或手机连接到电脑，应该]]></description>
       <pubDate>Sat, 14 Nov 2026 23:49:35 GMT</pubDate>
       <category><![CDATA[科技]]></category>
       <source>IT之家</source>
@@ -810,10 +927,19 @@
       <source>Engadget</source>
     </item>
     <item>
+      <title><![CDATA[Police investigate suspected fatal stabbing of man in Melbourne's south-east]]></title>
+      <link>https://www.abc.net.au/news/2026-11-15/suspected-fatal-stabbing-overnight-frankston/107387222</link>
+      <guid isPermaLink="false">https://www.abc.net.au/news/2026-11-15/suspected-fatal-stabbing-overnight-frankston/107387222</guid>
+      <description><![CDATA[Emergency services are called after a man with suspected stab wounds is found in Frankston in the early hours of the morning.]]></description>
+      <pubDate>Sat, 14 Nov 2026 23:41:27 GMT</pubDate>
+      <category><![CDATA[国际]]></category>
+      <source>ABC Australia</source>
+    </item>
+    <item>
       <title><![CDATA[国产算力巨头超聚变创业板 IPO 过会，前身是华为 X86 服务器业务]]></title>
       <link>https://www.ithome.com/1/027/255.htm</link>
       <guid isPermaLink="false">https://www.ithome.com/1/027/255.htm</guid>
-      <description><![CDATA[<p data-vmark="fc02">IT之家 11 月 15 日消息，深交所上市审核委员会本月 12 日召开 2026 年第 61 次审议会议，会议结果为超聚变数字技术股份有限公司（以下简称超聚变）（首发）<strong>符合发行条件、上市条件和信息披露要求</strong>。</p><p data-vmark="3d26">在深圳证券交易所上市审核委员会的会议现场，问询超聚变的主要问题包括：结合算力需求变化、下游客户资本开支、技术先进性、经营性现金流量净额状况、客户和供应商集中度等情况，说明超聚变毛利率变动趋势，以及经营业绩增长是否具有可持续性，相关风险揭示是否充分。</p><p da]]></description>
+      <description><![CDATA[IT之家 11 月 15 日消息，深交所上市审核委员会本月 12 日召开 2026 年第 61 次审议会议，会议结果为超聚变数字技术股份有限公司（以下简称超聚变）（首发） 符合发行条件、上市条件和信息披露要求 。 在深圳证券交易所上市审核委员会的会议现场，问询超聚变的主要问题包括：结合算力需求变化、下游客户资本开支、技术先进性、经营性现金流量净额状况、客户和供应商集中度等情况，说明超聚变毛利率变动趋势，以及经营业绩增长是否具有可持续性，相关风险揭示是否充分。 这意味着超聚变申报深交所创业板 IPO 过会 ，且公开信息显示从申报受理到过会仅用时 174 天。 IT之家注：超聚变成立于 2021 ]]></description>
       <pubDate>Sat, 14 Nov 2026 23:38:56 GMT</pubDate>
       <category><![CDATA[科技]]></category>
       <source>IT之家</source>
@@ -849,7 +975,7 @@
       <title><![CDATA[微软 XBOX 商店出现标价 1999 美元的《GTA6》游戏，疑为盒装兑换码占位商品]]></title>
       <link>https://www.ithome.com/1/027/254.htm</link>
       <guid isPermaLink="false">https://www.ithome.com/1/027/254.htm</guid>
-      <description><![CDATA[<p data-vmark="2a40">IT之家 11 月 15 日消息，近日部分海外玩家发现，微软 XBOX 商店上架了《GTA6》游戏全新版本，标价高达 1,999.99 美元<span class="exch-money-value">（IT之家注：现汇率约合 13,370 元人民币）</span>。目前该商品已经下架，<strong>其离谱的价格可能与实体盒装兑换码的购买流程有关</strong>。</p><p style="text-align: center;" data-vmark="de2d"><img src="https://img.ithome.com/newsuplo]]></description>
+      <description><![CDATA[IT之家 11 月 15 日消息，近日部分海外玩家发现，微软 XBOX 商店上架了《GTA6》游戏全新版本，标价高达 1,999.99 美元 （IT之家注：现汇率约合 13,370 元人民币） 。目前该商品已经下架， 其离谱的价格可能与实体盒装兑换码的购买流程有关 。 从玩家分享的商店截图可以看到，普通消费者在 XBOX 商店选购《GTA6》时，看到的仍然是 79.99 美元 （现汇率约合 534.7 元人民币） 普通版和 99.99 美元 （现汇率约合 668.4 元人民币） 终极版选项。1,999 美元 （现汇率约合 13,363 元人民币） 的版本并没有标注具体名称，描述仅为“盒装兑换码]]></description>
       <pubDate>Sat, 14 Nov 2026 23:30:59 GMT</pubDate>
       <category><![CDATA[科技]]></category>
       <source>IT之家</source>
@@ -867,7 +993,7 @@
       <title><![CDATA[SpaceX 星舰飞船首次被发射塔机械臂捕获回收，马斯克将建 AI 数据中心星座]]></title>
       <link>https://www.ithome.com/1/027/253.htm</link>
       <guid isPermaLink="false">https://www.ithome.com/1/027/253.htm</guid>
-      <description><![CDATA[<p data-vmark="55ee">IT之家 11 月 15 日消息，当地时间 11 月 14 日，SpaceX 在星舰第 15 次试飞中首次用发射塔机械臂接住从轨道返回的第二级飞船，<strong>这是星舰飞船首次完成发射塔捕获</strong>。</p><p data-vmark="af8f" style="text-align: center;"><img src="https://img.ithome.com/newsuploadfiles/2026/11/77a704dd-0fbd-4786-ab67-26d98a1806fb.png" w="635" h="698" data]]></description>
+      <description><![CDATA[IT之家 11 月 15 日消息，当地时间 11 月 14 日，SpaceX 在星舰第 15 次试飞中首次用发射塔机械臂接住从轨道返回的第二级飞船， 这是星舰飞船首次完成发射塔捕获 。 据介绍，SpaceX 计划使用该飞船在 LEO 轨道上构建一个庞大的网络 —— 根据埃隆 · 马斯克的说法，这个网络将包含一个由百万艘航天器组成的 AI 数据中心星座 。 组装这些巨型结构需要极高的组装频率。SpaceX 表示，采用双筷子式抓取方式是实现这一目标的关键，因为它能更快地进行星际飞船的检查、修复和重新发射。因此， 该公司很可能会在不久之后再次尝试这种手段 —— 很可能是在下一次飞船的飞行任务中。 I]]></description>
       <pubDate>Sat, 14 Nov 2026 23:26:58 GMT</pubDate>
       <category><![CDATA[科技]]></category>
       <source>IT之家</source>
@@ -882,19 +1008,10 @@
       <source>CNBC</source>
     </item>
     <item>
-      <title><![CDATA[Swimming stars tipped for big 2027 despite illness, injury hiccups]]></title>
-      <link>https://www.abc.net.au/news/2026-11-15/swim-gp-absentees-will-be-back-for-la28/107387120</link>
-      <guid isPermaLink="false">https://www.abc.net.au/news/2026-11-15/swim-gp-absentees-will-be-back-for-la28/107387120</guid>
-      <description><![CDATA[Olympic swimming gold medallists Kaylee McKeown, Mollie O'Callaghan and Kyle Chalmers have had their struggles, two years out from the LA Games.]]></description>
-      <pubDate>Sat, 14 Nov 2026 23:20:09 GMT</pubDate>
-      <category><![CDATA[国际]]></category>
-      <source>ABC Australia</source>
-    </item>
-    <item>
       <title><![CDATA[一天暴涨 6 万：请愿恢复黄仁勋英伟达 CEO 职务人数突破 12 万人，马斯克也参与签名]]></title>
       <link>https://www.ithome.com/1/027/252.htm</link>
       <guid isPermaLink="false">https://www.ithome.com/1/027/252.htm</guid>
-      <description><![CDATA[<p data-vmark="e82f">IT之家 11 月 15 日消息，今年 11 月 12 日，英伟达董事会今日宣布，黄仁勋辞去总裁、首席执行官及董事会成员职务，即刻生效。英伟达执行副总裁兼 CFO 科莱特 · 克雷斯同意出任临时 CEO，在董事会选出正式继任者前兼任这一职务，并继续担任执行副总裁和 CFO。</p><p data-vmark="053a">随后，一个名为“Stand with Jensen”的请愿活动在网上流传开来，要求英伟达董事会恢复黄仁勋的 CEO 职务。截至IT之家发文，<strong>该活动已收集超过 12 万个签名</strong>，<a target="_b]]></description>
+      <description><![CDATA[IT之家 11 月 15 日消息，今年 11 月 12 日，英伟达董事会今日宣布，黄仁勋辞去总裁、首席执行官及董事会成员职务，即刻生效。英伟达执行副总裁兼 CFO 科莱特 · 克雷斯同意出任临时 CEO，在董事会选出正式继任者前兼任这一职务，并继续担任执行副总裁和 CFO。 随后，一个名为“Stand with Jensen”的请愿活动在网上流传开来，要求英伟达董事会恢复黄仁勋的 CEO 职务。截至IT之家发文， 该活动已收集超过 12 万个签名 ， 较昨天增长约 6.3 万人次 。 该网站显示，本次活动的组织者和签名者担心，黄仁勋可能在未经正当程序、甚至没有几天时间为自己申辩的情况下被迫离职]]></description>
       <pubDate>Sat, 14 Nov 2026 23:18:00 GMT</pubDate>
       <category><![CDATA[科技]]></category>
       <source>IT之家</source>
@@ -903,7 +1020,7 @@
       <title><![CDATA[香港迪士尼乐园票务系统遭入侵，约 1.7 万个门票二维码疑似被盗]]></title>
       <link>https://www.ithome.com/1/027/251.htm</link>
       <guid isPermaLink="false">https://www.ithome.com/1/027/251.htm</guid>
-      <description><![CDATA[<p data-vmark="d9bf">IT之家 11 月 15 日消息，据香港电台昨天报道，香港迪士尼乐园近日侦测到公司电脑系统出现异常活动，约 1.7 万个门票二维码疑似被盗取。官方已就此事报警，并即时停止官网乐园门票、预订酒店服务。</p><p style="text-align: center;" data-vmark="3eb2"><img src="https://img.ithome.com/newsuploadfiles/2026/11/34d6c393-9855-42c4-bed2-dda051e8551b.jpg" w="1280" h="720" data-weibo=]]></description>
+      <description><![CDATA[IT之家 11 月 15 日消息，据香港电台昨天报道，香港迪士尼乐园近日侦测到公司电脑系统出现异常活动，约 1.7 万个门票二维码疑似被盗取。官方已就此事报警，并即时停止官网乐园门票、预订酒店服务。 IT之家从原报道获悉，香港警方表示，昨日接获某公司报案，指怀疑有网络事件。经初步调查， 案件暂时被列入“有犯罪或不诚实意图而取用电脑” ，交由大屿山景区重案组跟进，暂未有人被捕。 香港迪士尼对此回应称， 公司发现网络事件后已报警 ，并及时采取跟进及防范措施。乐园强烈建议旅客，应直接从官方渠道或合作旅行社及平台购买乐园门票，切勿光顾不可靠来源的商家，以免遭受经济损失。如有怀疑，应立即寻求警方协助。 ]]></description>
       <pubDate>Sat, 14 Nov 2026 23:12:05 GMT</pubDate>
       <category><![CDATA[科技]]></category>
       <source>IT之家</source>
@@ -939,7 +1056,7 @@
       <title><![CDATA[《英雄联盟：曙光》预告片发布：将上线全新客户端，更多详情明年 1 月揭晓]]></title>
       <link>https://www.ithome.com/1/027/250.htm</link>
       <guid isPermaLink="false">https://www.ithome.com/1/027/250.htm</guid>
-      <description><![CDATA[<p data-vmark="8af6">IT之家 11 月 15 日消息，《英雄联盟》2026 全球总决赛（S16）冠亚军决赛正在举行，官方发布《英雄联盟：曙光》预告片。</p><p style="text-align: center;" data-vmark="5d90"><img src="https://img.ithome.com/newsuploadfiles/2026/11/19633c59-7845-4f86-bf15-d892ad5e6135.png" w="638" h="470" data-snap-from="%7B%22from%22%3A%22weibo%22%2C]]></description>
+      <description><![CDATA[IT之家 11 月 15 日消息，《英雄联盟》2026 全球总决赛（S16）冠亚军决赛正在举行，官方发布《英雄联盟：曙光》预告片。 IT之家注意到，官方曾提到《英雄联盟》将迎来一次大规模更新，改动将覆盖客户端、召唤师峡谷、游戏玩法和新玩家体验，还承诺在今年的季中冠军赛和全球总决赛之间提供更多信息。 最新预告显示， 《英雄联盟：曙光》明年将上线全新的客户端 ，召唤师峡谷的外观升级，进一步深化玩法，增加新的游戏体验，加深玩家与本命英雄之间的羁绊。 据官方透露，更多详情将于明年 1 月揭晓。届时，IT之家也会带来详细报道。]]></description>
       <pubDate>Sat, 14 Nov 2026 23:09:14 GMT</pubDate>
       <category><![CDATA[科技]]></category>
       <source>IT之家</source>
@@ -948,7 +1065,7 @@
       <title><![CDATA[中国车企首家：小米泰坦合金 2.0 与新一代 SU7 从材料到整车通过国际 EPD 体系认证]]></title>
       <link>https://www.ithome.com/1/027/249.htm</link>
       <guid isPermaLink="false">https://www.ithome.com/1/027/249.htm</guid>
-      <description><![CDATA[<p data-vmark="7944">IT之家 11 月 15 日消息，小米技术官方微博昨晚宣布，在第 31 届联合国气候变化大会（COP31）主题会议上，小米汽车与国际 EPD 体系（The International EPD System）联合发布认证成果：<strong>小米泰坦合金 2.0 与新一代 SU7，从材料到整车，均通过国际 EPD 体系认证</strong>。</p><p style="text-align: center;" data-vmark="3153"><img src="https://img.ithome.com/newsuploadfiles/2026/1]]></description>
+      <description><![CDATA[IT之家 11 月 15 日消息，小米技术官方微博昨晚宣布，在第 31 届联合国气候变化大会（COP31）主题会议上，小米汽车与国际 EPD 体系（The International EPD System）联合发布认证成果： 小米泰坦合金 2.0 与新一代 SU7，从材料到整车，均通过国际 EPD 体系认证 。 据介绍，EPD（环境产品声明）是国际通行的产品环境信息披露制度，通过标准化核算和独立第三方核验，为绿色采购与国际贸易提供可信依据，被称为国际绿色贸易的“绿色通行证”。 小米泰坦合金 2.0 攻克了 100% 消费后再生铝技术难关， 实现强度不降、韧性提升 ，材料碳排放较传统原铝降低约 ]]></description>
       <pubDate>Sat, 14 Nov 2026 23:06:33 GMT</pubDate>
       <category><![CDATA[科技]]></category>
       <source>IT之家</source>
@@ -1020,7 +1137,7 @@
       <title><![CDATA[David Jones’ future looks grim. Is Myer next?]]></title>
       <link>https://www.theguardian.com/business/2026/nov/15/myer-david-jones-stores-closures-administration</link>
       <guid isPermaLink="false">https://www.theguardian.com/business/2026/nov/15/myer-david-jones-stores-closures-administration</guid>
-      <description><![CDATA[<p>With Myer’s profitability battered and share price languishing near all-time lows, DJs’ slide into administration raises an uncomfortable question</p><ul><li><p>Get our <a href="https://www.theguardian.com/email-newsletters?CMP=cvau_sfl">breaking news email</a>, <a href="https://app.adjust.com/w4]]></description>
+      <description><![CDATA[With Myer’s profitability battered and share price languishing near all-time lows, DJs’ slide into administration raises an uncomfortable question Get our breaking news email , free app or daily news podcast When the retailer’s doors slide open, shoppers are greeted by rows of slashed price tags, fr]]></description>
       <pubDate>Sat, 14 Nov 2026 23:00:01 GMT</pubDate>
       <category><![CDATA[国际]]></category>
       <source>The Guardian</source>
@@ -1047,7 +1164,7 @@
       <title><![CDATA[创造历史：美国 SpaceX 首次实现筷子夹星舰飞船]]></title>
       <link>https://www.ithome.com/1/027/248.htm</link>
       <guid isPermaLink="false">https://www.ithome.com/1/027/248.htm</guid>
-      <description><![CDATA[<p data-vmark="c3f3">IT之家 11 月 15 日消息，当地时间今日，美国太空探索技术公司（SpaceX）在星舰第 15 次试飞任务中，<strong>首次成功利用发射塔“筷子”机械臂</strong>，<strong>捕获从地球轨道返回的星舰上面级飞船。这是历史上首家公司</strong>，成功将轨道级火箭的上面级（Upper Stage）送回发射场，并通过发射塔完成捕获。</p><p data-vmark="c439" style="text-align: center;"><img src="https://img.ithome.com/newsuploadfiles]]></description>
+      <description><![CDATA[IT之家 11 月 15 日消息，当地时间今日，美国太空探索技术公司（SpaceX）在星舰第 15 次试飞任务中， 首次成功利用发射塔“筷子”机械臂 ， 捕获从地球轨道返回的星舰上面级飞船。这是历史上首家公司 ，成功将轨道级火箭的上面级（Upper Stage）送回发射场，并通过发射塔完成捕获。 当地时间周五晚间，第 15 次试飞任务的 Ship 42 搭乘助推器 B22 升空，进入轨道后顺利完成任务。SpaceX 表示，3 颗卫星搭载的摄像头拍摄了飞船隔热罩，结果显示隔热罩状态良好，能满足再次进入大气层的要求，因此地面控制人员放弃了备用的海上溅落方案。 IT之家注意到，到了周六上午，Spac]]></description>
       <pubDate>Sat, 14 Nov 2026 22:54:47 GMT</pubDate>
       <category><![CDATA[科技]]></category>
       <source>IT之家</source>
@@ -1101,7 +1218,7 @@
       <title><![CDATA[SpaceX’s Starship returns to launch pad from orbit in victory for company]]></title>
       <link>https://www.theguardian.com/science/2026/nov/14/spacex-starship-double-catch</link>
       <guid isPermaLink="false">https://www.theguardian.com/science/2026/nov/14/spacex-starship-double-catch</guid>
-      <description><![CDATA[<p>Although booster exploded, company caught upper stage for first time in campaign to make megarocket reusable</p><p>SpaceX’s megarocket Starship <a href="https://www.theguardian.com/science/2026/nov/13/spacex-starship-megarocket-blasts-off-earth-orbit">returned</a> to its Texas launch tower on Sat]]></description>
+      <description><![CDATA[Although booster exploded, company caught upper stage for first time in campaign to make megarocket reusable SpaceX’s megarocket Starship returned to its Texas launch tower on Saturday, a milestone in the company’s efforts to make the craft suitable for human spaceflight. The 171ft (52-meter) bullet]]></description>
       <pubDate>Sat, 14 Nov 2026 22:35:06 GMT</pubDate>
       <category><![CDATA[国际]]></category>
       <source>The Guardian</source>
@@ -1386,6 +1503,15 @@
       <source>DW English</source>
     </item>
     <item>
+      <title><![CDATA[Young Victorian voters torn between disillusionment, optimism]]></title>
+      <link>https://www.abc.net.au/news/2026-11-15/victorian-election-disillusionment-optimism-young-voters/107319232</link>
+      <guid isPermaLink="false">https://www.abc.net.au/news/2026-11-15/victorian-election-disillusionment-optimism-young-voters/107319232</guid>
+      <description><![CDATA[Young voters will play an influential role in the election on November 28, making up nearly half the state's vote.]]></description>
+      <pubDate>Sat, 14 Nov 2026 21:06:42 GMT</pubDate>
+      <category><![CDATA[国际]]></category>
+      <source>ABC Australia</source>
+    </item>
+    <item>
       <title><![CDATA[Moscow says it will not dictate EU delegation's participation in Ukraine talks]]></title>
       <link>https://www.euronews.com/2026/11/14/moscow-says-it-will-not-dictate-eu-delegations-participation-in-ukraine-talks</link>
       <guid isPermaLink="false">https://www.euronews.com/2026/11/14/moscow-says-it-will-not-dictate-eu-delegations-participation-in-ukraine-talks</guid>
@@ -1512,15 +1638,6 @@
       <source>France 24</source>
     </item>
     <item>
-      <title><![CDATA[All Blacks suffer 73-year first in defeat to Wales]]></title>
-      <link>https://www.abc.net.au/news/2026-11-15/all-blacks-beaten-by-wales-for-first-time-in-73-years/107387094</link>
-      <guid isPermaLink="false">https://www.abc.net.au/news/2026-11-15/all-blacks-beaten-by-wales-for-first-time-in-73-years/107387094</guid>
-      <description><![CDATA[Wales have pulled off one of the greatest wins in their recent history, beating the All Blacks for the first time in 73 years in a Nations Championship boilover.]]></description>
-      <pubDate>Sat, 14 Nov 2026 20:35:19 GMT</pubDate>
-      <category><![CDATA[国际]]></category>
-      <source>ABC Australia</source>
-    </item>
-    <item>
       <title><![CDATA[US: Duffy says 'incompetence' or bad tech to blame for flight haltings]]></title>
       <link>https://www.dw.com/en/us-duffy-says-incompetence-or-bad-tech-to-blame-for-flight-haltings/a-79949977?maca=en-rss-en-all-1573-rdf</link>
       <guid isPermaLink="false">https://www.dw.com/en/us-duffy-says-incompetence-or-bad-tech-to-blame-for-flight-haltings/a-79949977?maca=en-rss-en-all-1573-rdf</guid>
@@ -1537,15 +1654,6 @@
       <pubDate>Sat, 14 Nov 2026 20:30:00 GMT</pubDate>
       <category><![CDATA[科技]]></category>
       <source>Engadget</source>
-    </item>
-    <item>
-      <title><![CDATA[Philippines wins Eurovision Asia, making history]]></title>
-      <link>https://www.abc.net.au/news/2026-11-15/eurovision-asia-2026-song-contest-debuts-in-bangkok-thailand/107381792</link>
-      <guid isPermaLink="false">https://www.abc.net.au/news/2026-11-15/eurovision-asia-2026-song-contest-debuts-in-bangkok-thailand/107381792</guid>
-      <description><![CDATA[Seventy years after Eurovision was conceived as a way to unite a war-torn Europe through music, the competition has embarked on an ambitious new chapter in Asia.]]></description>
-      <pubDate>Sat, 14 Nov 2026 20:27:14 GMT</pubDate>
-      <category><![CDATA[国际]]></category>
-      <source>ABC Australia</source>
     </item>
     <item>
       <title><![CDATA[Fact check: 'Iranian' content farms reach millions]]></title>
@@ -1596,7 +1704,7 @@
       <title><![CDATA[Evacuation zone lifted after bomb found at Illinois ethanol plant]]></title>
       <link>https://www.theguardian.com/us-news/2026/nov/14/peoria-illinois-evacuation-bomb</link>
       <guid isPermaLink="false">https://www.theguardian.com/us-news/2026/nov/14/peoria-illinois-evacuation-bomb</guid>
-      <description><![CDATA[<p>Peoria officials said a bomb was found at BioUrja Renewables and later defused; FBI said it is investigating</p><p>Residents were ordered to evacuate parts of an <a href="https://www.theguardian.com/us-news/illinois">Illinois</a> community on Friday after the mayor there said authorities found a ]]></description>
+      <description><![CDATA[Peoria officials said a bomb was found at BioUrja Renewables and later defused; FBI said it is investigating Residents were ordered to evacuate parts of an Illinois community on Friday after the mayor there said authorities found a bomb at a local ethanol production plant. The discovery reported at ]]></description>
       <pubDate>Sat, 14 Nov 2026 20:14:27 GMT</pubDate>
       <category><![CDATA[国际]]></category>
       <source>The Guardian</source>
@@ -1627,15 +1735,6 @@
       <pubDate>Sat, 14 Nov 2026 20:08:07 GMT</pubDate>
       <category><![CDATA[国际]]></category>
       <source>CBC</source>
-    </item>
-    <item>
-      <title><![CDATA[Questions remain whether Victoria's election is tackling the big issues]]></title>
-      <link>https://www.abc.net.au/news/2026-11-15/victorian-election-big-issues-crime-rate-focus-mental-health/107384002</link>
-      <guid isPermaLink="false">https://www.abc.net.au/news/2026-11-15/victorian-election-big-issues-crime-rate-focus-mental-health/107384002</guid>
-      <description><![CDATA[Both the Coalition and Labor argue this election is the most consequential in the Victoria's history, but it's lacking stand-out moments or generation-defining policies.]]></description>
-      <pubDate>Sat, 14 Nov 2026 20:06:58 GMT</pubDate>
-      <category><![CDATA[国际]]></category>
-      <source>ABC Australia</source>
     </item>
     <item>
       <title><![CDATA[Tesla opens Cybercab pre-orders ‘for personal use,’ with geo restrictions and a $299 monthly fee]]></title>
@@ -1794,13 +1893,13 @@
       <title><![CDATA[Philippines’ Carmelle wins first Eurovision contest in Asia]]></title>
       <link>https://www.theguardian.com/tv-and-radio/2026/nov/14/philippines-carmelle-wins-first-eurovision-contest-in-asia</link>
       <guid isPermaLink="false">https://www.theguardian.com/tv-and-radio/2026/nov/14/philippines-carmelle-wins-first-eurovision-contest-in-asia</guid>
-      <description><![CDATA[<p>Filipino entry, pop and rap song Sobra-Sobra, takes 19-year-old to victory at grand final in Bangkok</p><p>Carmelle Collado has won the first Eurovision song contest Asia, taking the Philippines’ entry, <a href="https://youtu.be/ccfIW1zsNdM?si=_hxvLB6itaDQmCun">Sobra-Sobra</a>, to victory in Bang]]></description>
+      <description><![CDATA[Filipino entry, pop and rap song Sobra-Sobra, takes 19-year-old to victory at grand final in Bangkok Carmelle Collado has won the first Eurovision song contest Asia, taking the Philippines’ entry, Sobra-Sobra , to victory in Bangkok on Saturday night, at the first regional edition of the contest to ]]></description>
       <pubDate>Sat, 14 Nov 2026 19:01:32 GMT</pubDate>
       <category><![CDATA[国际]]></category>
       <source>The Guardian</source>
     </item>
     <item>
-      <title><![CDATA['We're getting shellacked': Nvidia saga prompts calls for US spy strategy]]></title>
+      <title><![CDATA[Sex, spies and Silicon Valley: Nvidia scandal highlights risks for big tech]]></title>
       <link>https://www.abc.net.au/news/2026-11-15/sex-spies-silicon-valley-nvidia-saga-highlights-risks-for-tech/107386438</link>
       <guid isPermaLink="false">https://www.abc.net.au/news/2026-11-15/sex-spies-silicon-valley-nvidia-saga-highlights-risks-for-tech/107386438</guid>
       <description><![CDATA[Chinese economic espionage is in the spotlight after the downfall of Nvidia chief Jensen Huang, and former intelligence officials say the US is not doing enough to combat it.]]></description>
@@ -1812,16 +1911,16 @@
       <title><![CDATA[Even Labor MPs are at a loss over the Victorian premier’s ‘tough love’ plan for youth offenders]]></title>
       <link>https://www.theguardian.com/australia-news/2026/nov/15/victoria-premier-ben-caroll-youth-crime-offenders-plan-ntwnfb</link>
       <guid isPermaLink="false">https://www.theguardian.com/australia-news/2026/nov/15/victoria-premier-ben-caroll-youth-crime-offenders-plan-ntwnfb</guid>
-      <description><![CDATA[<p>Parliamentarians across factional lines share concerns about policy that legal expert says ‘paints the imprisonment of children as therapeutic’</p><ul><li><p>Get our <a href="https://www.theguardian.com/email-newsletters?CMP=cvau_sfl">daily political email</a>, <a href="https://app.adjust.com/w4u]]></description>
+      <description><![CDATA[Parliamentarians across factional lines share concerns about policy that legal expert says ‘paints the imprisonment of children as therapeutic’ Get our daily political email , free app or daily news podcast Until December last year, Meena Singh was Victoria’s commissioner for Aboriginal children and]]></description>
       <pubDate>Sat, 14 Nov 2026 19:00:53 GMT</pubDate>
       <category><![CDATA[国际]]></category>
       <source>The Guardian</source>
     </item>
     <item>
-      <title><![CDATA[Art ‘must not be sacrificed on the altar of corporate profit’, Liberal senator says as AI policy debate rages]]></title>
+      <title><![CDATA[Art ‘must not be sacrificed on the altar of corporate profit’, Liberal senator says as AI policy deb]]></title>
       <link>https://www.theguardian.com/australia-news/2026/nov/15/art-over-profit-ai-policy-debate-andrew-mclachlan</link>
       <guid isPermaLink="false">https://www.theguardian.com/australia-news/2026/nov/15/art-over-profit-ai-policy-debate-andrew-mclachlan</guid>
-      <description><![CDATA[<p>Andrew McLachlan says he chooses ‘real forests over virtual ones’ as he urges Labor government to consider AI’s impact on artists and environment</p><ul><li><p>Get our <a href="https://www.theguardian.com/email-newsletters?CMP=cvau_sfl">daily political email</a>, <a href="https://app.adjust.com/w]]></description>
+      <description><![CDATA[Andrew McLachlan says he chooses ‘real forests over virtual ones’ as he urges Labor government to consider AI’s impact on artists and environment Get our daily political email , free app or daily news podcast The outspoken Liberal senator Andrew McLachlan has raised the alarm about the approach of h]]></description>
       <pubDate>Sat, 14 Nov 2026 19:00:52 GMT</pubDate>
       <category><![CDATA[国际]]></category>
       <source>The Guardian</source>
@@ -1944,10 +2043,10 @@
       <source>Al Jazeera</source>
     </item>
     <item>
-      <title><![CDATA[SpaceX Starship re-enters Earth, lands at same spot from which it launched a day ago]]></title>
+      <title><![CDATA[SpaceX Starship successfully re-docks at Texas launch pad after orbiting Earth]]></title>
       <link>https://www.cbc.ca/news/world/spacex-starship-re-entry-space-earth-9.7422284?cmp=rss</link>
       <guid isPermaLink="false">https://www.cbc.ca/news/world/spacex-starship-re-entry-space-earth-9.7422284?cmp=rss</guid>
-      <description><![CDATA[SpaceX's Starship spacecraft on Saturday returned from its longest flight in orbit yet to the Texas launch tower it was launched from a day prior, demonstrating the first key recovery of the rocket system's centerpiece vessel in the company's decade-long effort to ‌develop a fully reusable rocket.]]></description>
+      <description><![CDATA[SpaceX's Starship made a triumphant return to Earth on Saturday, caught in midair by giant mechanical arms where its journey began 22 hours earlier. It's the first key recovery of the rocket system's centerpiece vessel in the company's decade-long effort to develop a fully reusable rocket.]]></description>
       <pubDate>Sat, 14 Nov 2026 18:29:44 GMT</pubDate>
       <category><![CDATA[国际]]></category>
       <source>CBC</source>
@@ -2034,7 +2133,7 @@
       <source>cnBeta</source>
     </item>
     <item>
-      <title><![CDATA[​新加坡澄清未调查黄乐涉间谍案 但曾调查她在Megaspeed相关案件中的角色]]></title>
+      <title><![CDATA[新加坡澄清未调查黄乐涉间谍案 但曾调查她在Megaspeed相关案件中的角色]]></title>
       <link>https://m.cnbeta.com.tw/view/1586424.htm</link>
       <guid isPermaLink="false">https://m.cnbeta.com.tw/view/1586424.htm</guid>
       <description><![CDATA[新加坡内政部否认《华尔街日报》报道所称政府官员曾因黄乐与英伟达前首席执行官黄仁勋的关系，或怀疑她是中国情报人员而对她展开调查。内政部表示，政府此前回复报社的内容并未提到黄仁勋、情报活动或相关担忧。不过，内政部11月12日公布的后续说明显示，新加坡警方和海关确实曾调查黄乐在Megaspeed服务器采购案中的角色，调查对象是涉嫌违反新加坡法律的行为，并非间谍活动。 新加坡警方与海关于2025年2月启动独立调查，涉及Megaspeed及其他公司和关键负责人，重点是购买服务器时是否存在虚假申报等问题。内政部称，黄乐当时是Megaspeed首席执行官、董事长及主要控制人之一，警方因此调查她是否涉嫌参与相]]></description>
@@ -2118,7 +2217,7 @@
       <title><![CDATA[Family of Watford woman set alight ‘desperate for answers’ after attack]]></title>
       <link>https://www.theguardian.com/uk-news/2026/nov/14/family-of-watford-woman-set-alight-desperate-for-answers-after-attack</link>
       <guid isPermaLink="false">https://www.theguardian.com/uk-news/2026/nov/14/family-of-watford-woman-set-alight-desperate-for-answers-after-attack</guid>
-      <description><![CDATA[<p>Appeal for information comes after Brenda Raymond, 80, was set on fire outside her flat on Monday</p><p>The family of an elderly woman who was set on fire outside a block of flats in Watford have said they are “desperate for answers”.</p><p>Brenda Raymond, 80, was found set alight outside her fla]]></description>
+      <description><![CDATA[Appeal for information comes after Brenda Raymond, 80, was set on fire outside her flat on Monday The family of an elderly woman who was set on fire outside a block of flats in Watford have said they are “desperate for answers”. Brenda Raymond, 80, was found set alight outside her flat on Caractacus]]></description>
       <pubDate>Sat, 14 Nov 2026 17:59:12 GMT</pubDate>
       <category><![CDATA[国际]]></category>
       <source>The Guardian</source>
@@ -2235,7 +2334,7 @@
       <title><![CDATA[US officials say flight stoppage stemmed from ‘routine maintenance’ as travel chaos continues]]></title>
       <link>https://www.theguardian.com/world/2026/nov/14/faa-ground-stop-flights-resume-airport-chaos</link>
       <guid isPermaLink="false">https://www.theguardian.com/world/2026/nov/14/faa-ground-stop-flights-resume-airport-chaos</guid>
-      <description><![CDATA[<p>Thousands of flights still canceled as officials blamed ageing air control system for nationwide grounding</p><p>The Trump administration says Friday’s four-hour nationwide Federal Aviation Administration (FAA) <a href="https://www.theguardian.com/world/2026/nov/13/faa-ground-stop-flights-explain]]></description>
+      <description><![CDATA[Thousands of flights still canceled as officials blamed ageing air control system for nationwide grounding The Trump administration says Friday’s four-hour nationwide Federal Aviation Administration (FAA) ground stop that delayed or canceled thousands of flight stemmed from routine maintenance. At a]]></description>
       <pubDate>Sat, 14 Nov 2026 17:11:18 GMT</pubDate>
       <category><![CDATA[国际]]></category>
       <source>The Guardian</source>
@@ -2262,7 +2361,7 @@
       <title><![CDATA[NHS England on track to miss key cancer treatment target by 10,000 patients]]></title>
       <link>https://www.theguardian.com/society/2026/nov/14/nhs-england-62-day-cancer-treatment-target-by-10000-patients</link>
       <guid isPermaLink="false">https://www.theguardian.com/society/2026/nov/14/nhs-england-62-day-cancer-treatment-target-by-10000-patients</guid>
-      <description><![CDATA[<p>Exclusive: 2,850 more patients a month would need to be treated within 62 days to meet March 2027 goal, as experts warn of failure of leadership</p><p>Nearly 10,000 more cancer patients in England will not be treated on time because the government will fail to meet its targets, amid a failure of ]]></description>
+      <description><![CDATA[Exclusive: 2,850 more patients a month would need to be treated within 62 days to meet March 2027 goal, as experts warn of failure of leadership Nearly 10,000 more cancer patients in England will not be treated on time because the government will fail to meet its targets, amid a failure of leadershi]]></description>
       <pubDate>Sat, 14 Nov 2026 17:00:49 GMT</pubDate>
       <category><![CDATA[国际]]></category>
       <source>The Guardian</source>
@@ -2298,19 +2397,10 @@
       <title><![CDATA[Democrat wins Alaska governor’s seat for first time in nearly 30 years]]></title>
       <link>https://www.theguardian.com/us-news/2026/nov/14/alaska-governor-democrat-jonathan-kreiss-tomkins-wins</link>
       <guid isPermaLink="false">https://www.theguardian.com/us-news/2026/nov/14/alaska-governor-democrat-jonathan-kreiss-tomkins-wins</guid>
-      <description><![CDATA[<p>Jonathan Kreiss-Tomkins’ victory means Democrats will now hold 30 US governorships after midterm blowout</p><p><a href="https://www.theguardian.com/us-news/democrats">Democrats</a> have captured <a href="https://www.theguardian.com/us-news/alaska">Alaska</a>’s governor’s seat for the first time i]]></description>
+      <description><![CDATA[Jonathan Kreiss-Tomkins’ victory means Democrats will now hold 30 US governorships after midterm blowout Democrats have captured Alaska ’s governor’s seat for the first time in nearly three decades, marking another major victory for their party in a midterm election period that has dramatically shif]]></description>
       <pubDate>Sat, 14 Nov 2026 16:58:33 GMT</pubDate>
       <category><![CDATA[国际]]></category>
       <source>The Guardian</source>
-    </item>
-    <item>
-      <title><![CDATA[US suggested Ukraine cede parts of Donbas to Russia to become part of NATO]]></title>
-      <link>https://www.aljazeera.com/news/2026/11/14/us-suggested-ukraine-cede-parts-of-donbas-to-russia-to-become-part-of-nato?traffic_source=rss</link>
-      <guid isPermaLink="false">https://www.aljazeera.com/news/2026/11/14/us-suggested-ukraine-cede-parts-of-donbas-to-russia-to-become-part-of-nato?traffic_source=rss</guid>
-      <description><![CDATA[Zelenskyy rejected the possibility of Ukraine committing to neutrality and said he refused to cede territory to Russia.]]></description>
-      <pubDate>Sat, 14 Nov 2026 16:53:39 GMT</pubDate>
-      <category><![CDATA[国际]]></category>
-      <source>Al Jazeera</source>
     </item>
     <item>
       <title><![CDATA[美国失去麻疹消除地位]]></title>
@@ -2349,19 +2439,10 @@
       <source>Bloomberg</source>
     </item>
     <item>
-      <title><![CDATA[Portugal 1-4 Denmark: UEFA Nations League – as it happened]]></title>
-      <link>https://www.aljazeera.com/sports/liveblog/2026/11/14/portugal-vs-denmark-live-uefa-nations-league?traffic_source=rss</link>
-      <guid isPermaLink="false">https://www.aljazeera.com/sports/liveblog/2026/11/14/portugal-vs-denmark-live-uefa-nations-league?traffic_source=rss</guid>
-      <description><![CDATA[All the updates as Denmark thrash Portugal in Braga in Nations League Group A4 clash.]]></description>
-      <pubDate>Sat, 14 Nov 2026 16:45:00 GMT</pubDate>
-      <category><![CDATA[国际]]></category>
-      <source>Al Jazeera</source>
-    </item>
-    <item>
       <title><![CDATA[Cold weather health alerts issued for parts of UK on Sunday night]]></title>
       <link>https://www.theguardian.com/uk-news/2026/nov/14/uk-weather-milder-weekend-autumn-freeze-frost</link>
       <guid isPermaLink="false">https://www.theguardian.com/uk-news/2026/nov/14/uk-weather-milder-weekend-autumn-freeze-frost</guid>
-      <description><![CDATA[<p>UKHSA warns of threat to vulnerable people from frosty conditions expected to last until Thursday</p><p>More cold health alerts have been issued for parts of the UK on Sunday night and next week.</p><p>The alerts were issued by the UK Health Security Agency (UKHSA) for the north-west, West Midlan]]></description>
+      <description><![CDATA[UKHSA warns of threat to vulnerable people from frosty conditions expected to last until Thursday More cold health alerts have been issued for parts of the UK on Sunday night and next week. The alerts were issued by the UK Health Security Agency (UKHSA) for the north-west, West Midlands and Yorkshir]]></description>
       <pubDate>Sat, 14 Nov 2026 16:42:04 GMT</pubDate>
       <category><![CDATA[国际]]></category>
       <source>The Guardian</source>
@@ -2448,15 +2529,6 @@
       <source>NYT World</source>
     </item>
     <item>
-      <title><![CDATA[Italy fines Meta $880m over photo privacy]]></title>
-      <link>https://www.aljazeera.com/news/2026/11/14/italy-fines-meta-880m-over-photo-privacy?traffic_source=rss</link>
-      <guid isPermaLink="false">https://www.aljazeera.com/news/2026/11/14/italy-fines-meta-880m-over-photo-privacy?traffic_source=rss</guid>
-      <description><![CDATA[Regulator said Meta's 'lack of cooperation' and the large number of people affected contributed to size of the fine.]]></description>
-      <pubDate>Sat, 14 Nov 2026 16:16:15 GMT</pubDate>
-      <category><![CDATA[国际]]></category>
-      <source>Al Jazeera</source>
-    </item>
-    <item>
       <title><![CDATA[The Entrepreneurs Behind Poppi Start Over]]></title>
       <link>https://www.bloomberg.com/news/videos/2026-11-14/the-entrepreneurs-behind-poppi-start-over-video</link>
       <guid isPermaLink="false">https://www.bloomberg.com/news/videos/2026-11-14/the-entrepreneurs-behind-poppi-start-over-video</guid>
@@ -2478,7 +2550,7 @@
       <title><![CDATA[A rapid interest rate rise seems inevitable – and households are expected to pick up the tab]]></title>
       <link>https://www.theguardian.com/business/2026/nov/14/interest-rate-rise-phillip-inman-inflation-economy</link>
       <guid isPermaLink="false">https://www.theguardian.com/business/2026/nov/14/interest-rate-rise-phillip-inman-inflation-economy</guid>
-      <description><![CDATA[<p>Raising borrowing costs too far risks laying waste to whatever growth there is in the economy</p><p>A head of steam is building up behind the Bank of England raising interest rates again. With the latest forecasts by the central bank showing inflation rising to 5% next spring, another increase in]]></description>
+      <description><![CDATA[Raising borrowing costs too far risks laying waste to whatever growth there is in the economy A head of steam is building up behind the Bank of England raising interest rates again. With the latest forecasts by the central bank showing inflation rising to 5% next spring, another increase in the cost]]></description>
       <pubDate>Sat, 14 Nov 2026 16:00:48 GMT</pubDate>
       <category><![CDATA[国际]]></category>
       <source>The Guardian</source>
@@ -2568,7 +2640,7 @@
       <title><![CDATA[马斯克再度力挺黄仁勋：没有他，英伟达将失去部分关键合作]]></title>
       <link>https://www.ithome.com/1/027/247.htm</link>
       <guid isPermaLink="false">https://www.ithome.com/1/027/247.htm</guid>
-      <description><![CDATA[<p data-vmark="89c6">IT之家 11 月 14 日消息，今天（14 日）晚间，马斯克在 X 平台发文称，随着黄仁勋离任 CEO，英伟达将<strong>失去一些至关重要的商业合作</strong>。</p><p data-vmark="605f">马斯克称赞黄仁勋在供应链管理方面表现出色，指出英伟达许多交易都是靠黄仁勋<strong>与合作方握手达成的</strong>，<strong>并没有签署书面合同</strong>。</p><p data-vmark="53dc">紧接着，马斯克又补充说：“如果黄仁勋答应向我交付算力，或者我要求加快零部件供应，<strong>他每次]]></description>
+      <description><![CDATA[IT之家 11 月 14 日消息，今天（14 日）晚间，马斯克在 X 平台发文称，随着黄仁勋离任 CEO，英伟达将 失去一些至关重要的商业合作 。 马斯克称赞黄仁勋在供应链管理方面表现出色，指出英伟达许多交易都是靠黄仁勋 与合作方握手达成的 ， 并没有签署书面合同 。 紧接着，马斯克又补充说：“如果黄仁勋答应向我交付算力，或者我要求加快零部件供应， 他每次都能说到做到 。当然，我们之后还是会补上采购订单，但在他兑现承诺这件事上，我从来没有怀疑过。” 据IT之家了解，就在昨天，马斯克发文回应网友关于“ 约 1600 名英伟达员工呼吁黄仁勋回归 ”的推文： 一项要求让黄仁勋复职的请愿正在进行，我也]]></description>
       <pubDate>Sat, 14 Nov 2026 15:28:14 GMT</pubDate>
       <category><![CDATA[科技]]></category>
       <source>IT之家</source>
@@ -2635,78 +2707,6 @@
       <pubDate>Sat, 14 Nov 2026 15:14:00 GMT</pubDate>
       <category><![CDATA[国际]]></category>
       <source>SCMP</source>
-    </item>
-    <item>
-      <title><![CDATA[Jensen Huang and the decline of the visionary showman founder CEO]]></title>
-      <link>https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo</link>
-      <guid isPermaLink="false">https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo</guid>
-      <description><![CDATA[On January 6th, 2025, Nvidia CEO Jensen Huang got his rockstar moment at last. He strode triumphantly onstage, hand raised in the air, to the claps and cheers of a 14,000-person arena absolutely packed with influencers and fans, their faces awash in blue glow, as he made his entrance in a black leat]]></description>
-      <pubDate>Sat, 14 Nov 2026 15:12:19 GMT</pubDate>
-      <category><![CDATA[科技]]></category>
-      <source>The Verge</source>
-    </item>
-    <item>
-      <title><![CDATA[Canada and the Philippines conclude talks on free trade deal, Mark Carney says]]></title>
-      <link>https://www.euronews.com/2026/11/14/canada-and-the-philippines-conclude-talks-on-free-trade-deal-mark-carney-says</link>
-      <guid isPermaLink="false">https://www.euronews.com/2026/11/14/canada-and-the-philippines-conclude-talks-on-free-trade-deal-mark-carney-says</guid>
-      <description><![CDATA["This is good news for Canadians in the agriculture sector, in the aerospace sector, even in AI, and our businesses working across forest products, mining, energy, services and beyond," Carney told reporters.]]></description>
-      <pubDate>Sat, 14 Nov 2026 15:09:25 GMT</pubDate>
-      <category><![CDATA[国际]]></category>
-      <source>Euronews</source>
-    </item>
-    <item>
-      <title><![CDATA[26年纪录终结！美国失去“消除麻疹”地位]]></title>
-      <link>https://www.dw.com/zh/26年纪录终结！美国失去-消除麻疹-地位/a-79948420?maca=chi-rss-chi-all-1127-rdf</link>
-      <guid isPermaLink="false">https://www.dw.com/zh/26年纪录终结！美国失去-消除麻疹-地位/a-79948420?maca=chi-rss-chi-all-1127-rdf</guid>
-      <description><![CDATA[据《华尔街日报》报道，泛美卫生组织已取消美国的“麻疹消除认证”，结束了这一持续26年的纪录。美国目前正经历30多年来最严重的麻疹疫情。今年已累计逾5000例确诊，疫苗接种率下降引发关注。]]></description>
-      <pubDate>Sat, 14 Nov 2026 15:08:00 GMT</pubDate>
-      <category><![CDATA[国际]]></category>
-      <source>DW 中文</source>
-    </item>
-    <item>
-      <title><![CDATA[导致全美航班停飞的“罪魁祸首”找到了？FAA 调查指向 20 年历史路由器]]></title>
-      <link>https://www.ithome.com/1/027/246.htm</link>
-      <guid isPermaLink="false">https://www.ithome.com/1/027/246.htm</guid>
-      <description><![CDATA[<p data-vmark="2e8d">IT之家 11 月 14 日消息，美国 CBS 电视台交通记者克里斯 · 范 · 克利夫在 X 平台发文称，收到一位美国政府高级官员的消息：导致全美航班地面停飞的故障设备<strong>已被查明并隔离</strong>。</p><p data-vmark="3781">克利夫援引官员的话说，美国联邦航空管理局（FAA）认为，故障仅涉及一种“特定型号”的 20 年历史老路由器。“（系统）基本上是被负载压垮了，不过具体原因尚不清楚。”</p><p data-vmark="1e39">初步信息显示，<strong>路由器过载后开始传输不同步的数据</stro]]></description>
-      <pubDate>Sat, 14 Nov 2026 15:06:32 GMT</pubDate>
-      <category><![CDATA[科技]]></category>
-      <source>IT之家</source>
-    </item>
-    <item>
-      <title><![CDATA[乌克兰“星盾”又被限速 泽连斯基痛批SpaceX]]></title>
-      <link>https://m.cnbeta.com.tw/view/1586420.htm</link>
-      <guid isPermaLink="false">https://m.cnbeta.com.tw/view/1586420.htm</guid>
-      <description><![CDATA[乌克兰总统泽连斯基周六加大了对SpaceX的批评，称该公司对其军用级“星盾”（Starshield）卫星终端实施的速度限制，会带来危险的政治后果，并削弱了乌克兰关键的防空能力。 泽连斯基表示，在乌克兰境内被俄罗斯临时占领地区运行的“星盾”终端，过去五天里被限制在最高161公里/小时的速度，这阻碍了乌克兰的军事能力。 泽连斯基称，乌克兰国防部已就这一问题与SpaceX公司进行了官方层面的交涉。 “这些限制措施已经实施五天了。他们声称这是某种技术问题，但我们并不相信事实如此。”泽连斯基周六对记者表示。 “如果在这方面施加限制，就等同于在一定程度上承认那些被临时占领的领土不属于我们。正因如此，我认为]]></description>
-      <pubDate>Sat, 14 Nov 2026 15:05:26 GMT</pubDate>
-      <category><![CDATA[科技]]></category>
-      <source>cnBeta</source>
-    </item>
-    <item>
-      <title><![CDATA[美国航班大乱持续 数千架次取消或延误]]></title>
-      <link>https://m.cnbeta.com.tw/view/1586418.htm</link>
-      <guid isPermaLink="false">https://m.cnbeta.com.tw/view/1586418.htm</guid>
-      <description><![CDATA[美国航空出行周六仍在艰难恢复。此前发生的系统故障导致美国经历自2001年9月恐怖袭击以来持续时间最长的全国性航班停飞，数千架次航班被取消，暴露出美国航空基础设施的脆弱性。 航空公司正加紧恢复正常航班时刻表。根据航空数据公司FlightAware的数据，截至纽约时间周六上午7：15，进出美国、尤其是美国国内的航班约有3500架次被取消，1200架次延误。 “今天早上的运营正在缓慢恢复正常，”美国交通部长肖恩·达菲在X平台发帖表示。“随着航空公司重新安排航班，并将飞机/机组人员调配到最需要的地方，你们还会继续看到一些延误和取消。” 周五美国发生了该国历史上第三次全国性航班停飞。美国联邦航空管理局（]]></description>
-      <pubDate>Sat, 14 Nov 2026 15:05:13 GMT</pubDate>
-      <category><![CDATA[科技]]></category>
-      <source>cnBeta</source>
-    </item>
-    <item>
-      <title><![CDATA[The Stadium Bidding War Shaking Up the Midwest]]></title>
-      <link>https://www.bloomberg.com/news/videos/2026-11-14/the-stadium-bidding-war-shaking-up-the-midwest-video</link>
-      <guid isPermaLink="false">https://www.bloomberg.com/news/videos/2026-11-14/the-stadium-bidding-war-shaking-up-the-midwest-video</guid>
-      <description><![CDATA[The Chicago Bears are weighing three possible homes for a new stadium: downtown Chicago, suburban Arlington Heights and Hammond, Indiana. The competition has turned into a high-stakes economic development battle involving billions of dollars in potential investment, tax incentives and public financi]]></description>
-      <pubDate>Sat, 14 Nov 2026 15:04:14 GMT</pubDate>
-      <category><![CDATA[财经]]></category>
-      <source>Bloomberg</source>
-    </item>
-    <item>
-      <title><![CDATA[[天黑以后] 20261114 午夜俱乐部]]></title>
-      <link>https://www.v2ex.com/t/1257118#reply2</link>
-      <guid isPermaLink="false">https://www.v2ex.com/t/1257118#reply2</guid>
-      <description><![CDATA[失业快一个月了，申领失业金通过了，三个月的房租暂时有着落了，但陆续在 boss 上打招呼和投的简历都没什么下文，要么就是不匹配。 和家里人说了后，我妈也只会喊口号说着不管我做啥都支持我，我爸依旧只会隔段时间问我吃饭没然后喊我考公，我想回家吃饭但他们这样我又想远离。 这次离职后反倒感觉没上一次紧张，虽然存款不多撑不了太长时间，但总觉得心里一直崩的那个弦似乎松了好多。只是没朋友的我有时候想找人说说话，也只能找咸鱼上的心理咨询付费。 就这样吧，还能坏到哪去。]]></description>
-      <pubDate>Sat, 14 Nov 2026 15:02:43 GMT</pubDate>
-      <category><![CDATA[开发]]></category>
-      <source>V2EX</source>
     </item>
   </channel>
 </rss>
