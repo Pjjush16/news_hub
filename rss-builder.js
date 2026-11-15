@@ -1,4 +1,6 @@
 const fs = require('fs');
+const { Parser } = require('htmlparser2');
+const he = require('he');
 
 // ==================== 配置区 ====================
 const FEEDS = [
@@ -68,20 +70,58 @@ const FEEDS = [
 const FETCH_TIMEOUT = 15000;
 const MAX_ITEMS = 300;
 
-// ==================== 工具 & 解析 ====================
-const ENTITIES = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ' };
-function decodeEntities(s) {
-  return s.replace(/&(#x?[0-9a-f]+|[a-z]+);/gi, (m, e) => {
-    if (e[0] === '#') {
-      const code = e[1].toLowerCase() === 'x' ? parseInt(e.slice(2), 16) : parseInt(e.slice(1), 10);
-      try { return Number.isFinite(code) ? String.fromCodePoint(code) : m; } catch { return m; }
-    }
-    return ENTITIES[e.toLowerCase()] ?? m;
+// ==================== 核心：基于 htmlparser2 的纯文本提取 ====================
+const SKIP_TAGS = new Set(['script', 'style', 'noscript', 'template', 'svg', 'math', 'iframe']);
+
+function htmlToText(html) {
+  if (html == null) return '';
+  
+  let input = String(html);
+  // 启发式判断：如果原文没 HTML 标签但有转义标签，先解一层
+  if (!/<[a-z!/]/i.test(input) && /&lt;[a-z!/]/i.test(input)) {
+    input = he.decode(input);
+  }
+
+  let out = '';
+  let skipDepth = 0;
+
+  const parser = new Parser({
+    onopentag(name) {
+      if (SKIP_TAGS.has(name)) { skipDepth++; return; }
+      if (skipDepth === 0) out += ' ';
+    },
+    ontext(t) {
+      if (skipDepth === 0) out += t;
+    },
+    onclosetag(name) {
+      if (SKIP_TAGS.has(name)) { if (skipDepth > 0) skipDepth--; return; }
+      if (skipDepth === 0) out += ' ';
+    },
+    oncomment() {},                 // 丢弃注释
+    onprocessinginstruction() {},   // 丢弃 <?xml ?>
+  }, {
+    decodeEntities: true,           // 内部用 entities 库解码
+    lowerCaseTags: true,
+    recognizeSelfClosing: true,
   });
+
+  // 限制最大解析长度防止 DoS
+  parser.write(input.slice(0, 200_000)); 
+  parser.end();
+
+  // 清理控制字符与零宽字符，合并空白
+  return out
+    .replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F\u200B-\u200F\u2028\u2029\uFEFF]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
 }
-function stripHTML(str) {
-  return decodeEntities(String(str || '').replace(/<[^>]*>/g, ' ')).replace(/\s+/g, ' ').trim();
+
+// 按码点安全截断（防止切坏 emoji）
+function truncateByCodePoint(str, limit) {
+  return [...str].slice(0, limit).join('');
 }
+
+// ==================== XML 标签提取 ====================
 function extractTag(xml, tag) {
   const cdata = new RegExp(`<${tag}(?:\\s[^>]*)?>\\s*<!\\[CDATA\\[([\\s\\S]*?)\\]\\]>\\s*</${tag}>`, 'i');
   let m = xml.match(cdata);
@@ -90,6 +130,7 @@ function extractTag(xml, tag) {
   m = xml.match(plain);
   return m ? m[1].trim() : '';
 }
+
 function extractAtomLink(block) {
   for (const m of block.matchAll(/<link\b([^>]*?)\/?>/gi)) {
     const attrs = m[1];
@@ -100,6 +141,7 @@ function extractAtomLink(block) {
   }
   return extractTag(block, 'link');
 }
+
 function toISO(dateStr) {
   if (!dateStr) return new Date().toISOString();
   const d = new Date(dateStr);
@@ -108,21 +150,48 @@ function toISO(dateStr) {
 
 function parseItems(xml, feed) {
   const items = [];
-  const push = (title, link, desc, pub) => {
-    if (!title || !link) return;
-    items.push({ title, link, description: stripHTML(desc).slice(0, 300), pubDate: toISO(pub), source: feed.name, category: feed.category });
+  const push = (rawTitle, link, rawDesc, pub) => {
+    if (!rawTitle || !link) return;
+    
+    // 统一应用 htmlToText 和码点截断
+    const title = truncateByCodePoint(htmlToText(rawTitle), 100);
+    const description = truncateByCodePoint(htmlToText(rawDesc), 300);
+
+    if (!title) return;
+    
+    items.push({ 
+      title, 
+      link, 
+      description, 
+      pubDate: toISO(pub), 
+      source: feed.name, 
+      category: feed.category 
+    });
   };
+
   for (const m of xml.matchAll(/<item[\s>][\s\S]*?<\/item>/gi)) {
     const b = m[0];
-    push(stripHTML(extractTag(b, 'title')), extractTag(b, 'link') || (/<link[^>]*href=["']([^"']+)["']/i.exec(b)?.[1] ?? ''), extractTag(b, 'description') || extractTag(b, 'content:encoded'), extractTag(b, 'pubDate') || extractTag(b, 'dc:date'));
+    push(
+      extractTag(b, 'title'), 
+      extractTag(b, 'link') || (/<link[^>]*href=["']([^"']+)["']/i.exec(b)?.[1] ?? ''), 
+      extractTag(b, 'description') || extractTag(b, 'content:encoded'), 
+      extractTag(b, 'pubDate') || extractTag(b, 'dc:date')
+    );
   }
+
   for (const m of xml.matchAll(/<entry[\s>][\s\S]*?<\/entry>/gi)) {
     const b = m[0];
-    push(stripHTML(extractTag(b, 'title')), extractAtomLink(b), extractTag(b, 'summary') || extractTag(b, 'content'), extractTag(b, 'updated') || extractTag(b, 'published'));
+    push(
+      extractTag(b, 'title'), 
+      extractAtomLink(b), 
+      extractTag(b, 'summary') || extractTag(b, 'content'), 
+      extractTag(b, 'updated') || extractTag(b, 'published')
+    );
   }
   return items;
 }
 
+// ==================== 抓取与生成 ====================
 async function fetchFeed(feed) {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), FETCH_TIMEOUT);
@@ -139,7 +208,6 @@ async function fetchFeed(feed) {
   }
 }
 
-// ==================== 生成静态文件 ====================
 async function build() {
   console.log(`开始抓取 ${FEEDS.length} 个源...`);
   const results = await Promise.allSettled(FEEDS.map(f => fetchFeed(f)));
@@ -154,7 +222,6 @@ async function build() {
     }
   });
 
-  // 排序与去重
   all.sort((a, b) => new Date(b.pubDate).getTime() - new Date(a.pubDate).getTime());
   const seen = new Set();
   const finalItems = all.filter(item => {
@@ -165,10 +232,8 @@ async function build() {
     return true;
   }).slice(0, MAX_ITEMS);
 
-  // 1. 写入 posts.json (供前端使用)
   fs.writeFileSync('posts.json', JSON.stringify(finalItems, null, 2));
 
-  // 2. 写入 feed.xml (供 RSS 阅读器使用)
   const escapeXml = (str) => String(str || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;');
   const cdata = (str) => `<![CDATA[${String(str || '').replace(/]]>/g, ']]]]><![CDATA[>')}]]>`;
   
