@@ -5,10 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>YAONET · 新闻聚合</title>
 
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="shortcut icon" href="/favicon.ico">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png">
+<!-- 强制所有设备使用指定的绝对地址读取图标 -->
+<link rel="icon" href="https://news.yaonet.de5.net/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="https://news.yaonet.de5.net/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="https://news.yaonet.de5.net/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://news.yaonet.de5.net/favicon.ico">
 <meta name="theme-color" content="#2d5a4a">
 
 <!-- RSS 自动发现 -->
@@ -93,7 +94,7 @@
 
   /* ==================== 加载更多 ==================== */
   .more-wrap{display:flex;justify-content:center;padding-top:28px}
-  .more-wrap[hidden]{display:none !important;} /* 修复 hidden 不生效的 bug */
+  .more-wrap[hidden]{display:none !important;}
   .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:11px 26px;border-radius:999px;font-size:.9rem;font-weight:600;transition:transform .15s,box-shadow .15s,background .2s;cursor:pointer;border:none}
   .btn:active{transform:scale(.97)}
   .btn-primary{background:var(--accent);color:#fff;box-shadow:var(--shadow-sm)}
