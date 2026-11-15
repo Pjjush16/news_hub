@@ -1,0 +1,10 @@
+{
+  "name": "rss-builder",
+  "version": "1.0.0",
+  "description": "YAONET RSS Aggregator",
+  "main": "rss-builder.js",
+  "dependencies": {
+    "he": "^1.2.0",
+    "htmlparser2": "^9.1.0"
+  }
+}
